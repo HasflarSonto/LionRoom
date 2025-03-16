@@ -1,0 +1,205 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-4">
+    <div id="success-message" class="alert alert-success d-none">
+        New study space successfully created! 
+        <a href="#" id="view-link">See it here</a>
+    </div>
+
+    <h2>Add New Study Space</h2>
+    
+    <form id="add-space-form" class="mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <label for="name" class="form-label">Study Space Name</label>
+                <input type="text" class="form-control" name="name" required>
+            </div>
+            <div class="col-md-6">
+                <label for="hours" class="form-label">Opening Hours</label>
+                <div class="input-group">
+                    <select class="form-control" id="hours_preset" onchange="updateHours(this.value)">
+                        <option value="">Custom Hours</option>
+                        <option value="Open 24/7">Open 24/7</option>
+                        <option value="Open 8 AM - 10 PM">Open 8 AM - 10 PM</option>
+                        <option value="Open 9 AM - 11 PM">Open 9 AM - 11 PM</option>
+                        <option value="Open 8 AM - Midnight">Open 8 AM - Midnight</option>
+                    </select>
+                    <input type="text" class="form-control" name="hours" id="hours_custom" 
+                           placeholder="e.g., Open 7 AM - 2 AM" required>
+                </div>
+                <div class="form-text">Format: "Open [Start Time] - [End Time]" (e.g., "Open 7 AM - 2 AM" or "Open 24/7")</div>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-4">
+                <label for="booking_status" class="form-label">Booking Status</label>
+                <select class="form-control" name="booking_status" required>
+                    <option value="Reservable">Reservable</option>
+                    <option value="Drop-in Only">Drop-in Only</option>
+                </select>
+            </div>
+            <div class="col-md-4">
+                <label for="capacity" class="form-label">Capacity</label>
+                <input type="number" class="form-control" name="capacity" required>
+            </div>
+            <div class="col-md-4">
+                <label for="type" class="form-label">Type</label>
+                <select class="form-control" name="type" required>
+                    <option value="Study Room">Study Room</option>
+                    <option value="Classroom">Classroom</option>
+                    <option value="Reading Room">Reading Room</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label for="photo" class="form-label">Photo Filename</label>
+                <input type="text" class="form-control" name="photo" required>
+            </div>
+            <div class="col-md-6">
+                <label for="usage_restrictions" class="form-label">Usage Restrictions</label>
+                <input type="text" class="form-control" name="usage_restrictions">
+            </div>
+        </div>
+        
+        <div class="mt-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea class="form-control" name="description" rows="3" required></textarea>
+        </div>
+        
+        <div class="row mt-3">
+            <div class="col-md-6">
+                <label for="lat" class="form-label">Latitude</label>
+                <input type="number" 
+                       class="form-control" 
+                       name="lat" 
+                       step="any" 
+                       required 
+                       min="-90" 
+                       max="90"
+                       oninvalid="this.setCustomValidity('Please enter a valid latitude between -90 and 90')"
+                       oninput="this.setCustomValidity('')">
+                <div class="invalid-feedback">
+                    Please enter a valid latitude between -90 and 90
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label for="lng" class="form-label">Longitude</label>
+                <input type="number" 
+                       class="form-control" 
+                       name="lng" 
+                       step="any" 
+                       required
+                       min="-180" 
+                       max="180"
+                       oninvalid="this.setCustomValidity('Please enter a valid longitude between -180 and 180')"
+                       oninput="this.setCustomValidity('')">
+                <div class="invalid-feedback">
+                    Please enter a valid longitude between -180 and 180
+                </div>
+            </div>
+        </div>
+        
+        <div class="mt-3">
+            <label for="access_permissions" class="form-label">Access Permissions</label>
+            <input type="text" class="form-control" name="access_permissions" required>
+        </div>
+        
+        <div class="mt-3">
+            <label class="form-label">Timeline (Optional)</label>
+            <div id="timeline-container">
+                <div class="timeline-entry row mb-2">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" name="timeline_time[]" placeholder="e.g., 9 AM - 11 AM">
+                    </div>
+                    <div class="col-md-5">
+                        <select class="form-control" name="timeline_status[]">
+                            <option value="Available">Available</option>
+                            <option value="Booked">Booked</option>
+                        </select>
+                    </div>
+                    <div class="col-md-1">
+                        <button type="button" class="btn btn-danger remove-timeline">×</button>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="btn btn-secondary mt-2" id="add-timeline">Add Time Slot</button>
+        </div>
+        
+        <button type="submit" class="btn btn-success mt-4">Add Study Space</button>
+    </form>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('timeline-container');
+    const addButton = document.getElementById('add-timeline');
+    
+    addButton.addEventListener('click', function() {
+        const newEntry = document.querySelector('.timeline-entry').cloneNode(true);
+        newEntry.querySelectorAll('input, select').forEach(input => input.value = '');
+        container.appendChild(newEntry);
+        
+        newEntry.querySelector('.remove-timeline').addEventListener('click', function() {
+            if (container.children.length > 1) {
+                this.closest('.timeline-entry').remove();
+            }
+        });
+    });
+    
+    // Add event listeners to initial remove buttons
+    document.querySelectorAll('.remove-timeline').forEach(button => {
+        button.addEventListener('click', function() {
+            if (container.children.length > 1) {
+                this.closest('.timeline-entry').remove();
+            }
+        });
+    });
+});
+
+function updateHours(value) {
+    if (value) {
+        document.getElementById('hours_custom').value = value;
+    }
+}
+
+document.getElementById('add-space-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(this);
+    
+    fetch('/add', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            // Show success message
+            const successMsg = document.getElementById('success-message');
+            const viewLink = document.getElementById('view-link');
+            successMsg.classList.remove('d-none');
+            viewLink.href = data.view_url;
+            
+            // Clear form
+            this.reset();
+            
+            // Focus on first input
+            this.querySelector('input[type="text"]').focus();
+            
+            // Scroll to top to see success message
+            window.scrollTo(0, 0);
+        } else {
+            alert(data.error || 'An error occurred while saving the study space.');
+        }
+    })
+    .catch(error => {
+        console.error('Error:', error);
+        alert('An error occurred while saving the study space.');
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,661 @@
+[
+    {
+        "id": 1,
+        "name": "Butler Library Study Room 402",
+        "hours": "Open 8 AM - 10 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 11 AM",
+                "status": "Booked"
+            },
+            {
+                "time": "11 AM - 2 PM",
+                "status": "Available"
+            },
+            {
+                "time": "2 PM - 4 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "4 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 12,
+        "type": "Study Room",
+        "photo": "butler_402.png",
+        "description": "Located in Butler Library's fourth floor, this premium study room features floor-to-ceiling windows offering views of campus, built-in whiteboards on three walls, and ergonomic seating. The space includes USB charging ports, adjustable LED lighting, and sound-dampening wall panels for optimal study conditions.",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8063,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 2,
+        "name": "Lerner Hall Classroom 555",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "8 AM - 10 AM",
+                "status": "Available"
+            },
+            {
+                "time": "10 AM - 12 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "12 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 5 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "5 PM - 10 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 20,
+        "type": "Classroom",
+        "photo": "lerner_555.jpg",
+        "description": "Situated in the heart of Lerner Hall, this modern classroom converts to a flexible study space during non-class hours. Features include movable furniture for group or individual study, a smart board, multiple power outlets, and natural lighting through large windows overlooking Broadway. Perfect for group projects and collaborative work.",
+        "usage_restrictions": "Group study allowed",
+        "location": {
+            "lat": 40.8075,
+            "lng": -73.9635
+        },
+        "access_permissions": "Faculty and Student Groups",
+        "claimed": false
+    },
+    {
+        "id": 3,
+        "name": "Avery Library Reading Room",
+        "hours": "Open 24/7",
+        "timeline": [],
+        "booking_status": "Drop-in Only",
+        "capacity": 50,
+        "type": "Reading Room",
+        "photo": "avery_reading.jpg",
+        "description": "A quiet sanctuary within the Avery library, this reading room combines classic architecture with modern amenities. High ceilings and traditional wood furnishings create a focused study environment. Individual desk lamps, comfortable chairs, and built-in power stations at each table make this an ideal spot for long study sessions.",
+        "usage_restrictions": "Silent study only",
+        "location": {
+            "lat": 40.808,
+            "lng": -73.961
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false,
+        "availability": ""
+    },
+    {
+        "id": 4,
+        "name": "Milstein Center Study Room 302",
+        "hours": "Open 8 AM - 12 AM",
+        "timeline": [
+            {
+                "time": "8 AM - 10 AM",
+                "status": "Available"
+            },
+            {
+                "time": "10 AM - 12 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "12 PM - 2 PM",
+                "status": "Available"
+            },
+            {
+                "time": "2 PM - 4 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "4 PM - 6 PM",
+                "status": "Available"
+            },
+            {
+                "time": "6 PM - 8 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "8 PM - 12 AM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "milstein_302.jpg",
+        "description": "Set within the historic Avery Architectural & Fine Arts Library, this study area offers a unique blend of inspiration and functionality. The space features custom-designed reading tables, specialized task lighting, and proximity to the architectural collection. Large windows provide abundant natural light and views of the adjacent courtyard.",
+        "usage_restrictions": "Group study allowed",
+        "location": {
+            "lat": 40.8094,
+            "lng": -73.9636
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 5,
+        "name": "Mathematics Library Study Area",
+        "hours": "Open 9 AM - 10 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "3 PM - 10 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Drop-in Only",
+        "capacity": 30,
+        "type": "Reading Room",
+        "photo": "math_library.jpg",
+        "description": "Modern study room with a large table and TV screen for presentations.",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9619
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": true
+    },
+    {
+        "id": 6,
+        "name": "Kent Hall Study Lounge",
+        "hours": "Open 7 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "7 AM - 10 AM",
+                "status": "Available"
+            },
+            {
+                "time": "10 AM - 1 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "1 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Drop-in Only",
+        "capacity": 25,
+        "type": "Reading Room",
+        "photo": "kent_lounge.jpg",
+        "description": "Comfortable study lounge with couches and study tables.",
+        "usage_restrictions": "Quiet conversation allowed",
+        "location": {
+            "lat": 40.8071,
+            "lng": -73.9608
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 7,
+        "name": "Northwest Corner Building Room 501",
+        "hours": "Open 24/7",
+        "timeline": [],
+        "booking_status": "Drop-in Only",
+        "capacity": 40,
+        "type": "Study Room",
+        "photo": "nwc_501.jpg",
+        "description": "Located on the 5th floor of the Northwest Corner Building, this modern study lounge offers panoramic views of the Hudson River. The space features contemporary furniture, height-adjustable tables, and state-of-the-art climate control. Multiple power outlets and high-speed Wi-Fi make it perfect for tech-heavy study sessions.",
+        "usage_restrictions": "Group study allowed",
+        "location": {
+            "lat": 40.8097,
+            "lng": -73.9617
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 8,
+        "name": "Hamilton Hall Room 302",
+        "hours": "Open 8 AM - 10 PM",
+        "timeline": [
+            {
+                "time": "8 AM - 11 AM",
+                "status": "Available"
+            },
+            {
+                "time": "11 AM - 2 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "2 PM - 5 PM",
+                "status": "Available"
+            },
+            {
+                "time": "5 PM - 7 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "7 PM - 10 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 15,
+        "type": "Classroom",
+        "photo": "hamilton_302.jpg",
+        "description": "Classic classroom setting with chalkboards and movable desks.",
+        "usage_restrictions": "Academic use only",
+        "location": {
+            "lat": 40.8077,
+            "lng": -73.9619
+        },
+        "access_permissions": "Faculty and Student Groups",
+        "claimed": false
+    },
+    {
+        "id": 9,
+        "name": "Butler Library Room 209",
+        "hours": "Open 9 AM - Midnight",
+        "timeline": [
+            {
+                "time": "9 AM - 12 PM",
+                "status": "Available"
+            },
+            {
+                "time": "12 PM - 3 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "3 PM - Midnight",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 10,
+        "type": "Study Room",
+        "photo": "butler_209.jpg",
+        "description": "Intimate study room with vintage wooden furniture and natural lighting.",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8063,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 10,
+        "name": "Pupin Physics Laboratory Room 428",
+        "hours": "Open 8 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "8 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 4 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "4 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 18,
+        "type": "Classroom",
+        "photo": "pupin_428.jpg",
+        "description": "Located in the historic Pupin Physics Laboratory, this versatile classroom features state-of-the-art demonstration equipment, multiple chalkboards, and tiered seating optimized for physics lectures and group work. The room offers excellent sightlines, integrated AV equipment, and ample natural lighting through its large windows overlooking the campus. Perfect for STEM study groups and technical discussions.",
+        "usage_restrictions": "STEM students preferred",
+        "location": {
+            "lat": 40.8102,
+            "lng": -73.9619
+        },
+        "access_permissions": "CC and SEAS students only",
+        "claimed": false
+    },
+    {
+        "id": 11,
+        "name": "Uris Library Business Commons",
+        "hours": "Open 7 AM - 2 AM",
+        "timeline": [
+            {
+                "time": "7 AM - 11 AM",
+                "status": "Available"
+            },
+            {
+                "time": "11 AM - 3 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "3 PM - 2 AM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Drop-in Only",
+        "capacity": 45,
+        "type": "Reading Room",
+        "photo": "uris_commons.jpg",
+        "description": "State-of-the-art business commons featuring Bloomberg terminals, dual-monitor workstations, and collaborative pods with integrated displays. The space includes a coffee bar, printing station, and private phone booths for calls. Popular among Business School students for market research and group projects.",
+        "usage_restrictions": "Business school students have priority",
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9612
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 12,
+        "name": "Mudd Engineering Library Room 251",
+        "hours": "Open 24/7",
+        "timeline": [],
+        "booking_status": "Reservable",
+        "capacity": 16,
+        "type": "Study Room",
+        "photo": "mudd_251.jpg",
+        "description": "Specialized engineering study room equipped with CAD workstations, 3D visualization software, and a materials sample library. Features include adjustable standing desks, specialized task lighting, and a collaborative workspace with digital drawing tablets.",
+        "usage_restrictions": "Engineering projects priority",
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9605
+        },
+        "access_permissions": "Engineering Students",
+        "claimed": false
+    },
+    {
+        "id": 13,
+        "name": "International Affairs Building Room 501",
+        "hours": "Open 8 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "8 AM - 12 PM",
+                "status": "Available"
+            },
+            {
+                "time": "12 PM - 4 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "4 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 25,
+        "type": "Classroom",
+        "photo": "iab_501.jpeg",
+        "description": "Global-focused classroom featuring video conferencing equipment for international connections, simultaneous interpretation booths, and interactive world maps. Perfect for international relations seminars and cross-cultural project collaborations.",
+        "usage_restrictions": "Academic use only",
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596
+        },
+        "access_permissions": "SIPA Students and Faculty",
+        "claimed": false
+    },
+    {
+        "id": 14,
+        "name": "East Asian Library Reading Room",
+        "hours": "Open 9 AM - 9 PM",
+        "timeline": [],
+        "booking_status": "Drop-in Only",
+        "capacity": 35,
+        "type": "Reading Room",
+        "photo": "east_asian_library.jpg",
+        "description": "This serene reading room in the C.V. Starr East Asian Library provides a contemplative study environment. Traditional Asian design elements combine with modern study amenities, including custom-built wooden tables, individual reading lamps, and ergonomic seating. The space offers a peaceful atmosphere away from campus bustle.",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8073,
+            "lng": -73.9614
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 15,
+        "name": "Law Library Study Suite 303",
+        "hours": "Open 8 AM - Midnight",
+        "timeline": [
+            {
+                "time": "8 AM - 2 PM",
+                "status": "Available"
+            },
+            {
+                "time": "2 PM - 6 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "6 PM - Midnight",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "law_303.jpg",
+        "description": "Premium study suite in the Law Library featuring sound-insulated walls and doors for maximum privacy. Includes a large conference table, comfortable executive chairs, and a dedicated whiteboard wall. Built-in shelving and a window view of Amsterdam Avenue make this space ideal for focused legal study sessions.",
+        "usage_restrictions": "Law students only",
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9604
+        },
+        "access_permissions": "Law School Students",
+        "claimed": false
+    },
+    {
+        "id": 16,
+        "name": "Jerome L. Greene Science Center Room 405",
+        "hours": "Open 7 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "7 AM - 12 PM",
+                "status": "Available"
+            },
+            {
+                "time": "12 PM - 3 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 20,
+        "type": "Study Room",
+        "photo": "greene_405.jpg",
+        "description": "Located in the cutting-edge Greene Science Center, this study space combines neuroscience-informed design with practical functionality. Features include circadian lighting systems that adjust throughout the day, sound-masking technology for optimal concentration, and ergonomic furniture designed for long study sessions. The room offers panoramic views of Manhattanville campus and includes a dedicated break area with hydration station.",
+        "usage_restrictions": "Science students preferred",
+        "location": {
+            "lat": 40.8155,
+            "lng": -73.9589
+        },
+        "access_permissions": "Only want columbia College",
+        "claimed": false
+    },
+    {
+        "id": 17,
+        "name": "School of Social Work Library Commons",
+        "hours": "Open 8 AM - 10 PM",
+        "timeline": [
+            {
+                "time": "8 AM - 2 PM",
+                "status": "Available"
+            },
+            {
+                "time": "2 PM - 5 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "5 PM - 10 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Drop-in Only",
+        "capacity": 40,
+        "type": "Reading Room",
+        "photo": "ssw_commons.jpg",
+        "description": "A welcoming collaborative space in the School of Social Work featuring zones for both individual and group work. The commons includes private pods with acoustic panels for sensitive conversations, adjustable-height workstations, and a meditation corner with comfortable seating. Large windows provide views of Morningside Heights, while smart glass technology prevents glare and maintains optimal temperature.",
+        "usage_restrictions": "Quiet conversation allowed",
+        "location": {
+            "lat": 40.8114,
+            "lng": -73.9631
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 18,
+        "name": "Journalism School Multimedia Lab",
+        "hours": "Open 9 AM - Midnight",
+        "timeline": [
+            {
+                "time": "9 AM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 7 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "7 PM - Midnight",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 15,
+        "type": "Study Room",
+        "photo": "journalism_lab.jpg",
+        "description": "State-of-the-art multimedia lab equipped with professional-grade audio-visual equipment and editing stations. Each workstation features dual 4K monitors, professional editing software, and broadcast-quality audio interfaces. The space includes a small recording booth for audio projects, collaborative worktables, and a media presentation wall for group critiques.",
+        "usage_restrictions": "Media projects priority",
+        "location": {
+            "lat": 40.8075,
+            "lng": -73.9626
+        },
+        "access_permissions": "Journalism Students",
+        "claimed": false
+    },
+    {
+        "id": 19,
+        "name": "Teachers College Collaborative Commons",
+        "hours": "Open 7:30 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "7:30 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 4 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "4 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Drop-in Only",
+        "capacity": 35,
+        "type": "Reading Room",
+        "photo": "tc_commons.jpg",
+        "description": "Innovative learning space designed to support education research and collaboration. Features include interactive smart boards, flexible furniture arrangements for various group sizes, and a dedicated maker space corner with supplies for educational materials. The room incorporates natural materials and plants to create a biophilic environment that enhances focus and creativity.",
+        "usage_restrictions": "Education students priority",
+        "location": {
+            "lat": 40.8111,
+            "lng": -73.9617
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 20,
+        "name": "Columbia Business School Trading Lab",
+        "hours": "Open 8 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "8 AM - 12 PM",
+                "status": "Available"
+            },
+            {
+                "time": "12 PM - 5 PM",
+                "status": "Booked"
+            },
+            {
+                "time": "5 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 25,
+        "type": "Classroom",
+        "photo": "business_trading.jpg",
+        "description": "Professional-grade trading room featuring real-time financial data feeds and market analysis tools. Equipped with Bloomberg terminals, Reuters data access, and specialized financial software. The space includes dual-monitor workstations, a stock ticker display, and breakout areas for team strategy sessions. Perfect for finance research and market analysis projects.",
+        "usage_restrictions": "Business school students priority",
+        "location": {
+            "lat": 40.809,
+            "lng": -73.9614
+        },
+        "access_permissions": "Business School Students",
+        "claimed": false
+    },
+    {
+        "id": 21,
+        "name": "sdas",
+        "hours": "Open 24/7",
+        "timeline": [],
+        "booking_status": "Reservable",
+        "capacity": 123,
+        "type": "Study Room",
+        "photo": "asad.asdas",
+        "description": "sadasd\r\n",
+        "usage_restrictions": "",
+        "location": {
+            "lat": 24.0,
+            "lng": 89.0
+        },
+        "access_permissions": "anyone",
+        "claimed": false
+    },
+    {
+        "id": 22,
+        "name": "Antonio's Room",
+        "hours": "Open 24/7",
+        "timeline": [],
+        "booking_status": "Reservable",
+        "capacity": 20,
+        "type": "Study Room",
+        "photo": "antonios.jpg",
+        "description": "Small room, okay view",
+        "usage_restrictions": "No food",
+        "location": {
+            "lat": 12.0,
+            "lng": 12.0
+        },
+        "access_permissions": "Everyone",
+        "claimed": false
+    },
+    {
+        "id": 23,
+        "name": "Antonio's Room",
+        "hours": "Open 24/7",
+        "timeline": [],
+        "booking_status": "Reservable",
+        "capacity": 12,
+        "type": "Study Room",
+        "photo": "antonio.jpg",
+        "description": "Small room with window",
+        "usage_restrictions": "No food",
+        "location": {
+            "lat": 12.0,
+            "lng": 12.0
+        },
+        "access_permissions": "Everyone",
+        "claimed": false
+    }
+]

@@ -1,0 +1,189 @@
+{% extends "base.html" %}
+
+{% block content %}
+<style>
+.card {
+    transition: none !important;
+    transform: none !important;
+    box-shadow: none !important;
+}
+.card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+.badge-highlight {
+    outline: 2px solid #000;
+    outline-offset: 1px;
+    box-shadow: 0 0 0 1px white;
+}
+</style>
+
+<div class="container mt-4">
+    <h1 class="text-center">Search Study Spaces</h1>
+    
+    <!-- Search Bar -->
+    <div class="search-container">
+        <div class="input-group input-group-lg">
+            <input type="text" id="searchInput" class="form-control form-control-lg" 
+                   style="height: 4.5rem; font-size: 1.5rem;" 
+                   placeholder="Search by name or type..." value="{{ query }}">
+            <button class="btn btn-primary btn-lg" 
+                    style="font-size: 1.5rem; padding: 0 3rem;" 
+                    onclick="applySearch()">Search</button>
+        </div>
+    </div>
+    
+    <!-- Advanced Search Options -->
+    <button class="btn btn-secondary mb-3" type="button" data-bs-toggle="collapse" data-bs-target="#advancedSearch">
+        Advanced Search Options
+    </button>
+    <div class="collapse show" id="advancedSearch">
+        <div class="card card-body mb-3">
+            <div class="row">
+                <div class="col-md-4">
+                    <label for="check_time" class="form-label">Check Availability At</label>
+                    <input type="time" class="form-control" id="check_time" value="{{ check_time if check_time }}">
+                </div>
+                <div class="col-md-4">
+                    <label for="status_filter" class="form-label">Availability Status</label>
+                    <select class="form-control" id="status_filter">
+                        <option value="all" {% if status_filter == 'all' %}selected{% endif %}>All</option>
+                        <option value="available" {% if status_filter == 'available' %}selected{% endif %}>Available Only</option>
+                        <option value="booked" {% if status_filter == 'booked' %}selected{% endif %}>Booked Only</option>
+                        <option value="closed" {% if status_filter == 'closed' %}selected{% endif %}>Closed Only</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="claim_filter" class="form-label">Claim Status</label>
+                    <select class="form-control" id="claim_filter">
+                        <option value="all" {% if claim_filter == 'all' %}selected{% endif %}>All</option>
+                        <option value="claimed" {% if claim_filter == 'claimed' %}selected{% endif %}>Claimed Only</option>
+                        <option value="unclaimed" {% if claim_filter == 'unclaimed' %}selected{% endif %}>Unclaimed Only</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col-md-6">
+                    <label for="type_filter" class="form-label">Room Type</label>
+                    <select class="form-control" id="type_filter">
+                        <option value="all" {% if type_filter == 'all' %}selected{% endif %}>All Types</option>
+                        <option value="Study Room" {% if type_filter == 'Study Room' %}selected{% endif %}>Study Room</option>
+                        <option value="Classroom" {% if type_filter == 'Classroom' %}selected{% endif %}>Classroom</option>
+                        <option value="Reading Room" {% if type_filter == 'Reading Room' %}selected{% endif %}>Reading Room</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="min_capacity" class="form-label">Minimum Capacity</label>
+                    <input type="number" class="form-control" id="min_capacity" 
+                           value="{{ min_capacity if min_capacity }}" min="0" placeholder="e.g., 10">
+                </div>
+            </div>
+            <div class="mt-3 d-flex gap-2">
+                <button class="btn btn-info" onclick="applySearch()">Apply Filters</button>
+                <button class="btn btn-outline-secondary" onclick="resetFilters()">Reset Filters</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Search Results -->
+    <h3 class="mt-4">Search Results ({{ count }})</h3>
+    <div class="row">
+        {% if spaces %}
+            {% for space in spaces %}
+            <div class="col-md-4 mb-4">
+                <div class="card h-100" style="cursor: pointer;" onclick="window.location.href='{{ url_for('view_space', space_id=space.id) }}'">
+                    <img src="{{ url_for('static', filename='images/' + space.photo) }}" class="card-img-top" alt="{{ space.name }}">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            {% if query and space.match_info.name_match %}
+                                {% set name = space.name %}
+                                {% set q = space.match_info.name_match %}
+                                {% set words = name.split() %}
+                                {% set result = [] %}
+                                
+                                {% for word in words %}
+                                    {% if q in word.lower() %}
+                                        {% set _ = result.append('<strong>' + word + '</strong>') %}
+                                    {% else %}
+                                        {% set _ = result.append(word) %}
+                                    {% endif %}
+                                {% endfor %}
+                                {{ result|join(' ')|safe }}
+                            {% else %}
+                                {{ space.name }}
+                            {% endif %}
+                        </h5>
+                        <p class="card-text"><strong>Capacity:</strong> {{ space.capacity }} people</p>
+                        <p><strong>Hours:</strong> {{ space.hours }}</p>
+                        <p>
+                            <span class="badge {% if space.current_status == 'Booked' %}bg-danger{% elif space.current_status == 'Closed' %}bg-secondary{% else %}bg-success{% endif %} 
+                                  {% if query and space.match_info.status_match %}badge-highlight{% endif %}">
+                                {{ space.current_status }}
+                                {% if check_time %}(at {{ check_time }}){% endif %}
+                            </span>
+                            <span class="badge {% if space.claimed %}bg-warning{% else %}bg-info{% endif %}
+                                  {% if query and space.match_info.claim_match %}badge-highlight{% endif %}">
+                                {% if space.claimed %}Claimed{% else %}Unclaimed{% endif %}
+                            </span>
+                            <span class="badge bg-primary
+                                  {% if query and space.match_info.type_match %}badge-highlight{% endif %}">
+                                {{ space.type }}
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">No matching study spaces found.</p>
+        {% endif %}
+    </div>
+</div>
+
+<script>
+function applySearch() {
+    const searchQuery = document.getElementById('searchInput').value;
+    const checkTime = document.getElementById('check_time').value;
+    const statusFilter = document.getElementById('status_filter').value;
+    const claimFilter = document.getElementById('claim_filter').value;
+    const typeFilter = document.getElementById('type_filter').value;
+    const minCapacity = document.getElementById('min_capacity').value;
+    
+    let url = new URL(window.location.href);
+    url.searchParams.set('q', searchQuery);
+    url.searchParams.set('status_filter', statusFilter);
+    url.searchParams.set('claim_filter', claimFilter);
+    url.searchParams.set('type_filter', typeFilter);
+    if (checkTime) url.searchParams.set('check_time', checkTime);
+    if (minCapacity) url.searchParams.set('min_capacity', minCapacity);
+    
+    window.location.href = url.toString();
+}
+
+function resetFilters() {
+    document.getElementById('searchInput').value = '';
+    document.getElementById('check_time').value = '';
+    document.getElementById('status_filter').value = 'all';
+    document.getElementById('claim_filter').value = 'all';
+    document.getElementById('type_filter').value = 'all';
+    document.getElementById('min_capacity').value = '';
+    
+    let url = new URL(window.location.href);
+    url.searchParams.delete('q');
+    url.searchParams.delete('check_time');
+    url.searchParams.delete('min_capacity');
+    url.searchParams.set('status_filter', 'all');
+    url.searchParams.set('claim_filter', 'all');
+    url.searchParams.set('type_filter', 'all');
+    
+    window.location.href = url.toString();
+}
+
+// Add event listener for enter key on search input
+document.getElementById('searchInput').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        applySearch();
+    }
+});
+</script>
+{% endblock %}

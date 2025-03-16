@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block head %}
+<!-- Leaflet.js for maps -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="{{ url_for('static', filename='view_map.js') }}"></script>
+<style>
+    .space-image-container {
+        width: 100%;
+        height: 400px;
+        overflow: hidden;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+    
+    .space-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4 mb-5">
+    <div class="space-header d-flex justify-content-between align-items-start">
+        <div>
+            <h1 class="mb-0">{{ space.name }}
+                <a href="{{ url_for('search', status_filter='available' if space.current_status == 'Open' else 'available' if space.current_status == 'Available' else 'booked' if space.current_status == 'Booked' else 'closed') }}" class="text-decoration-none">
+                    <span class="badge {% if space.current_status == 'Booked' %}bg-danger{% elif space.current_status == 'Closed' %}bg-secondary{% else %}bg-success{% endif %}">
+                        {{ space.current_status }}
+                    </span>
+                </a>
+                <a href="{{ url_for('search', claim_filter='claimed' if space.claimed else 'unclaimed') }}" class="text-decoration-none">
+                    <span class="badge {% if space.claimed %}bg-warning{% else %}bg-info{% endif %}">
+                        {% if space.claimed %}Claimed{% else %}Unclaimed{% endif %}
+                    </span>
+                </a>
+                <a href="{{ url_for('search', type_filter=space.type) }}" class="text-decoration-none">
+                    <span class="badge bg-primary">{{ space.type }}</span>
+                </a>
+            </h1>
+        </div>
+    </div>
+    
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="space-image-container">
+                <img src="{{ url_for('static', filename='images/' + space.photo) }}" 
+                     alt="{{ space.name }}"
+                     class="space-image">
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="space-info">
+                <p><strong>Hours:</strong> {{ space.hours }}</p>
+                <p><strong>Current Status:</strong> <span id="current-status">{{ space.current_status }}</span></p>
+                <p><strong>Booking Status:</strong> {{ space.booking_status }}</p>
+                <p><strong>Capacity:</strong> {{ space.capacity }} people</p>
+                <p><strong>Type:</strong> {{ space.type }}</p>
+                <p><strong>Description:</strong> {{ space.description }}</p>
+                <p><strong>Usage Restrictions:</strong> {{ space.usage_restrictions }}</p>
+                <p><strong>Access Permissions:</strong> {{ space.access_permissions }}</p>
+                
+                <div class="d-flex gap-2 mt-3">
+                    <button id="claim-btn"
+                            class="btn {% if space.claimed %}btn-warning{% else %}btn-success{% endif %}"
+                            data-space-id="{{ space.id }}"
+                            data-claimed="{{ 'true' if space.claimed else 'false' }}">
+                        {% if space.claimed %}Unclaim This Space{% else %}Claim This Space{% endif %}
+                    </button>
+                    {% if space.type in ['Study Room', 'Classroom'] %}
+                        <a href="{{ 'https://ems.cuit.columbia.edu/EmsWebApp/BrowseForSpace.aspx' if space.type == 'Classroom' else 'https://seats.library.columbia.edu/allspaces' }}" 
+                           class="btn btn-info" 
+                           target="_blank">
+                            Book This Space
+                        </a>
+                    {% endif %}
+                    <a href="{{ url_for('edit_space', space_id=space.id) }}" class="btn btn-outline-secondary btn-sm">
+                        <i class="fas fa-edit"></i> Edit
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Timeline of Bookings -->
+    <h3 class="mt-4">Booking Timeline</h3>
+    <ul class="list-group mb-4">
+        {% if space.timeline %}
+            {% for time_slot in space.timeline %}
+                <li class="list-group-item">
+                    {{ time_slot.time }} - <strong>{{ time_slot.status }}</strong>
+                </li>
+            {% endfor %}
+        {% else %}
+            <p class="text-muted">No booking data available.</p>
+        {% endif %}
+    </ul>
+    
+    <!-- Map View -->
+    <h3 class="mt-4">Location</h3>
+    <div id="map" 
+         style="height: 400px; margin-bottom: 2rem;"
+         data-lat="{{ space.location.lat }}"
+         data-lng="{{ space.location.lng }}"
+         data-name="{{ space.name }}">
+    </div>
+</div>
+
+<!-- External Scripts -->
+<script src="{{ url_for('static', filename='claim.js') }}"></script>
+
+{% endblock %}
