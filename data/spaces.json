@@ -657,5 +657,1431 @@
         },
         "access_permissions": "Everyone",
         "claimed": false
+    },
+    {
+        "id": 24,
+        "name": "403A Butler",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "12 AM - 8 AM",
+                "status": "Available"
+            },
+            {
+                "time": "8 AM - 4 PM",
+                "status": "Available"
+            },
+            {
+                "time": "4 PM - 11:59 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 14,
+        "type": "Study Room",
+        "photo": "butler_room.jpg",
+        "description": "Study room 403A in Butler",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 25,
+        "name": "404 Butler",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "12 AM - 8 AM",
+                "status": "Available"
+            },
+            {
+                "time": "8 AM - 4 PM",
+                "status": "Available"
+            },
+            {
+                "time": "4 PM - 11:59 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "butler_room.jpg",
+        "description": "Study room 404 in Butler",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 26,
+        "name": "405 Butler",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "12 AM - 8 AM",
+                "status": "Available"
+            },
+            {
+                "time": "8 AM - 4 PM",
+                "status": "Available"
+            },
+            {
+                "time": "4 PM - 11:59 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "butler_room.jpg",
+        "description": "Study room 405 in Butler",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 27,
+        "name": "407 Butler",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "12 AM - 8 AM",
+                "status": "Available"
+            },
+            {
+                "time": "8 AM - 4 PM",
+                "status": "Available"
+            },
+            {
+                "time": "4 PM - 11:59 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "butler_room.jpg",
+        "description": "Study room 407 in Butler",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 28,
+        "name": "408 Butler",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "12 AM - 8 AM",
+                "status": "Available"
+            },
+            {
+                "time": "8 AM - 4 PM",
+                "status": "Available"
+            },
+            {
+                "time": "4 PM - 11:59 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "butler_room.jpg",
+        "description": "Study room 408 in Butler",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 29,
+        "name": "409A Butler",
+        "hours": "Open 24/7",
+        "timeline": [
+            {
+                "time": "12 AM - 8 AM",
+                "status": "Available"
+            },
+            {
+                "time": "8 AM - 4 PM",
+                "status": "Available"
+            },
+            {
+                "time": "4 PM - 11:59 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "butler_room.jpg",
+        "description": "Study room 409A in Butler",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 30,
+        "name": "Ground Floor Study Room G 01",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 01",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 31,
+        "name": "Ground Floor Study Room G 02",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 02",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 32,
+        "name": "Ground Floor Study Room G 03",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 03",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 33,
+        "name": "Ground Floor Study Room G 04",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 04",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 34,
+        "name": "Ground Floor Study Room G 05",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 05",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 35,
+        "name": "Ground Floor Study Room G 06",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 06",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 36,
+        "name": "Ground Floor Study Room G 07",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 07",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 37,
+        "name": "Ground Floor Study Room G 08",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 08",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 38,
+        "name": "Ground Floor Study Room G 09",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 09",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 39,
+        "name": "Ground Floor Study Room G 10",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 10",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 40,
+        "name": "Ground Floor Study Room G 11",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 11",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 41,
+        "name": "Ground Floor Study Room G 12",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 12",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 42,
+        "name": "Ground Floor Study Room G 13",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 13",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 43,
+        "name": "Ground Floor Study Room G 14",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 14",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 44,
+        "name": "Ground Floor Study Room G 15",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 15",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 45,
+        "name": "Ground Floor Study Room G 16",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 16",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 46,
+        "name": "Ground Floor Study Room G 17",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Ground in Floor Study Room G 17",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 47,
+        "name": "Mezzanine Study Room M 01",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 01",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 48,
+        "name": "Mezzanine Study Room M 02",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 02",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 49,
+        "name": "Mezzanine Study Room M 03",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 03",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 50,
+        "name": "Mezzanine Study Room M 04",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 04",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 51,
+        "name": "Mezzanine Study Room M 05",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 05",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 52,
+        "name": "Mezzanine Study Room M 06",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 06",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 53,
+        "name": "Mezzanine Study Room M 07",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 07",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 54,
+        "name": "Mezzanine Study Room M 08",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 08",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 55,
+        "name": "Mezzanine Study Room M 09",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 09",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 56,
+        "name": "Mezzanine Study Room M 10",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 10",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 57,
+        "name": "Mezzanine Study Room M 11",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 11",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 58,
+        "name": "Mezzanine Study Room M 12",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 12",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 59,
+        "name": "Mezzanine Study Room M 13",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 13",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 60,
+        "name": "Mezzanine Study Room M 14",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 14",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 61,
+        "name": "Mezzanine Study Room M 15",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 15",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 62,
+        "name": "Mezzanine Study Room M 16",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 16",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 63,
+        "name": "Mezzanine Study Room M 17",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "default_room.jpg",
+        "description": "Study room Mezzanine in Study Room M 17",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9632
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 64,
+        "name": "327.1 Lehman",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "lehman_room.jpg",
+        "description": "Study room 327.1 in Lehman",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9597
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 65,
+        "name": "327.2 Lehman",
+        "hours": "Open 9 AM - 11 PM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 11 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "lehman_room.jpg",
+        "description": "Study room 327.2 in Lehman",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9597
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 66,
+        "name": "605 Science & Engineering",
+        "hours": "Open 9 AM - 3 AM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 3 AM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "science_eng_room.jpg",
+        "description": "Study room 605 in Science & Engineering",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8103,
+            "lng": -73.9619
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 67,
+        "name": "606 Science & Engineering",
+        "hours": "Open 9 AM - 3 AM",
+        "timeline": [
+            {
+                "time": "9 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 3 AM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 8,
+        "type": "Study Room",
+        "photo": "science_eng_room.jpg",
+        "description": "Study room 606 in Science & Engineering",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8103,
+            "lng": -73.9619
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 68,
+        "name": "205 Social Work",
+        "hours": "Open 10 AM - 9 PM",
+        "timeline": [
+            {
+                "time": "10 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 9 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "social_work_room.jpg",
+        "description": "Study room 205 in Social Work",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8103,
+            "lng": -73.9582
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
+    },
+    {
+        "id": 69,
+        "name": "206 Social Work",
+        "hours": "Open 10 AM - 9 PM",
+        "timeline": [
+            {
+                "time": "10 AM - 1 PM",
+                "status": "Available"
+            },
+            {
+                "time": "1 PM - 3 PM",
+                "status": "Available"
+            },
+            {
+                "time": "3 PM - 9 PM",
+                "status": "Available"
+            }
+        ],
+        "booking_status": "Reservable",
+        "capacity": 6,
+        "type": "Study Room",
+        "photo": "social_work_room.jpg",
+        "description": "Study room 206 in Social Work",
+        "usage_restrictions": "Quiet study only",
+        "location": {
+            "lat": 40.8103,
+            "lng": -73.9582
+        },
+        "access_permissions": "All Columbia students",
+        "claimed": false
     }
 ]
