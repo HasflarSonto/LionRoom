@@ -40,7 +40,7 @@ def scrape_room_columns():
             room_data[room_id] = title
             
         # Write to JSON file
-        with open('rooms.json', 'w') as f:
+        with open('room_id.json', 'w') as f:
             json.dump(room_data, f, indent=4)
             
     except Exception as e:
