@@ -99,17 +99,17 @@
     const parts = roomName.split(' ');
     if (parts.length < 2) return null;
 
-    const buildingMap = {
-      'school of social work': 'school_of_social_work',
-      'engineering terrace': 'engineering_terrace'
-    };
+    // const buildingMap = {
+    //   'school of social work': 'school_of_social_work',
+    //   'engineering terrace': 'engineering_terrace'
+    // };
 
-    let building = parts.slice(0, parts.length-1).join(' ').toLowerCase();
+    let building = parts.slice(0, parts.length-1).join('_').toLowerCase();
     let roomNumber = parts[parts.length-1];
 
-    if (building in buildingMap) {
-      building = buildingMap[building];
-    }
+    // if (building in buildingMap) {
+    //   building = buildingMap[building];
+    // }
 
     const photoPath = `/src/lib/data/photos/${building}_${roomNumber}_1`;
     return building === 'uris' ? `${photoPath}.jpeg` : `${photoPath}.jpg`;

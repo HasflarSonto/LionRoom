@@ -11,6 +11,23 @@
   let lastUpdateTime = null;
   let updateInterval;
   let isLoading = true;
+  
+  // Filter states
+  let filters = {
+    showCurrentlyAvailable: false,
+    hasChalkboard: false,
+    hasWhiteboard: false,
+    minCapacity: '',
+    minSharedTables: '',
+    roomType: 'any',
+    seatingStyle: 'any',
+    tableStyle: 'any'
+  };
+  
+  // Filter options
+  const roomTypes = ['any', 'seminar', 'classroom', 'lecture hall', 'auditorium', 'computer lab'];
+  const seatingStyles = ['any', 'fixed chairs', 'movable chairs'];
+  const tableStyles = ['any', 'movable tables', 'fixed tables', 'movable tablets', 'fixed tablets'];
 
   // Function to fetch all data
   async function fetchData() {
@@ -74,7 +91,7 @@
     }
   }
   
-  // Check for updates function
+  // Function to check for updates (missing in your code)
   async function checkForUpdates() {
     try {
       const response = await fetch('/src/lib/data/last_update.json');
@@ -93,10 +110,319 @@
       console.error('Error checking for updates:', error);
     }
   }
+  
+  // Add the missing timeStringToMinutes function
+  function timeStringToMinutes(timeStr) {
+    try {
+      if (!timeStr || typeof timeStr !== 'string') {
+        console.error('Invalid time string:', timeStr);
+        return 0;
+      }
+      
+      const parts = timeStr.split(' ');
+      if (parts.length !== 2) {
+        console.error('Time string has unexpected format:', timeStr);
+        return 0;
+      }
+      
+      const [time, period] = parts;
+      const timeParts = time.split(':');
+      if (timeParts.length !== 2) {
+        console.error('Time part has unexpected format:', time);
+        return 0;
+      }
+      
+      const hours = parseInt(timeParts[0]);
+      const minutes = parseInt(timeParts[1]);
+      
+      if (isNaN(hours) || isNaN(minutes)) {
+        console.error('Hours or minutes is not a number:', hours, minutes);
+        return 0;
+      }
+      
+      let totalMinutes = minutes;
+      
+      if (period === 'PM' && hours !== 12) {
+        totalMinutes += (hours + 12) * 60;
+      } else if (period === 'AM' && hours === 12) {
+        totalMinutes += 0; // 12 AM is 0 hours
+      } else {
+        totalMinutes += hours * 60;
+      }
+      
+      return totalMinutes;
+    } catch (error) {
+      console.error('Error in timeStringToMinutes:', error, timeStr);
+      return 0;
+    }
+  }
+
+  // Improved filterRooms function with correct "Currently Available" filtering
+  function filterRooms(rooms) {
+    console.log('Applying filters:', JSON.stringify(filters));
+    
+    // Return early if rooms is empty or not an array
+    if (!rooms || !Array.isArray(rooms) || rooms.length === 0) {
+      console.log('No rooms to filter');
+      return [];
+    }
+    
+    try {
+      const filteredRooms = rooms.filter(room => {
+        // Skip rooms with no data
+        if (!room) return false;
+        
+        const info = room.info || {};
+        
+        // Filter by current availability
+        if (filters.showCurrentlyAvailable) {
+          try {
+            const now = new Date();
+            const currentHour = now.getHours();
+            const currentMinutes = now.getMinutes();
+            const currentTimeInMinutes = currentHour * 60 + currentMinutes;
+            
+            console.log(`Current time: ${currentHour}:${currentMinutes} (${currentTimeInMinutes} minutes)`);
+            
+            // Check if current time falls within any availability window
+            let isCurrentlyAvailable = false;
+            
+            if (Array.isArray(room.availability) && room.availability.length > 0) {
+              for (const timeRange of room.availability) {
+                if (!Array.isArray(timeRange) || timeRange.length !== 2) continue;
+                
+                const [start, end] = timeRange;
+                if (!start || !end) continue;
+                
+                const startMinutes = timeStringToMinutes(start);
+                let endMinutes = timeStringToMinutes(end);
+                
+                // Special case handling for end of day
+                if (end === "12:00 AM" || end === "12:00 PM") {
+                  endMinutes = 24 * 60; // End of day
+                }
+                
+                console.log(`Room ${room.name} time range: ${start} (${startMinutes}) - ${end} (${endMinutes})`);
+                
+                if (currentTimeInMinutes >= startMinutes && currentTimeInMinutes < endMinutes) {
+                  isCurrentlyAvailable = true;
+                  console.log(`Room ${room.name} is currently available`);
+                  break;
+                }
+              }
+            }
+            
+            if (!isCurrentlyAvailable) {
+              console.log(`Room ${room.name} is NOT currently available`);
+              return false;
+            }
+          } catch (error) {
+            console.error('Error checking availability for room:', room.name, error);
+            return false;
+          }
+        }
+        
+        // Skip rooms with no info if we're filtering by room properties
+        if (!info && (
+          filters.hasChalkboard || 
+          filters.hasWhiteboard || 
+          filters.minCapacity || 
+          filters.minSharedTables || 
+          filters.roomType !== 'any' || 
+          filters.seatingStyle !== 'any' || 
+          filters.tableStyle !== 'any'
+        )) {
+          return false;
+        }
+        
+        // If we got this far and there's no info, return true
+        if (!info) return true;
+        
+        // Filter by board type
+        if (filters.hasChalkboard && info.board_type !== 'chalkboard') return false;
+        if (filters.hasWhiteboard && info.board_type !== 'whiteboard') return false;
+        
+        // Filter by capacity
+        if (filters.minCapacity && filters.minCapacity.trim() !== '') {
+          const minCapacity = parseInt(filters.minCapacity);
+          if (!isNaN(minCapacity)) {
+            // Make sure info.capacity exists and is a number
+            if (!info.capacity || parseInt(info.capacity) < minCapacity) {
+              return false;
+            }
+          }
+        }
+        
+        // Filter by shared tables
+        if (filters.minSharedTables && filters.minSharedTables.trim() !== '') {
+          const minSharedTables = parseInt(filters.minSharedTables);
+          if (!isNaN(minSharedTables)) {
+            // Make sure info.shared_tables exists and is a number
+            if (info.shared_tables === undefined || 
+                info.shared_tables === null || 
+                parseInt(info.shared_tables) < minSharedTables) {
+              return false;
+            }
+          }
+        }
+        
+        // Filter by room type (case-insensitive)
+        if (filters.roomType !== 'any') {
+          if (!info.room_type || 
+              info.room_type.toLowerCase() !== filters.roomType.toLowerCase()) {
+            return false;
+          }
+        }
+        
+        // Filter by seating style (case-insensitive and partial match)
+        if (filters.seatingStyle !== 'any') {
+          if (!info.seating_style || 
+              !info.seating_style.toLowerCase().includes(filters.seatingStyle.toLowerCase())) {
+            return false;
+          }
+        }
+        
+        // Filter by table style (case-insensitive and partial match)
+        if (filters.tableStyle !== 'any') {
+          if (!info.table_style || 
+              !info.table_style.toLowerCase().includes(filters.tableStyle.toLowerCase())) {
+            return false;
+          }
+        }
+        
+        // If all filters passed, include this room
+        return true;
+      });
+      
+      console.log(`Filtered ${rooms.length} rooms down to ${filteredRooms.length} rooms`);
+      return filteredRooms;
+    } catch (error) {
+      console.error('Error in filterRooms:', error);
+      return [];
+    }
+  }
+
+  // Add a helper function to check availability for debugging
+  function checkRoomAvailability(room) {
+    if (!room || !Array.isArray(room.availability)) return false;
+    
+    const now = new Date();
+    const currentHour = now.getHours();
+    const currentMinutes = now.getMinutes();
+    const currentTimeInMinutes = currentHour * 60 + currentMinutes;
+    
+    for (const timeRange of room.availability) {
+      if (!Array.isArray(timeRange) || timeRange.length !== 2) continue;
+      
+      const [start, end] = timeRange;
+      if (!start || !end) continue;
+      
+      const startMinutes = timeStringToMinutes(start);
+      let endMinutes = timeStringToMinutes(end);
+      
+      // Special case handling for end of day
+      if (end === "12:00 AM" || end === "12:00 PM") {
+        endMinutes = 24 * 60; // End of day
+      }
+      
+      if (currentTimeInMinutes >= startMinutes && currentTimeInMinutes < endMinutes) {
+        return true;
+      }
+    }
+    
+    return false;
+  }
+  
+  // Add a function to trigger re-filtering
+  function applyFilters() {
+    console.log('Manually applying filters');
+    filteredRoomsData = filterRooms(roomsData);
+  }
+  
+  // Add observer to watch filter changes
+  let lastFilterState = JSON.stringify(filters);
+  function checkFiltersChanged() {
+    const currentState = JSON.stringify(filters);
+    if (currentState !== lastFilterState) {
+      console.log('Filters changed, reapplying filters');
+      lastFilterState = currentState;
+      applyFilters();
+    }
+  }
+  
+  // Set up an interval to check for filter changes (as a backup in case reactivity doesn't work)
+  onMount(() => {
+    const filterCheckInterval = setInterval(checkFiltersChanged, 500);
+    return () => clearInterval(filterCheckInterval);
+  });
+  
+  // Make update helpers force a filter recalculation
+  function updateCheckbox(key, event) {
+    filters[key] = event.target.checked;
+    filters = {...filters}; // Create a new object to ensure reactivity
+    console.log(`Updated ${key} to ${filters[key]}`);
+    applyFilters(); // Force refiltering
+  }
+  
+  function updateInputValue(key, event) {
+    filters[key] = event.target.value;
+    filters = {...filters}; // Create a new object to ensure reactivity
+    console.log(`Updated ${key} to ${filters[key]}`);
+    applyFilters(); // Force refiltering
+  }
+  
+  function updateSelectValue(key, event) {
+    filters[key] = event.target.value;
+    filters = {...filters}; // Create a new object to ensure reactivity
+    console.log(`Updated ${key} to ${filters[key]}`);
+    applyFilters(); // Force refiltering
+  }
+  
+  // Explicitly make the reset function reapply filters
+  function resetFilters() {
+    filters = {
+      showCurrentlyAvailable: false,
+      hasChalkboard: false,
+      hasWhiteboard: false,
+      minCapacity: '',
+      minSharedTables: '',
+      roomType: 'any',
+      seatingStyle: 'any',
+      tableStyle: 'any'
+    };
+    console.log('Filters reset');
+    applyFilters(); // Force refiltering
+  }
+  
+  // Make filterRooms reactive to filter changes
+  $: filteredRoomsData = filterRooms(roomsData);
+  
+  // Add helper to check if any filters are active
+  $: hasActiveFilters = 
+    filters.showCurrentlyAvailable || 
+    filters.hasChalkboard || 
+    filters.hasWhiteboard || 
+    filters.minCapacity || 
+    filters.minSharedTables || 
+    filters.roomType !== 'any' || 
+    filters.seatingStyle !== 'any' || 
+    filters.tableStyle !== 'any';
 
   onMount(async () => {
     // Initial data fetch
     await fetchData();
+    
+    // Debug availability
+    setTimeout(() => {
+      if (roomsData.length > 0) {
+        console.log('Checking availability for sample rooms:');
+        roomsData.slice(0, 5).forEach(room => {
+          const isAvailable = checkRoomAvailability(room);
+          console.log(`Room ${room.name}: ${isAvailable ? 'Available' : 'Not Available'}`);
+          console.log(`Availability windows:`, room.availability);
+        });
+      }
+    }, 2000);
     
     // Set up polling every minute to check for updates
     updateInterval = setInterval(checkForUpdates, 60000);
@@ -111,12 +437,12 @@
     viewMode = mode;
   }
 
-  // Group rooms by building
+  // Group rooms by building (modified to use filtered rooms)
   function getRoomsByBuilding() {
     const roomsByBuilding = {};
     
     if (!buildingsData || Object.keys(buildingsData).length === 0) {
-      return { "All Rooms": roomsData };
+      return { "All Rooms": filteredRoomsData };
     }
     
     // Initialize buildings with empty arrays
@@ -125,7 +451,7 @@
     });
     
     // Populate rooms into their respective buildings
-    roomsData.forEach(room => {
+    filteredRoomsData.forEach(room => {
       let found = false;
       // Find which building this room belongs to
       for (const [building, rooms] of Object.entries(buildingsData)) {
@@ -152,6 +478,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </svelte:head>
 
 <div class="container">
@@ -169,6 +496,127 @@
       {loadingError}
     </div>
   {/if}
+  
+  <div class="filters-panel">
+    <div class="filters-header">
+      <h3>
+        <i class="fas fa-filter"></i> Filters
+        {#if Object.values(filters).some(v => v !== false && v !== '' && v !== 'any')}
+          <button class="reset-button" on:click={resetFilters}>
+            <i class="fas fa-times"></i> Reset
+          </button>
+        {/if}
+      </h3>
+    </div>
+    
+    <div class="filters-content">
+      <div class="filter-section">
+        <div class="filter-group checkbox-group">
+          <label class="checkbox-label">
+            <input 
+              type="checkbox" 
+              checked={filters.showCurrentlyAvailable} 
+              on:change={(e) => updateCheckbox('showCurrentlyAvailable', e)}
+            >
+            <span>Currently Available</span>
+          </label>
+        </div>
+        
+        <div class="filter-group checkbox-group">
+          <label class="checkbox-label">
+            <input 
+              type="checkbox" 
+              checked={filters.hasChalkboard} 
+              on:change={(e) => updateCheckbox('hasChalkboard', e)}
+            >
+            <span>Has Chalkboard</span>
+          </label>
+        </div>
+        
+        <div class="filter-group checkbox-group">
+          <label class="checkbox-label">
+            <input 
+              type="checkbox" 
+              checked={filters.hasWhiteboard} 
+              on:change={(e) => updateCheckbox('hasWhiteboard', e)}
+            >
+            <span>Has Whiteboard</span>
+          </label>
+        </div>
+      </div>
+      
+      <div class="filter-section">
+        <div class="filter-group">
+          <label for="minCapacity">Minimum Capacity</label>
+          <input 
+            type="number" 
+            id="minCapacity" 
+            value={filters.minCapacity} 
+            on:input={(e) => updateInputValue('minCapacity', e)}
+            placeholder="Min seats"
+            min="0"
+          >
+        </div>
+        
+        <div class="filter-group">
+          <label for="minSharedTables">Minimum Shared Tables</label>
+          <input 
+            type="number" 
+            id="minSharedTables" 
+            value={filters.minSharedTables} 
+            on:input={(e) => updateInputValue('minSharedTables', e)}
+            placeholder="Min tables"
+            min="0"
+          >
+        </div>
+      </div>
+      
+      <div class="filter-section">
+        <div class="filter-group">
+          <label for="roomType">Room Type</label>
+          <select 
+            id="roomType" 
+            value={filters.roomType}
+            on:change={(e) => updateSelectValue('roomType', e)}
+          >
+            {#each roomTypes as type}
+              <option value={type}>{type === 'any' ? 'Any Type' : type.charAt(0).toUpperCase() + type.slice(1)}</option>
+            {/each}
+          </select>
+        </div>
+        
+        <div class="filter-group">
+          <label for="seatingStyle">Seating Style</label>
+          <select 
+            id="seatingStyle" 
+            value={filters.seatingStyle}
+            on:change={(e) => updateSelectValue('seatingStyle', e)}
+          >
+            {#each seatingStyles as style}
+              <option value={style}>{style === 'any' ? 'Any Style' : style.charAt(0).toUpperCase() + style.slice(1)}</option>
+            {/each}
+          </select>
+        </div>
+        
+        <div class="filter-group">
+          <label for="tableStyle">Table Style</label>
+          <select 
+            id="tableStyle" 
+            value={filters.tableStyle}
+            on:change={(e) => updateSelectValue('tableStyle', e)}
+          >
+            {#each tableStyles as style}
+              <option value={style}>{style === 'any' ? 'Any Style' : style.charAt(0).toUpperCase() + style.slice(1)}</option>
+            {/each}
+          </select>
+        </div>
+      </div>
+    </div>
+    
+    <div class="filters-results">
+      <span>{filteredRoomsData.length} room{filteredRoomsData.length !== 1 ? 's' : ''} found</span>
+    </div>
+  </div>
   
   <div class="view-toggle">
     <button 
@@ -188,11 +636,15 @@
   
   {#if isLoading && roomsData.length === 0}
     <div class="loading">Loading room data...</div>
-  {:else if roomsData.length === 0}
-    <div class="loading">No room data available</div>
+  {:else if filteredRoomsData.length === 0}
+    <div class="no-results">
+      <i class="fas fa-search"></i>
+      <p>No rooms match your filters</p>
+      <button class="reset-button" on:click={resetFilters}>Clear Filters</button>
+    </div>
   {:else if viewMode === 'all'}
     <div class="rooms-container">
-      {#each roomsData as room (room.id)}
+      {#each filteredRoomsData as room (room.id)}
         <Room 
           roomId={room.id}
           roomName={room.name}
@@ -334,5 +786,156 @@
     margin-bottom: 1rem;
     border: 1px solid #f5c6cb;
     border-radius: 0.25rem;
+  }
+
+  .filters-panel {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    margin-bottom: 2rem;
+    overflow: hidden;
+  }
+
+  .filters-header {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-bottom: 1px solid #eee;
+  }
+
+  .filters-header h3 {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #1e3a8a;
+    font-size: 1.1rem;
+  }
+
+  .filters-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+
+  .filter-section {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .checkbox-group {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .checkbox-label input {
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+  }
+
+  .filter-group label {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+  }
+
+  .filter-group input[type="number"] {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .filter-group select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: 'Poppins', sans-serif;
+    background: white;
+  }
+
+  .filters-results {
+    padding: 0.75rem 1.5rem;
+    border-top: 1px solid #eee;
+    background: #f8f9fa;
+    color: #666;
+    font-size: 0.9rem;
+  }
+
+  .reset-button {
+    background: #edf2ff;
+    color: #3b5bdb;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .reset-button:hover {
+    background: #dbe4ff;
+  }
+  
+  .no-results {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #666;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .no-results i {
+    font-size: 2rem;
+    color: #ddd;
+  }
+
+  .no-results p {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+  
+  .no-results .reset-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+
+  /* Make filters responsive */
+  @media (max-width: 768px) {
+    .filters-content {
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    .filter-section {
+      min-width: auto;
+    }
   }
 </style>
