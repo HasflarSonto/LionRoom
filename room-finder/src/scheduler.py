@@ -24,17 +24,17 @@ def run_data_pipeline():
     try:
         # Run the EMS scraper
         logger.info("Running EMS scraper...")
-        subprocess.run(["python", "src/ems_scraper.py"], check=True)
+        subprocess.run(["python", "ems_scraper.py"], check=True)
         logger.info("EMS scraper completed successfully")
         
         # Run the room hours processor
         logger.info("Processing room hours...")
-        subprocess.run(["python", "src/room_hours.py"], check=True)
+        subprocess.run(["python", "room_hours.py"], check=True)
         logger.info("Room hours processed successfully")
         
         # Create or update a timestamp file for the frontend to check
         timestamp = datetime.now().isoformat()
-        with open('src/lib/data/last_update.json', 'w') as f:
+        with open('lib/data/last_update.json', 'w') as f:
             f.write(f'{{"timestamp": "{timestamp}"}}')
         logger.info(f"Data pipeline completed successfully. Timestamp: {timestamp}")
         
@@ -45,7 +45,7 @@ def main():
     logger.info("Starting room availability scheduler")
     
     # Create data directory if it doesn't exist
-    os.makedirs('src/lib/data', exist_ok=True)
+    os.makedirs('lib/data', exist_ok=True)
     
     # Run once at startup
     run_data_pipeline()

@@ -23,8 +23,8 @@
     "733": "300 Buell South"
   },
   "Chandler Hall": {
-    "1831": "CHA 401",
-    "1832": "CHA 402"
+    "1831": "Chandler 401",
+    "1832": "Chandler 402"
   },
   "Claremont": {
     "1378": "Claremont 201",
@@ -39,11 +39,11 @@
     "1381": "Engineering Terrace 253"
   },
   "Fayerweather Hall": {
-    "1414": "202 Fayerweather",
-    "1784": "203 Fayerweather",
-    "787": "204 Fayerweather",
-    "867": "209 Fayerweather",
-    "1647": "FAY 323M",
+    "1414": "Fayerweather 202",
+    "1784": "Fayerweather 203",
+    "787": "Fayerweather 204",
+    "867": "Fayerweather 209",
+    "1647": "Fayerweather 323M",
     "613": "Fayerweather 301M",
     "614": "Fayerweather 302",
     "664": "Fayerweather 310",
@@ -156,20 +156,20 @@
     "151": "Wang Pavilion (formerly Lerner B60)"
   },
   "Lewisohn Hall": {
-    "1637": "LEW 106B",
-    "1636": "LEW 212A",
-    "1783": "LEW 212D",
-    "1448": "LEW 308A",
-    "1634": "LEW 505",
-    "1633": "LEW 506",
-    "1841": "LEW 507",
-    "1632": "LEW 508",
-    "1631": "LEW 602",
-    "1630": "LEW 606",
-    "1629": "LEW 607",
-    "1628": "LEW 608",
-    "1627": "LEW 609",
-    "1626": "LEW 610",
+    "1637": "Lewisohn 106B",
+    "1636": "Lewisohn 212A",
+    "1783": "Lewisohn 212D",
+    "1448": "Lewisohn 308A",
+    "1634": "Lewisohn 505",
+    "1633": "Lewisohn 506",
+    "1841": "Lewisohn 507",
+    "1632": "Lewisohn 508",
+    "1631": "Lewisohn 602",
+    "1630": "Lewisohn 606",
+    "1629": "Lewisohn 607",
+    "1628": "Lewisohn 608",
+    "1627": "Lewisohn 609",
+    "1626": "Lewisohn 610",
     "176": "Lewisohn Lawn"
   },
   "Low Library": {
@@ -214,9 +214,9 @@
     "773": "Mudd 833"
   },
   "Northwest Corner Building": {
-    "1282": "Northwest Corner Building 501",
-    "1402": "Northwest Corner Building 502",
-    "1403": "Northwest Corner Building 602"
+    "1282": "Northwest Corner 501",
+    "1402": "Northwest Corner 502",
+    "1403": "Northwest Corner 602"
   },
   "Philosophy": {
     "1442": "Philosophy 201A",
@@ -254,16 +254,16 @@
     "492": "Furnald Plaza"
   },
   "School of Social Work": {
-    "1429": "903 School of Social Work"
+    "1429": "School of Social Work 903"
   },
   "Schermerhorn": {
-    "1280": "467 Schermerhorn EXT",
-    "892": "501 Schermerhorn",
-    "1428": "558 Schermerhorn EXT",
-    "1272": "608 Schermerhorn",
-    "1266": "614 Schermerhorn",
-    "1279": "652 Schermerhorn",
-    "1281": "963 EXT Schermerhorn",
+    "1280": "Schermerhorn 467",
+    "892": "Schermerhorn 501",
+    "1428": "Schermerhorn 558",
+    "1272": "Schermerhorn 608",
+    "1266": "Schermerhorn 614",
+    "1279": "Schermerhorn 652",
+    "1281": "Schermerhorn 963",
     "186": "Schermerhorn Plaza"
   },
   "Shapiro": {
@@ -322,23 +322,23 @@
     "858": "Skyline Dining Room - 4th Fl"
   },
   "Uris Hall": {
-    "1582": "URI 140",
-    "1581": "URI 141",
-    "694": "URI 142",
-    "1580": "URI 208",
-    "695": "URI 301",
-    "1579": "URI 303",
-    "1915": "URI 305",
-    "1578": "URI 306",
-    "1577": "URI 307",
-    "1576": "URI 326",
-    "1916": "URI 327",
-    "1575": "URI 328",
-    "1574": "URI 329",
-    "1573": "URI 330",
-    "1572": "URI 331",
-    "1571": "URI 332",
-    "1570": "URI 333",
+    "1582": "Uris 140",
+    "1581": "Uris 141",
+    "694": "Uris 142",
+    "1580": "Uris 208",
+    "695": "Uris 301",
+    "1579": "Uris 303",
+    "1915": "Uris 305",
+    "1578": "Uris 306",
+    "1577": "Uris 307",
+    "1576": "Uris 326",
+    "1916": "Uris 327",
+    "1575": "Uris 328",
+    "1574": "Uris 329",
+    "1573": "Uris 330",
+    "1572": "Uris 331",
+    "1571": "Uris 332",
+    "1570": "Uris 333",
     "188": "Uris Plaza East"
   },
   "University Events Management": {
@@ -354,9 +354,9 @@
     "1255": "Hebum Lounge"
   },
   "Outdoor Spaces": {
-    "184": "01-South Lawn East",
-    "692": "02-South Lawn West",
-    "182": "03-Sundial",
+    "184": "Butler South Lawn East",
+    "692": "Butler South Lawn West",
+    "182": "Sundial",
     "162": "Ancell Plaza",
     "163": "Avery Plaza",
     "164": "Butler Lawn",

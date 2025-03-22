@@ -1,0 +1,5418 @@
+{
+    "184": {
+        "events": [
+            {
+                "booking_id": "3725070",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "692": {
+        "events": [
+            {
+                "booking_id": "3725259",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "182": {
+        "events": []
+    },
+    "162": {
+        "events": []
+    },
+    "163": {
+        "events": []
+    },
+    "164": {
+        "events": [
+            {
+                "booking_id": "3916195",
+                "is_private": "false",
+                "event_title": "CLOSED FOR SEASON",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "3916196",
+                "is_private": "false",
+                "event_title": "CLOSED FOR SEASON",
+                "original_left": 480,
+                "original_width": 960,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 480,
+                "adjusted_width": 960
+            }
+        ]
+    },
+    "165": {
+        "events": []
+    },
+    "167": {
+        "events": []
+    },
+    "298": {
+        "events": []
+    },
+    "299": {
+        "events": []
+    },
+    "300": {
+        "events": []
+    },
+    "301": {
+        "events": []
+    },
+    "302": {
+        "events": []
+    },
+    "303": {
+        "events": []
+    },
+    "304": {
+        "events": []
+    },
+    "305": {
+        "events": []
+    },
+    "168": {
+        "events": []
+    },
+    "170": {
+        "events": [
+            {
+                "booking_id": "3723559",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "492": {
+        "events": []
+    },
+    "171": {
+        "events": [
+            {
+                "booking_id": "3475784",
+                "is_private": "false",
+                "event_title": "CLOSED FOR SEASON",
+                "original_left": 0,
+                "original_width": 1410,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1410
+            }
+        ]
+    },
+    "172": {
+        "events": []
+    },
+    "174": {
+        "events": [
+            {
+                "booking_id": "3724124",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "175": {
+        "events": []
+    },
+    "176": {
+        "events": [
+            {
+                "booking_id": "3477832",
+                "is_private": "false",
+                "event_title": "CLOSED FOR SEASON",
+                "original_left": 0,
+                "original_width": 1380,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1380
+            }
+        ]
+    },
+    "173": {
+        "events": [
+            {
+                "booking_id": "3478960",
+                "is_private": "false",
+                "event_title": "CLOSED FOR THE SEASON",
+                "original_left": 0,
+                "original_width": 1410,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1410
+            }
+        ]
+    },
+    "177": {
+        "events": []
+    },
+    "1267": {
+        "events": [
+            {
+                "booking_id": "3724692",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            },
+            {
+                "booking_id": "3724503",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "178": {
+        "events": [
+            {
+                "booking_id": "3724503",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "1252": {
+        "events": [
+            {
+                "booking_id": "3724692",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "179": {
+        "events": [
+            {
+                "booking_id": "3724881",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "180": {
+        "events": []
+    },
+    "181": {
+        "events": []
+    },
+    "186": {
+        "events": []
+    },
+    "185": {
+        "events": []
+    },
+    "188": {
+        "events": []
+    },
+    "189": {
+        "events": []
+    },
+    "839": {
+        "events": [
+            {
+                "booking_id": "3725450",
+                "is_private": "false",
+                "event_title": "Closed for Season",
+                "original_left": 0,
+                "original_width": 1439,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1439
+            }
+        ]
+    },
+    "190": {
+        "events": [
+            {
+                "booking_id": "3903689",
+                "is_private": "false",
+                "event_title": "Construction",
+                "original_left": 420,
+                "original_width": 990,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 990
+            }
+        ]
+    },
+    "1378": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1379": {
+        "events": [
+            {
+                "booking_id": "4240003",
+                "is_private": "false",
+                "event_title": "EAAS4565 HOLD",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "146": {
+        "events": [
+            {
+                "booking_id": "4098511",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "4098528",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "3585396",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 285,
+                "adjusted_left": 450,
+                "adjusted_width": 735
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "425": {
+        "events": [
+            {
+                "booking_id": "4098532",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1200,
+                "original_width": 240,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1200,
+                "adjusted_width": 240
+            },
+            {
+                "booking_id": "4098515",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "424": {
+        "events": [
+            {
+                "booking_id": "4098531",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1200,
+                "original_width": 240,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1200,
+                "adjusted_width": 240
+            },
+            {
+                "booking_id": "4098514",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "428": {
+        "events": [
+            {
+                "booking_id": "4101025",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 60,
+                "adjusted_left": 0,
+                "adjusted_width": 60
+            },
+            {
+                "booking_id": "4101028",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 1140,
+                "original_width": 240,
+                "setup_width": 60,
+                "teardown_width": 0,
+                "adjusted_left": 1140,
+                "adjusted_width": 300
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "137": {
+        "events": [
+            {
+                "booking_id": "4098509",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "4098526",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "3585382",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 285,
+                "adjusted_left": 450,
+                "adjusted_width": 735
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "1497": {
+        "events": [
+            {
+                "booking_id": "4098538",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1200,
+                "original_width": 240,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1200,
+                "adjusted_width": 240
+            },
+            {
+                "booking_id": "4098521",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "1498": {
+        "events": [
+            {
+                "booking_id": "4261201",
+                "is_private": "false",
+                "event_title": "CEM AV - Team Meeting",
+                "original_left": 780,
+                "original_width": 60,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 780,
+                "adjusted_width": 60
+            },
+            {
+                "booking_id": "4098539",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1200,
+                "original_width": 240,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1200,
+                "adjusted_width": 240
+            },
+            {
+                "booking_id": "4098522",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "157": {
+        "events": [
+            {
+                "booking_id": "4098530",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098513",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "3585379",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 360,
+                "original_width": 420,
+                "setup_width": 120,
+                "teardown_width": 285,
+                "adjusted_left": 360,
+                "adjusted_width": 825
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "141": {
+        "events": [
+            {
+                "booking_id": "4098510",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "4098527",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "3585397",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 285,
+                "adjusted_left": 450,
+                "adjusted_width": 735
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "427": {
+        "events": [
+            {
+                "booking_id": "4098534",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098517",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "3585380",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 285,
+                "adjusted_left": 450,
+                "adjusted_width": 735
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "426": {
+        "events": [
+            {
+                "booking_id": "4098533",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098516",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "3585381",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 285,
+                "adjusted_left": 450,
+                "adjusted_width": 735
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "135": {
+        "events": [
+            {
+                "booking_id": "4098507",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "4098524",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "3585395",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 300,
+                "original_width": 570,
+                "setup_width": 120,
+                "teardown_width": 450,
+                "adjusted_left": 300,
+                "adjusted_width": 1140
+            },
+            {
+                "booking_id": "3585384",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 450,
+                "adjusted_width": 510
+            },
+            {
+                "booking_id": "3585373",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 0,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "134": {
+        "events": [
+            {
+                "booking_id": "3585395",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 300,
+                "original_width": 570,
+                "setup_width": 120,
+                "teardown_width": 450,
+                "adjusted_left": 300,
+                "adjusted_width": 1140
+            },
+            {
+                "booking_id": "3585373",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 0,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "132": {
+        "events": [
+            {
+                "booking_id": "3585395",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 300,
+                "original_width": 570,
+                "setup_width": 120,
+                "teardown_width": 450,
+                "adjusted_left": 300,
+                "adjusted_width": 1140
+            },
+            {
+                "booking_id": "3585373",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 0,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "131": {
+        "events": [
+            {
+                "booking_id": "3585373",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 0,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "3585395",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 300,
+                "original_width": 570,
+                "setup_width": 120,
+                "teardown_width": 450,
+                "adjusted_left": 300,
+                "adjusted_width": 1140
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "133": {
+        "events": [
+            {
+                "booking_id": "4098507",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            },
+            {
+                "booking_id": "4098524",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "3585384",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 450,
+                "original_width": 330,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 450,
+                "adjusted_width": 510
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "307": {
+        "events": [
+            {
+                "booking_id": "4098752",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098739",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "308": {
+        "events": [
+            {
+                "booking_id": "4098753",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098740",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "309": {
+        "events": [
+            {
+                "booking_id": "4098754",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098741",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "310": {
+        "events": [
+            {
+                "booking_id": "4098755",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098742",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "311": {
+        "events": [
+            {
+                "booking_id": "4098756",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098743",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "312": {
+        "events": [
+            {
+                "booking_id": "4098757",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098744",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "640": {
+        "events": [
+            {
+                "booking_id": "4098758",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098745",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "641": {
+        "events": [
+            {
+                "booking_id": "4098759",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098746",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "642": {
+        "events": [
+            {
+                "booking_id": "4098760",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1185,
+                "original_width": 240,
+                "setup_width": 15,
+                "teardown_width": 0,
+                "adjusted_left": 1185,
+                "adjusted_width": 255
+            },
+            {
+                "booking_id": "4098747",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 15,
+                "adjusted_left": 0,
+                "adjusted_width": 15
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "151": {
+        "events": [
+            {
+                "booking_id": "4098512",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": 30,
+                "adjusted_left": 0,
+                "adjusted_width": 30
+            },
+            {
+                "booking_id": "4098529",
+                "is_private": "false",
+                "event_title": "Building Holds",
+                "original_left": 1170,
+                "original_width": 240,
+                "setup_width": 30,
+                "teardown_width": 0,
+                "adjusted_left": 1170,
+                "adjusted_width": 270
+            },
+            {
+                "booking_id": "4237442",
+                "is_private": "false",
+                "event_title": "CSPA 101st Annual Convention",
+                "original_left": 360,
+                "original_width": 570,
+                "setup_width": 60,
+                "teardown_width": 180,
+                "adjusted_left": 360,
+                "adjusted_width": 810
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 30,
+            "is_closed": true
+        }
+    },
+    "2480": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "723": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "724": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "725": {
+        "events": [
+            {
+                "booking_id": "4222457",
+                "is_private": "false",
+                "event_title": "Natural Materials Lab: Ben-Alon",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "4222458",
+                "is_private": "false",
+                "event_title": "Natural Materials Lab: Ben-Alon",
+                "original_left": 0,
+                "original_width": 1440,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1440
+            }
+        ],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "726": {
+        "events": [
+            {
+                "booking_id": "3795468",
+                "is_private": "false",
+                "event_title": "OFFLINE: GSAPP Career Services",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "3795469",
+                "is_private": "false",
+                "event_title": "OFFLINE: GSAPP Career Services",
+                "original_left": 0,
+                "original_width": 1440,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1440
+            }
+        ],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2312": {
+        "events": [
+            {
+                "booking_id": "4202195",
+                "is_private": "false",
+                "event_title": "SPRING BREAK - Academic Holiday (No Classes Held)",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "4202196",
+                "is_private": "false",
+                "event_title": "SPRING BREAK - Academic Holiday (No Classes Held)",
+                "original_left": 0,
+                "original_width": 1440,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1440
+            }
+        ],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "728": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1303": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "729": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "874": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "794": {
+        "events": [],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "730": {
+        "events": [
+            {
+                "booking_id": "4265549",
+                "is_private": "false",
+                "event_title": "Dean's Meeting",
+                "original_left": 690,
+                "original_width": 180,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 690,
+                "adjusted_width": 180
+            }
+        ],
+        "closed_hours": {
+            "width": 510,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1831": {
+        "events": []
+    },
+    "1832": {
+        "events": [
+            {
+                "booking_id": "4197511",
+                "is_private": "false",
+                "event_title": "HOLD FOR ACTU/STATS (#72370)",
+                "original_left": 1150,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1150,
+                "adjusted_width": 75
+            }
+        ]
+    },
+    "875": {
+        "events": [
+            {
+                "booking_id": "4194852",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "4194853",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 990,
+                "original_width": 420,
+                "setup_width": 30,
+                "teardown_width": null,
+                "adjusted_left": 990,
+                "adjusted_width": 420
+            }
+        ],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "834": {
+        "events": [
+            {
+                "booking_id": "4255404",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 540,
+                "original_width": 540,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 540
+            }
+        ],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1324": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1381": {
+        "events": []
+    },
+    "2302": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2303": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2284": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2285": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2286": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2287": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2288": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2289": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2290": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2291": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2292": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2293": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2294": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2295": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2296": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2297": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2298": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2299": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2300": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2301": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "856": {
+        "events": [
+            {
+                "booking_id": "3926446",
+                "is_private": "false",
+                "event_title": "Bi-Weekly Meeting",
+                "original_left": 540,
+                "original_width": 60,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 540,
+                "adjusted_width": 240
+            }
+        ]
+    },
+    "842": {
+        "events": []
+    },
+    "843": {
+        "events": []
+    },
+    "844": {
+        "events": []
+    },
+    "857": {
+        "events": []
+    },
+    "852": {
+        "events": []
+    },
+    "853": {
+        "events": []
+    },
+    "866": {
+        "events": []
+    },
+    "854": {
+        "events": []
+    },
+    "855": {
+        "events": []
+    },
+    "864": {
+        "events": []
+    },
+    "863": {
+        "events": []
+    },
+    "876": {
+        "events": [
+            {
+                "booking_id": "4229503",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 300,
+                "original_width": 420,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 300,
+                "adjusted_width": 600
+            }
+        ]
+    },
+    "851": {
+        "events": [
+            {
+                "booking_id": "4229503",
+                "is_private": "false",
+                "event_title": "Education Week",
+                "original_left": 300,
+                "original_width": 420,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 300,
+                "adjusted_width": 600
+            }
+        ]
+    },
+    "846": {
+        "events": [
+            {
+                "booking_id": "4229503",
+                "is_private": "false",
+                "event_title": "Education Week",
+                "original_left": 300,
+                "original_width": 420,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 300,
+                "adjusted_width": 600
+            }
+        ]
+    },
+    "847": {
+        "events": [
+            {
+                "booking_id": "4229503",
+                "is_private": "false",
+                "event_title": "Education Week",
+                "original_left": 300,
+                "original_width": 420,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 300,
+                "adjusted_width": 600
+            }
+        ]
+    },
+    "848": {
+        "events": []
+    },
+    "849": {
+        "events": []
+    },
+    "861": {
+        "events": [
+            {
+                "booking_id": "4229503",
+                "is_private": "false",
+                "event_title": "Education Week",
+                "original_left": 300,
+                "original_width": 420,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 300,
+                "adjusted_width": 600
+            }
+        ]
+    },
+    "865": {
+        "events": []
+    },
+    "858": {
+        "events": []
+    },
+    "1414": {
+        "events": [],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1784": {
+        "events": [],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "787": {
+        "events": [],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "867": {
+        "events": [],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1647": {
+        "events": [
+            {
+                "booking_id": "4093566",
+                "is_private": "false",
+                "event_title": "OFFLINE: M.S. CCCP",
+                "original_left": 0,
+                "original_width": 0,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 0
+            },
+            {
+                "booking_id": "4093567",
+                "is_private": "false",
+                "event_title": "OFFLINE: M.S. CCCP",
+                "original_left": 0,
+                "original_width": 1440,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 0,
+                "adjusted_width": 1440
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "613": {
+        "events": [
+            {
+                "booking_id": "4256893",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            },
+            {
+                "booking_id": "4238225",
+                "is_private": "false",
+                "event_title": "ECON_4710_001_Recitation",
+                "original_left": 1010,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1010,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "614": {
+        "events": [
+            {
+                "booking_id": "4256902",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "664": {
+        "events": [
+            {
+                "booking_id": "4256896",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "659": {
+        "events": [],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "658": {
+        "events": [
+            {
+                "booking_id": "4256899",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "565": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "566": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "567": {
+        "events": [
+            {
+                "booking_id": "4241615",
+                "is_private": "false",
+                "event_title": "ECON_3213_003_Recitation(Tanal_G)",
+                "original_left": 530,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 530,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "568": {
+        "events": [
+            {
+                "booking_id": "4238211",
+                "is_private": "false",
+                "event_title": "ECON_3213_002_Recitation(Dasgupta_K)",
+                "original_left": 890,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 890,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "569": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "570": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "571": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "572": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "573": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "574": {
+        "events": [
+            {
+                "booking_id": "4219761",
+                "is_private": "false",
+                "event_title": "HIST1008_011&012&013 - Ancient History of Egypt - Recitation (Bilatudinov) ",
+                "original_left": 1080,
+                "original_width": 170,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1080,
+                "adjusted_width": 189
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1262": {
+        "events": [
+            {
+                "booking_id": "4221377",
+                "is_private": "false",
+                "event_title": "ECON_1105_001_Recitation(Gulati-06)",
+                "original_left": 1070,
+                "original_width": 75,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1070,
+                "adjusted_width": 94
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "575": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "576": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "578": {
+        "events": [
+            {
+                "booking_id": "4241119",
+                "is_private": "false",
+                "event_title": "ECON_1105_002_Recitation(Ge_B)",
+                "original_left": 950,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 950,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "579": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "580": {
+        "events": [
+            {
+                "booking_id": "4243104",
+                "is_private": "false",
+                "event_title": "OFFICE HOURS: TMGT_SPEC-5470K-001 Blockchain, Crypto, and Web 3.0",
+                "original_left": 1010,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1010,
+                "adjusted_width": 80
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "581": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "582": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "583": {
+        "events": [
+            {
+                "booking_id": "4247479",
+                "is_private": "false",
+                "event_title": "ARCH4310_001 - Barnard Course Move",
+                "original_left": 610,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4245143",
+                "is_private": "false",
+                "event_title": "ECON_4415_Recitation(Babak_S)",
+                "original_left": 470,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 470,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "584": {
+        "events": [
+            {
+                "booking_id": "4256932",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1261": {
+        "events": [
+            {
+                "booking_id": "4256935",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "585": {
+        "events": [
+            {
+                "booking_id": "4221392",
+                "is_private": "false",
+                "event_title": "ECON_1105_001_Recitation(Gulati-08)",
+                "original_left": 1130,
+                "original_width": 75,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1130,
+                "adjusted_width": 94
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "586": {
+        "events": [
+            {
+                "booking_id": "4253168",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 590,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 590,
+                "adjusted_width": 140
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "587": {
+        "events": [
+            {
+                "booking_id": "4256908",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            },
+            {
+                "booking_id": "4240111",
+                "is_private": "false",
+                "event_title": "ECON_4630_001_Recitations(Bierdel_A)",
+                "original_left": 1020,
+                "original_width": 60,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1020,
+                "adjusted_width": 60
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "589": {
+        "events": [
+            {
+                "booking_id": "4238522",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-R09 Macroeconomics",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "590": {
+        "events": [
+            {
+                "booking_id": "4238507",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-R08 Macroeconomics",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "591": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "592": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "593": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "594": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "595": {
+        "events": [
+            {
+                "booking_id": "4256911",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "596": {
+        "events": [
+            {
+                "booking_id": "4252867",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 620,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 620,
+                "adjusted_width": 140
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "597": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "598": {
+        "events": [
+            {
+                "booking_id": "4217168",
+                "is_private": "false",
+                "event_title": "BIOT4201 - Office Hours",
+                "original_left": 800,
+                "original_width": 170,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 800,
+                "adjusted_width": 170
+            },
+            {
+                "booking_id": "4242126",
+                "is_private": "false",
+                "event_title": "Second Year Chinese II 2202 001-005",
+                "original_left": 670,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 670,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4242187",
+                "is_private": "false",
+                "event_title": "Third Year Chinese N II 002 & 004",
+                "original_left": 550,
+                "original_width": 40,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 550,
+                "adjusted_width": 40
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "877": {
+        "events": [
+            {
+                "booking_id": "4256905",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "804": {
+        "events": [
+            {
+                "booking_id": "4243618",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 700,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 700,
+                "adjusted_width": 75
+            },
+            {
+                "booking_id": "4179883",
+                "is_private": "false",
+                "event_title": "CHEM Seminar",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "914": {
+        "events": [
+            {
+                "booking_id": "4256914",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1390": {
+        "events": [
+            {
+                "booking_id": "4111630",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6089U-001 Enviro Justice & Climate Resil",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4111196",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6499U-001 Hum Rights & Hum Pol Practicum",
+                "original_left": 960,
+                "original_width": 120,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 960,
+                "adjusted_width": 120
+            },
+            {
+                "booking_id": "4108903",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6548U-001 Artificial Intelligence Institutions",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1391": {
+        "events": [
+            {
+                "booking_id": "4111660",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6057U-001 Electricity Markets",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4247530",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 770,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 770,
+                "adjusted_width": 80
+            },
+            {
+                "booking_id": "4243187",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 1100,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1100,
+                "adjusted_width": 140
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1392": {
+        "events": [
+            {
+                "booking_id": "4111825",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6144U-001 Campaigning for Change",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4233313",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6659U-001 Advanced Computing for Policy",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4103154",
+                "is_private": "false",
+                "event_title": "EMPA_SIPA-6425U-001 Communicating in Organizations",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4114951",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6374U-001 Mainstream Gender- Global Affr",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1393": {
+        "events": [
+            {
+                "booking_id": "4102069",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-004 Macroeconomics",
+                "original_left": 555,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 555,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4102705",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-005 Macroeconomics",
+                "original_left": 660,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114486",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-R04 Macroeconomics",
+                "original_left": 1090,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114501",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-R03 Macroeconomics",
+                "original_left": 970,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114516",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-R02 Macroeconomics",
+                "original_left": 860,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 860,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114531",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-R01 Macroeconomics",
+                "original_left": 760,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 760,
+                "adjusted_width": 90
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1394": {
+        "events": [
+            {
+                "booking_id": "4114064",
+                "is_private": "false",
+                "event_title": "PEPM_SIPA-6640U-001 Macroeconometrics",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1395": {
+        "events": [
+            {
+                "booking_id": "4111137",
+                "is_private": "false",
+                "event_title": "PEPM_SIPA-8250U-001 Financial Development",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4111772",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6391U-001 Conflict Resolution",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4111278",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-8145U-001 Advanced Economic Development",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4112165",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-8145U-002 Advanced Economic Development",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4114094",
+                "is_private": "false",
+                "event_title": "PUAF_SIPA-6312U-001 Campaign Management",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1396": {
+        "events": [
+            {
+                "booking_id": "4089988",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-075 Capstone Workshop",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090123",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-059 Capstone Workshop",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090333",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-043 Capstone Workshop",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4197969",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9001U-014 Capstone Workshop-Dev Practice",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1397": {
+        "events": [
+            {
+                "booking_id": "4240062",
+                "is_private": "false",
+                "event_title": "REGN_SIPA-6719U-001 Middle East Conflicts & Global Security",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4265936",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 530,
+                "original_width": 540,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 560
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1463": {
+        "events": [
+            {
+                "booking_id": "4111188",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6692U-001 Sustainable Finance II",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4202206",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9001U-011 Capstone Workshop-Dev Practice",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225597",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-8878U-001 Nuclear Theory, Politics, & Strategies",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "822": {
+        "events": [
+            {
+                "booking_id": "4103253",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6301U-003 Macroeconomics",
+                "original_left": 855,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 855,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114866",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-R06 Macroeconomic Analysis",
+                "original_left": 1090,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114881",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-R05 Macroeconomic Analysis",
+                "original_left": 970,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4172396",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6065U-R02 The Economics of Energy",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4172360",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6016U-R01 Leading & Managing",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4254276",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 770,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 770,
+                "adjusted_width": 80
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1398": {
+        "events": [
+            {
+                "booking_id": "4115083",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6011U-R01 Strategic Mgmt- Nonprofit Orgs",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4099230",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6310U-001 Nonprofit Financial Management",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4091958",
+                "is_private": "false",
+                "event_title": "PUAF_SIPA-6411U-001 Universal Food Security",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4108437",
+                "is_private": "false",
+                "event_title": "ENVP_SIPA-8216U-001 Microecon & Policy Analysis II",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4175961",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 780,
+                "original_width": 60,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 780,
+                "adjusted_width": 60
+            },
+            {
+                "booking_id": "4111524",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6602U-001 Economic Development",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1399": {
+        "events": [
+            {
+                "booking_id": "4101172",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-003 Macroeconomic Analysis",
+                "original_left": 555,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 555,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4101142",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-004 Macroeconomic Analysis",
+                "original_left": 660,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4101112",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-005 Macroeconomic Analysis",
+                "original_left": 855,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 855,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4233298",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-8645U-001 Foreign Exchange Markets",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4114926",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-R02 Macroeconomic Analysis",
+                "original_left": 970,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4114773",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-R01 Macroeconomic Analysis",
+                "original_left": 760,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 760,
+                "adjusted_width": 90
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1400": {
+        "events": [
+            {
+                "booking_id": "4092113",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-072 Capstone Workshop",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090138",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-058 Capstone Workshop",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090438",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-035 Capstone Workshop",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090543",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-028 Capstone Workshop",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090753",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-014 Capstone Workshop",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "660": {
+        "events": [
+            {
+                "booking_id": "4216289",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-060 Capstone Workshop",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4092180",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9000U-074 Capstone Workshop",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4111570",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6123U-001 Storytelling for Social Change: Skills and Narratives",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225582",
+                "is_private": "false",
+                "event_title": "PUAF_SIPA-6216U-001 Policy Through Partnerships for the Livable City",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "661": {
+        "events": [
+            {
+                "booking_id": "4108865",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6774U-001 Public Policy & Inequality in Developing Countries",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4108850",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-6774U-002 Public Policy & Inequality in Developing Countries",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4197984",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9001U-012 Capstone Workshop-Dev Practice",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "662": {
+        "events": [
+            {
+                "booking_id": "4197893",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-9001U-013 Capstone Workshop-Dev Practice",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "826": {
+        "events": [
+            {
+                "booking_id": "4111795",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225925",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4111167",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4202236",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225694",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1464": {
+        "events": [
+            {
+                "booking_id": "4090603",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090648",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090708",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090738",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4090903",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 660,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "599": {
+        "events": [
+            {
+                "booking_id": "4265336",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "600": {
+        "events": [
+            {
+                "booking_id": "4265337",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "653": {
+        "events": [
+            {
+                "booking_id": "4265341",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "601": {
+        "events": [
+            {
+                "booking_id": "4265338",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "602": {
+        "events": [
+            {
+                "booking_id": "4265071",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "603": {
+        "events": [
+            {
+                "booking_id": "4265339",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "604": {
+        "events": [
+            {
+                "booking_id": "4265072",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "605": {
+        "events": [
+            {
+                "booking_id": "4265340",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1259": {
+        "events": [
+            {
+                "booking_id": "4265342",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "606": {
+        "events": [],
+        "closed_hours": {
+            "width": 450,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1431": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1432": {
+        "events": [
+            {
+                "booking_id": "4230660",
+                "is_private": "false",
+                "event_title": "HOLD FOR STAT",
+                "original_left": 1090,
+                "original_width": 85,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 85
+            },
+            {
+                "booking_id": "4248188",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 530,
+                "original_width": 65,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 530,
+                "adjusted_width": 65
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1433": {
+        "events": [
+            {
+                "booking_id": "4249429",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 1070,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1070,
+                "adjusted_width": 140
+            },
+            {
+                "booking_id": "4237296",
+                "is_private": "false",
+                "event_title": "ECON_3025_001_Recitation(Feinberg_Y)",
+                "original_left": 950,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 950,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1434": {
+        "events": [
+            {
+                "booking_id": "4244922",
+                "is_private": "false",
+                "event_title": "First Year Chinese II (Sec 001 - 006)",
+                "original_left": 790,
+                "original_width": 50,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 50
+            },
+            {
+                "booking_id": "4249460",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 1070,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1070,
+                "adjusted_width": 140
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1435": {
+        "events": [
+            {
+                "booking_id": "4220354",
+                "is_private": "false",
+                "event_title": "HIST27180_001 - The Ottoman Empire and the West in the Long Nineteenth Century - Receitation (Mitsopolous)",
+                "original_left": 1020,
+                "original_width": 50,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1020,
+                "adjusted_width": 69
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1436": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1437": {
+        "events": [
+            {
+                "booking_id": "4256076",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 590,
+                "original_width": 240,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 590,
+                "adjusted_width": 260
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1637": {
+        "events": [
+            {
+                "booking_id": "4258157",
+                "is_private": "false",
+                "event_title": "PHYS4050 - Office Hours - ASK0836064",
+                "original_left": 660,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 660,
+                "adjusted_width": 90
+            },
+            {
+                "booking_id": "4237664",
+                "is_private": "false",
+                "event_title": "ECON_3412_003_Recitation_CLab(Abbas_Z)",
+                "original_left": 1070,
+                "original_width": 90,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1070,
+                "adjusted_width": 109
+            },
+            {
+                "booking_id": "4238281",
+                "is_private": "false",
+                "event_title": "ECON_3412_001_Recitation_CLab(Kuruvila_T)",
+                "original_left": 530,
+                "original_width": 90,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 530,
+                "adjusted_width": 109
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1636": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1783": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1448": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1634": {
+        "events": [
+            {
+                "booking_id": "4235024",
+                "is_private": "false",
+                "event_title": "NMED 4001: DISCUSSION SESSIONS",
+                "original_left": 1070,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1070,
+                "adjusted_width": 80
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1633": {
+        "events": [
+            {
+                "booking_id": "4226084",
+                "is_private": "false",
+                "event_title": "HIST2664_001&002 - Mexico from Revolution to Democracy - Recitation (Pan)",
+                "original_left": 840,
+                "original_width": 110,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 840,
+                "adjusted_width": 129
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1841": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1632": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1631": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1630": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1629": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1628": {
+        "events": [
+            {
+                "booking_id": "4239963",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1627": {
+        "events": [
+            {
+                "booking_id": "4249689",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 590,
+                "original_width": 240,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 590,
+                "adjusted_width": 260
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1626": {
+        "events": [
+            {
+                "booking_id": "4220255",
+                "is_private": "false",
+                "event_title": "HIST2437_001&002 - Political Hisotry of Contemporary Africa - Recitation (Djacko) ",
+                "original_left": 900,
+                "original_width": 110,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 900,
+                "adjusted_width": 129
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "704": {
+        "events": [
+            {
+                "booking_id": "4264890",
+                "is_private": "false",
+                "event_title": "UPE Meetings",
+                "original_left": 420,
+                "original_width": 600,
+                "setup_width": 60,
+                "teardown_width": 60,
+                "adjusted_left": 420,
+                "adjusted_width": 720
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "699": {
+        "events": [
+            {
+                "booking_id": "4187440",
+                "is_private": "false",
+                "event_title": "CSPA 2025",
+                "original_left": 360,
+                "original_width": 375,
+                "setup_width": 180,
+                "teardown_width": 45,
+                "adjusted_left": 360,
+                "adjusted_width": 600
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "698": {
+        "events": [
+            {
+                "booking_id": "3797569",
+                "is_private": "false",
+                "event_title": "CSPA 2025",
+                "original_left": 360,
+                "original_width": 120,
+                "setup_width": 330,
+                "teardown_width": 150,
+                "adjusted_left": 360,
+                "adjusted_width": 600
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "700": {
+        "events": [
+            {
+                "booking_id": "4264884",
+                "is_private": "false",
+                "event_title": "UPE Meetings",
+                "original_left": 420,
+                "original_width": 600,
+                "setup_width": 60,
+                "teardown_width": 60,
+                "adjusted_left": 420,
+                "adjusted_width": 720
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "732": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "793": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "733": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2459": {
+        "events": [
+            {
+                "booking_id": "4241896",
+                "is_private": "false",
+                "event_title": "Intro to Chinese A (001 & 002)",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4242003",
+                "is_private": "false",
+                "event_title": "First Year Chinese II (Sec 001 - 006)",
+                "original_left": 610,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4242018",
+                "is_private": "false",
+                "event_title": "First Year Chinese II (Sec 001 - 006)",
+                "original_left": 970,
+                "original_width": 170,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 170
+            }
+        ]
+    },
+    "2460": {
+        "events": []
+    },
+    "2461": {
+        "events": []
+    },
+    "2462": {
+        "events": []
+    },
+    "2463": {
+        "events": [
+            {
+                "booking_id": "4251221",
+                "is_private": "false",
+                "event_title": "COMS Seminar ",
+                "original_left": 1050,
+                "original_width": 120,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1050,
+                "adjusted_width": 120
+            },
+            {
+                "booking_id": "4237907",
+                "is_private": "false",
+                "event_title": "ECON_1105_002_Recitation(Elias_M)",
+                "original_left": 950,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 950,
+                "adjusted_width": 79
+            }
+        ]
+    },
+    "2464": {
+        "events": []
+    },
+    "2465": {
+        "events": []
+    },
+    "2466": {
+        "events": []
+    },
+    "2467": {
+        "events": []
+    },
+    "615": {
+        "events": [
+            {
+                "booking_id": "4256917",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "788": {
+        "events": [
+            {
+                "booking_id": "4256920",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "616": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "617": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1430": {
+        "events": [
+            {
+                "booking_id": "4222156",
+                "is_private": "false",
+                "event_title": "ECON_1105_003_Recitation(Patel_E)",
+                "original_left": 890,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 890,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1260": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "618": {
+        "events": [
+            {
+                "booking_id": "4106145",
+                "is_private": "false",
+                "event_title": "Ritt Lectures/PDE Seminar",
+                "original_left": 880,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 880,
+                "adjusted_width": 75
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "607": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "608": {
+        "events": [
+            {
+                "booking_id": "4237400",
+                "is_private": "false",
+                "event_title": "ECON_1105_002_Recitation(Colomer_C)",
+                "original_left": 1070,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1070,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "609": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1439": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "610": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "611": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "612": {
+        "events": [
+            {
+                "booking_id": "4245092",
+                "is_private": "false",
+                "event_title": "CSOR4231 - Recitation ASK0828619 ",
+                "original_left": 720,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 720,
+                "adjusted_width": 90
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1440": {
+        "events": [
+            {
+                "booking_id": "4237414",
+                "is_private": "false",
+                "event_title": "ECON_1105_002_Recitation(Colomer_C)",
+                "original_left": 1130,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1130,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "773": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1282": {
+        "events": [
+            {
+                "booking_id": "4256926",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 330,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1402": {
+        "events": [],
+        "closed_hours": {
+            "width": 330,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1403": {
+        "events": [],
+        "closed_hours": {
+            "width": 330,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1442": {
+        "events": [
+            {
+                "booking_id": "4265073",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1443": {
+        "events": [
+            {
+                "booking_id": "4265074",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1444": {
+        "events": [
+            {
+                "booking_id": "4265075",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1445": {
+        "events": [
+            {
+                "booking_id": "4265076",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1446": {
+        "events": [
+            {
+                "booking_id": "4265077",
+                "is_private": "false",
+                "event_title": "FACILITIES CLASSROOM REFRESH",
+                "original_left": 420,
+                "original_width": 900,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 420,
+                "adjusted_width": 900
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "619": {
+        "events": [
+            {
+                "booking_id": "4221349",
+                "is_private": "false",
+                "event_title": "ECON_1105_001(Gulati-4)",
+                "original_left": 890,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 890,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "620": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "621": {
+        "events": [
+            {
+                "booking_id": "4241514",
+                "is_private": "false",
+                "event_title": "ECON_3211_001_Recitation(Lee_M)",
+                "original_left": 1010,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1010,
+                "adjusted_width": 79
+            },
+            {
+                "booking_id": "4254252",
+                "is_private": "false",
+                "event_title": "Professor Yip Subgroup Lab Meeting ",
+                "original_left": 890,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 890,
+                "adjusted_width": 80
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "622": {
+        "events": [
+            {
+                "booking_id": "4256929",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1427": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "623": {
+        "events": [
+            {
+                "booking_id": "4243921",
+                "is_private": "false",
+                "event_title": "PHYS1402 - Office Hours ASK0827623",
+                "original_left": 695,
+                "original_width": 85,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 695,
+                "adjusted_width": 85
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "624": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "878": {
+        "events": [
+            {
+                "booking_id": "4254502",
+                "is_private": "false",
+                "event_title": "SciRISE - Department of Chemical Engineering",
+                "original_left": 960,
+                "original_width": 110,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 960,
+                "adjusted_width": 130
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "625": {
+        "events": [
+            {
+                "booking_id": "4219856",
+                "is_private": "false",
+                "event_title": "HIST1021_003&004 - The Romans & Their World - Recitation (Nelkin )",
+                "original_left": 900,
+                "original_width": 110,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 900,
+                "adjusted_width": 129
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "626": {
+        "events": [
+            {
+                "booking_id": "4249874",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 740,
+                "original_width": 90,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 740,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4237282",
+                "is_private": "false",
+                "event_title": "ECON_2261_001_Recitation(Yang_X)",
+                "original_left": 1010,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1010,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "627": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "628": {
+        "events": [
+            {
+                "booking_id": "4244230",
+                "is_private": "false",
+                "event_title": "PHYS6038 - Recitation - ASK0827612",
+                "original_left": 730,
+                "original_width": 60,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 730,
+                "adjusted_width": 60
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "629": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1374": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "903": {
+        "events": [
+            {
+                "booking_id": "3901395",
+                "is_private": "false",
+                "event_title": "Residential Life- Hold",
+                "original_left": 1170,
+                "original_width": 210,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1170,
+                "adjusted_width": 210
+            }
+        ],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "419": {
+        "events": [
+            {
+                "booking_id": "3901394",
+                "is_private": "false",
+                "event_title": "Residential Life- Hold",
+                "original_left": 1170,
+                "original_width": 210,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1170,
+                "adjusted_width": 210
+            }
+        ],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "906": {
+        "events": [],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "347": {
+        "events": [
+            {
+                "booking_id": "3901392",
+                "is_private": "false",
+                "event_title": "Residential Life- Hold",
+                "original_left": 1170,
+                "original_width": 210,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1170,
+                "adjusted_width": 210
+            }
+        ],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "348": {
+        "events": [
+            {
+                "booking_id": "3901393",
+                "is_private": "false",
+                "event_title": "Residential Life- Hold",
+                "original_left": 1170,
+                "original_width": 210,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1170,
+                "adjusted_width": 210
+            }
+        ],
+        "closed_hours": {
+            "width": 540,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "345": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "418": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1280": {
+        "events": [
+            {
+                "booking_id": "4222556",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 1010,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1010,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "892": {
+        "events": [
+            {
+                "booking_id": "4256887",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1428": {
+        "events": [
+            {
+                "booking_id": "4107752",
+                "is_private": "false",
+                "event_title": "Earth & Environ.Science",
+                "original_left": 610,
+                "original_width": 165,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 165
+            },
+            {
+                "booking_id": "4107804",
+                "is_private": "false",
+                "event_title": "Earth & Environ Science",
+                "original_left": 970,
+                "original_width": 170,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 170
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1272": {
+        "events": [
+            {
+                "booking_id": "4185834",
+                "is_private": "false",
+                "event_title": "HOLD FOR STAT 4204_003",
+                "original_left": 1090,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 75
+            },
+            {
+                "booking_id": "4256938",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1266": {
+        "events": [
+            {
+                "booking_id": "4256890",
+                "is_private": "false",
+                "event_title": "Columbia Scholastic Press Associaton 101st Convention",
+                "original_left": 530,
+                "original_width": 450,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 470
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1279": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1281": {
+        "events": [
+            {
+                "booking_id": "4222828",
+                "is_private": "false",
+                "event_title": "ECON_3025_001_Recitation(Li_X)",
+                "original_left": 950,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 950,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1429": {
+        "events": [
+            {
+                "booking_id": "4222541",
+                "is_private": "false",
+                "event_title": "ECON_4020_001_Recitation(Wittbrodt_C)",
+                "original_left": 890,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 890,
+                "adjusted_width": 79
+            }
+        ],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1447": {
+        "events": [],
+        "closed_hours": {
+            "width": 480,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "810": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "895": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "808": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "809": {
+        "events": [],
+        "closed_hours": {
+            "width": 1440,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2036": {
+        "events": [],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1822": {
+        "events": [],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "2035": {
+        "events": [],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1823": {
+        "events": [
+            {
+                "booking_id": "4263406",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 390,
+                "original_width": 510,
+                "setup_width": 120,
+                "teardown_width": 60,
+                "adjusted_left": 390,
+                "adjusted_width": 690
+            }
+        ],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1298": {
+        "events": [],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1299": {
+        "events": [],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1300": {
+        "events": [],
+        "closed_hours": {
+            "width": 360,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "696": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "697": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1255": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1582": {
+        "events": [
+            {
+                "booking_id": "4249819",
+                "is_private": "false",
+                "event_title": "Community Impact",
+                "original_left": 590,
+                "original_width": 240,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 590,
+                "adjusted_width": 260
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1581": {
+        "events": [
+            {
+                "booking_id": "4218762",
+                "is_private": "false",
+                "event_title": "SIPA_SIPA-6401U-R10 Macroeconomic Analysis",
+                "original_left": 855,
+                "original_width": 90,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 855,
+                "adjusted_width": 90
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "694": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1580": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "695": {
+        "events": [
+            {
+                "booking_id": "4265875",
+                "is_private": "false",
+                "event_title": "Local 2110- Union Meeting ",
+                "original_left": 710,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 710,
+                "adjusted_width": 140
+            }
+        ],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1579": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1915": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1578": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1577": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1576": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1916": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1575": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1574": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1573": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1572": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1571": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    },
+    "1570": {
+        "events": [],
+        "closed_hours": {
+            "width": 420,
+            "left_position": 0,
+            "is_closed": true
+        }
+    }
+}

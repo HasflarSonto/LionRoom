@@ -5,6 +5,7 @@
   let roomsData = [];
   let roomNames = {};
   let buildingsData = {};
+  let classroomInfo = {};
   let viewMode = 'all'; // 'all' or 'buildings'
   let loadingError = null;
   let lastUpdateTime = null;
@@ -15,24 +16,31 @@
   async function fetchData() {
     isLoading = true;
     try {
-      // Fetch room availability, names, and buildings data
-      const [availabilityRes, namesRes, buildingsRes] = await Promise.all([
+      // Fetch all data in parallel
+      const [availabilityRes, namesRes, buildingsRes, classroomInfoRes] = await Promise.all([
         fetch('/api/room_availability'),
         fetch('/api/room_names'),
-        fetch('/src/lib/data/buildings.json')
+        fetch('/src/lib/data/buildings.json'),
+        fetch('/api/classroom_info')
       ]);
 
       const availability = await availabilityRes.json();
       roomNames = await namesRes.json();
-      
-      // Convert the availability data into an array of rooms
+      classroomInfo = await classroomInfoRes.json();
+
+      // Map rooms with their info
       roomsData = Object.entries(availability)
-        .map(([id, timeRanges]) => ({
-          id,
-          name: roomNames[id],
-          availability: timeRanges || []  // Pass the time ranges array directly
-        }))
-        .sort((a, b) => a.name?.localeCompare(b.name) || a.id.localeCompare(b.id)); // Sort by name, fallback to id
+        .map(([id, timeRanges]) => {
+          const name = roomNames[id];
+          return {
+            id,
+            name,
+            availability: timeRanges || [],
+            // Look up room info using the room name as the key
+            info: name ? classroomInfo[name.toLowerCase()] : null
+          };
+        })
+        .sort((a, b) => a.name?.localeCompare(b.name) || a.id.localeCompare(b.id));
         
       try {
         if (buildingsRes.ok) {
@@ -189,6 +197,7 @@
           roomId={room.id}
           roomName={room.name}
           availability={room.availability}
+          roomInfo={room.info}
         />
       {/each}
     </div>
@@ -204,6 +213,7 @@
                   roomId={room.id}
                   roomName={room.name}
                   availability={room.availability}
+                  roomInfo={room.info}
                 />
               {/each}
             </div>
