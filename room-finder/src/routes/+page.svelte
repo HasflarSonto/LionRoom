@@ -26,8 +26,8 @@
   
   // Filter options
   const roomTypes = ['any', 'seminar', 'classroom', 'lecture hall', 'auditorium', 'computer lab'];
-  const seatingStyles = ['any', 'fixed chairs', 'movable chairs'];
-  const tableStyles = ['any', 'movable tables', 'fixed tables', 'movable tablets', 'fixed tablets'];
+  const seatingStyles = ['any', 'fixed chairs', 'moveable chairs'];
+  const tableStyles = ['any', 'moveable tables', 'fixed tables', 'moveable tablets', 'fixed tablets'];
 
   // Function to fetch all data
   async function fetchData() {
