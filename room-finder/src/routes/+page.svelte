@@ -57,19 +57,19 @@
       roomNames = await namesRes.json();
       classroomInfo = await classroomInfoRes.json();
 
-      // Debug logging
-      console.log('Room availability entries:', Object.keys(availability).length);
-      console.log('Room names entries:', Object.keys(roomNames).length);
-      console.log('Classroom info entries:', Object.keys(classroomInfo).length);
+      // // Debug logging
+      // console.log('Room availability entries:', Object.keys(availability).length);
+      // console.log('Room names entries:', Object.keys(roomNames).length);
+      // console.log('Classroom info entries:', Object.keys(classroomInfo).length);
       
-      // Sample data checks
-      console.log('Sample availability entry:', Object.entries(availability)[0]);
-      console.log('Sample room name entry:', Object.entries(roomNames)[0]);
-      console.log('Sample classroom info entry:', Object.entries(classroomInfo)[0]);
+      // // Sample data checks
+      // console.log('Sample availability entry:', Object.entries(availability)[0]);
+      // console.log('Sample room name entry:', Object.entries(roomNames)[0]);
+      // console.log('Sample classroom info entry:', Object.entries(classroomInfo)[0]);
 
-      // Add this before the map operation to identify missing room names
-      const missingNames = Object.keys(availability).filter(id => !roomNames[id]);
-      console.log('Room IDs missing from roomNames:', missingNames);
+      // // Add this before the map operation to identify missing room names
+      // const missingNames = Object.keys(availability).filter(id => !roomNames[id]);
+      // console.log('Room IDs missing from roomNames:', missingNames);
 
       // Map rooms with their info
       roomsData = Object.entries(availability)
@@ -77,10 +77,10 @@
           const name = roomNames[id];
           const info = name ? classroomInfo[name.toLowerCase()] : null;
           
-          // Debug specific rooms that don't match up
-          if (name && !info) {
-            console.log(`Missing info for room: ${name} (ID: ${id})`);
-          }
+          // // Debug specific rooms that don't match up
+          // if (name && !info) {
+          //   console.log(`Missing info for room: ${name} (ID: ${id})`);
+          // }
           
           return {
             id,
@@ -93,7 +93,7 @@
         .filter(room => room.name)
         .sort((a, b) => a.name?.localeCompare(b.name) || a.id.localeCompare(b.id));
       
-      console.log('Total processed rooms:', roomsData.length);
+      //console.log('Total processed rooms:', roomsData.length);
       
       try {
         if (buildingsRes.ok) {
@@ -115,7 +115,7 @@
           lastUpdateTime = new Date(updateData.timestamp);
         }
       } catch (e) {
-        console.log('No update timestamp available');
+        //console.log('No update timestamp available');
       }
       
       loadingError = null;
@@ -137,7 +137,7 @@
         
         // If we have a new update and it's different from our current data
         if (!lastUpdateTime || newUpdateTime > lastUpdateTime) {
-          console.log('New data available, refreshing...');
+          //console.log('New data available, refreshing...');
           lastUpdateTime = newUpdateTime;
           await fetchData();
         }
@@ -195,11 +195,11 @@
 
   // Update the filterRooms function to include search functionality
   function filterRooms(rooms) {
-    console.log('Applying filters:', JSON.stringify(filters));
+    //console.log('Applying filters:', JSON.stringify(filters));
     
     // Return early if rooms is empty or not an array
     if (!rooms || !Array.isArray(rooms) || rooms.length === 0) {
-      console.log('No rooms to filter');
+      //console.log('No rooms to filter');
       return [];
     }
     
@@ -227,7 +227,7 @@
             const currentMinutes = now.getMinutes();
             const currentTimeInMinutes = currentHour * 60 + currentMinutes;
             
-            console.log(`Current time: ${currentHour}:${currentMinutes} (${currentTimeInMinutes} minutes)`);
+            //console.log(`Current time: ${currentHour}:${currentMinutes} (${currentTimeInMinutes} minutes)`);
             
             // Check if current time falls within any availability window
             let isCurrentlyAvailable = false;
@@ -247,22 +247,22 @@
                   endMinutes = 24 * 60; // End of day
                 }
                 
-                console.log(`Room ${room.name} time range: ${start} (${startMinutes}) - ${end} (${endMinutes})`);
+                //console.log(`Room ${room.name} time range: ${start} (${startMinutes}) - ${end} (${endMinutes})`);
                 
                 if (currentTimeInMinutes >= startMinutes && currentTimeInMinutes < endMinutes) {
                   isCurrentlyAvailable = true;
-                  console.log(`Room ${room.name} is currently available`);
+                  //console.log(`Room ${room.name} is currently available`);
                   break;
                 }
               }
             }
             
             if (!isCurrentlyAvailable) {
-              console.log(`Room ${room.name} is NOT currently available`);
+              //console.log(`Room ${room.name} is NOT currently available`);
               return false;
             }
           } catch (error) {
-            console.error('Error checking availability for room:', room.name, error);
+            //console.error('Error checking availability for room:', room.name, error);
             return false;
           }
         }
@@ -339,7 +339,7 @@
         return true;
       });
       
-      console.log(`Filtered ${rooms.length} rooms down to ${filteredRooms.length} rooms`);
+      //console.log(`Filtered ${rooms.length} rooms down to ${filteredRooms.length} rooms`);
       return filteredRooms;
     } catch (error) {
       console.error('Error in filterRooms:', error);
@@ -380,7 +380,7 @@
   
   // Add a function to trigger re-filtering
   function applyFilters() {
-    console.log('Manually applying filters');
+    //console.log('Manually applying filters');
     filteredRoomsData = filterRooms(roomsData);
   }
   
@@ -389,7 +389,7 @@
   function checkFiltersChanged() {
     const currentState = JSON.stringify(filters);
     if (currentState !== lastFilterState) {
-      console.log('Filters changed, reapplying filters');
+      //console.log('Filters changed, reapplying filters');
       lastFilterState = currentState;
       applyFilters();
     }
@@ -405,21 +405,21 @@
   function updateCheckbox(key, event) {
     filters[key] = event.target.checked;
     filters = {...filters}; // Create a new object to ensure reactivity
-    console.log(`Updated ${key} to ${filters[key]}`);
+    //console.log(`Updated ${key} to ${filters[key]}`);
     applyFilters(); // Force refiltering
   }
   
   function updateInputValue(key, event) {
     filters[key] = event.target.value;
     filters = {...filters}; // Create a new object to ensure reactivity
-    console.log(`Updated ${key} to ${filters[key]}`);
+    //console.log(`Updated ${key} to ${filters[key]}`);
     applyFilters(); // Force refiltering
   }
   
   function updateSelectValue(key, event) {
     filters[key] = event.target.value;
     filters = {...filters}; // Create a new object to ensure reactivity
-    console.log(`Updated ${key} to ${filters[key]}`);
+    //console.log(`Updated ${key} to ${filters[key]}`);
     applyFilters(); // Force refiltering
   }
   
@@ -436,7 +436,7 @@
       seatingStyle: 'any',
       tableStyle: 'any'
     };
-    console.log('Filters reset');
+    //console.log('Filters reset');
     applyFilters(); // Force refiltering
   }
   
@@ -459,7 +459,7 @@
   function handleSearch(event) {
     filters.searchQuery = event.target.value;
     filters = {...filters}; // Create a new object to ensure reactivity
-    console.log(`Updated search query to: "${filters.searchQuery}"`);
+    //console.log(`Updated search query to: "${filters.searchQuery}"`);
     applyFilters(); // Force refiltering
   }
 
@@ -473,11 +473,11 @@
     // Debug availability
     setTimeout(() => {
       if (roomsData.length > 0) {
-        console.log('Checking availability for sample rooms:');
+        //console.log('Checking availability for sample rooms:');
         roomsData.slice(0, 5).forEach(room => {
           const isAvailable = checkRoomAvailability(room);
-          console.log(`Room ${room.name}: ${isAvailable ? 'Available' : 'Not Available'}`);
-          console.log(`Availability windows:`, room.availability);
+          //console.log(`Room ${room.name}: ${isAvailable ? 'Available' : 'Not Available'}`);
+          //console.log(`Availability windows:`, room.availability);
         });
       }
     }, 2000);
