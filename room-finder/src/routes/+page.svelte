@@ -57,20 +57,44 @@
       roomNames = await namesRes.json();
       classroomInfo = await classroomInfoRes.json();
 
+      // Debug logging
+      console.log('Room availability entries:', Object.keys(availability).length);
+      console.log('Room names entries:', Object.keys(roomNames).length);
+      console.log('Classroom info entries:', Object.keys(classroomInfo).length);
+      
+      // Sample data checks
+      console.log('Sample availability entry:', Object.entries(availability)[0]);
+      console.log('Sample room name entry:', Object.entries(roomNames)[0]);
+      console.log('Sample classroom info entry:', Object.entries(classroomInfo)[0]);
+
+      // Add this before the map operation to identify missing room names
+      const missingNames = Object.keys(availability).filter(id => !roomNames[id]);
+      console.log('Room IDs missing from roomNames:', missingNames);
+
       // Map rooms with their info
       roomsData = Object.entries(availability)
         .map(([id, timeRanges]) => {
           const name = roomNames[id];
+          const info = name ? classroomInfo[name.toLowerCase()] : null;
+          
+          // Debug specific rooms that don't match up
+          if (name && !info) {
+            console.log(`Missing info for room: ${name} (ID: ${id})`);
+          }
+          
           return {
             id,
             name,
             availability: timeRanges || [],
-            // Look up room info using the room name as the key
-            info: name ? classroomInfo[name.toLowerCase()] : null
+            info: info
           };
         })
+        // Filter out rooms without names in the room_names.json file
+        .filter(room => room.name)
         .sort((a, b) => a.name?.localeCompare(b.name) || a.id.localeCompare(b.id));
-        
+      
+      console.log('Total processed rooms:', roomsData.length);
+      
       try {
         if (buildingsRes.ok) {
           buildingsData = await buildingsRes.json();
@@ -509,6 +533,19 @@
     });
     
     return roomsByBuilding;
+  }
+
+  function getPhotoUrl(roomId, roomName) {
+    if (!roomName) return null;
+
+    const parts = roomName.split(' ');
+    if (parts.length < 2) return null;
+
+    let building = parts.slice(0, parts.length-1).join('_').toLowerCase();
+    let roomNumber = parts[parts.length-1];
+
+    const photoPath = `/src/lib/data/photos/${building}_${roomNumber}_1`;
+    return `${photoPath}.jpg`;
   }
 </script>
 
