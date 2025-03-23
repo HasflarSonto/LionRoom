@@ -76,13 +76,27 @@
         .map(([id, timeRanges]) => {
           // Get the room name and trim it to remove any whitespace
           const name = roomNames[id] ? roomNames[id].trim() : null;
-          // Look up classroom info, also using trimmed and lowercase name
-          const info = name ? classroomInfo[name.toLowerCase()] : null;
           
-          // Debug specific rooms that don't match up
-          // if (name && !info) {
-          //   console.log(`Missing info for room: ${name} (ID: ${id})`);
-          // }
+          // Modified lookup approach for classroom info (case-insensitive)
+          let info = null;
+          if (name) {
+            const nameKey = name.toLowerCase();
+            
+            // First try direct lookup with lowercase
+            info = classroomInfo[nameKey];
+            
+            // If not found, try case-insensitive search across all keys
+            if (!info) {
+              // Find a key that matches case-insensitively
+              const matchingKey = Object.keys(classroomInfo).find(
+                key => key.toLowerCase() === nameKey
+              );
+              
+              if (matchingKey) {
+                info = classroomInfo[matchingKey];
+              }
+            }
+          }
           
           return {
             id,
@@ -425,7 +439,7 @@
     applyFilters(); // Force refiltering
   }
   
-  // Update the reset function to clear search as well
+  // Update the reset function to clear search and reset view mode
   function resetFilters() {
     filters = {
       searchQuery: '',         // Reset search query
@@ -438,6 +452,10 @@
       seatingStyle: 'any',
       tableStyle: 'any'
     };
+    
+    // Also reset view mode to 'all'
+    viewMode = 'all';
+    
     //console.log('Filters reset');
     applyFilters(); // Force refiltering
   }
@@ -560,7 +578,10 @@
 
 <div class="container">
   <header class="header">
-    <a href="/">Lion Room &#129409;</a>
+    <a href="/" on:click|preventDefault={(e) => {
+      resetFilters();
+      viewMode = 'all';  // Reset view mode back to "All Rooms"
+    }}>Lion Room &#129409;</a>
     {#if lastUpdateTime}
       <div class="last-update">
         Last updated: {lastUpdateTime.toLocaleTimeString()}

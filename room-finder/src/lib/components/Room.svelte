@@ -105,7 +105,7 @@
     // };
 
     let building = parts.slice(0, parts.length-1).join('_').toLowerCase();
-    let roomNumber = parts[parts.length-1];
+    let roomNumber = parts[parts.length-1].toLowerCase();
 
     // if (building in buildingMap) {
     //   building = buildingMap[building];

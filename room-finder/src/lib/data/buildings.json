@@ -11,11 +11,6 @@
     "1378": "Claremont 201",
     "1379": "Claremont C01"
   },
-  "Earl Hall": {
-    "875": "Earl Hall Auditorium",
-    "834": "Earl Hall Dodge room",
-    "1324": "Earl Hall Schiff room"
-  },
   "Engineering Terrace": {
     "1381": "Engineering Terrace 253"
   },
@@ -158,7 +153,7 @@
     "1430": "Mathematics 407",
     "1260": "Mathematics 417",
     "618": "Mathematics 520",
-    "178": "Math Lawn North ",
+    "178": "Math Lawn North",
     "1252": "Math Lawn South"
   },
   "MLK": {
@@ -214,11 +209,9 @@
     "180": "Pupin Plaza"
   },
   "Residence Halls": {
-    "906": "Schapiro Dance Room 111",
     "347": "Schapiro Lounge",
     "348": "Wien Lounge",
     "345": "Carman Lounge",
-    "418": "Furnald Lounge",
     "190": "Wien Courtyard",
     "170": "Furnald Lawn",
     "492": "Furnald Plaza"
@@ -236,9 +229,9 @@
     "1281": "Schermerhorn 963",
     "186": "Schermerhorn Plaza"
   },
-  "Shapiro": {
-    "1447": "Shapiro 415",
-    "185": "Shapiro Plaza"
+  "Schapiro": {
+    "1447": "Schapiro 415",
+    "185": "Schapiro Plaza"
   },
   "St. Paul's Chapel": {
     "810": "St. Paul's Chapel Choir Room",
@@ -247,23 +240,23 @@
     "809": "St. Paul's Chapel Postcrypt"
   },
   "Wallach E-Sports Lounge": {
-    "2302": "Center TV Station",
-    "2303": "Lounge TV Station",
-    "2284": "PC 01",
-    "2285": "PC 02",
-    "2286": "PC 03",
-    "2287": "PC 04",
-    "2288": "PC 05",
-    "2289": "PC 06",
-    "2290": "PC 07",
-    "2291": "PC 08",
-    "2292": "PC 09",
-    "2293": "PC 10",
-    "2294": "PC 11",
-    "2295": "PC 12",
-    "2296": "PC 13",
-    "2297": "PC 14",
-    "2298": "PC 15",
+    "2302": "Wallach E-SportsCenter TV Station",
+    "2303": "Wallach E-Sports Lounge TV Station",
+    "2284": "Wallach E-Sports PC 01",
+    "2285": "Wallach E-Sports PC 02",
+    "2286": "Wallach E-Sports PC 03",
+    "2287": "Wallach E-Sports PC 04",
+    "2288": "Wallach E-Sports PC 05",
+    "2289": "Wallach E-Sports PC 06",
+    "2290": "Wallach E-Sports PC 07",
+    "2291": "Wallach E-Sports PC 08",
+    "2292": "Wallach E-Sports PC 09",
+    "2293": "Wallach E-Sports PC 10",
+    "2294": "Wallach E-Sports PC 11",
+    "2295": "Wallach E-Sports PC 12",
+    "2296": "Wallach E-Sports PC 13",
+    "2297": "Wallach E-Sports PC 14",
+    "2298": "Wallach E-Sports PC 15",
     "2299": "PC 16",
     "2300": "PC 17",
     "2301": "PC 18"
