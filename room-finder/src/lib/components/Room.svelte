@@ -112,7 +112,7 @@
     // }
 
     const photoPath = `/src/lib/data/photos/${building}_${roomNumber}_1`;
-    return building === 'uris' ? `${photoPath}.jpeg` : `${photoPath}.jpg`;
+    return `${photoPath}.jpg`;
   }
 </script>
 
@@ -195,19 +195,22 @@
     border-radius: 12px;
     box-shadow: 0 2px 12px rgba(0,0,0,0.1);
     overflow: hidden;
-    height: 300px;
+    height: 350px;
   }
 
   .info-section {
-    width: 300px;
-    min-width: 300px;
+    width: 400px;
+    min-width: 400px;
+    height:100%;
+    min-height: 350px;
+
     display: flex;
     flex-direction: column;
     border-right: 1px solid #eee;
   }
 
   .photo-container {
-    height: 50%;
+    height: 65%;
     overflow: hidden;
     border-bottom: 1px solid #eee;
   }
@@ -220,7 +223,7 @@
 
   .room-details {
     padding: 1rem;
-    height: 50%;
+    height: 35%;
     overflow-y: auto;
   }
 
