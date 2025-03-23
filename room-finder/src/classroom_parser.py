@@ -4,7 +4,7 @@ import json
 def parse_classroom_info():
     classroom_data = {}
     
-    with open('src/lib/data/classroom_info.csv', 'r') as file:
+    with open('lib/data/classroom_info.csv', 'r') as file:
         # Skip header row
         reader = csv.DictReader(file)
         
@@ -30,7 +30,7 @@ def parse_classroom_info():
             classroom_data[room_key] = room_info
     
     # Write to JSON file
-    with open('src/lib/data/classroom_info.json', 'w') as outfile:
+    with open('lib/data/classroom_info.json', 'w') as outfile:
         json.dump(classroom_data, outfile, indent=4)
 
 if __name__ == "__main__":

@@ -74,10 +74,12 @@
       // Map rooms with their info
       roomsData = Object.entries(availability)
         .map(([id, timeRanges]) => {
-          const name = roomNames[id];
+          // Get the room name and trim it to remove any whitespace
+          const name = roomNames[id] ? roomNames[id].trim() : null;
+          // Look up classroom info, also using trimmed and lowercase name
           const info = name ? classroomInfo[name.toLowerCase()] : null;
           
-          // // Debug specific rooms that don't match up
+          // Debug specific rooms that don't match up
           // if (name && !info) {
           //   console.log(`Missing info for room: ${name} (ID: ${id})`);
           // }

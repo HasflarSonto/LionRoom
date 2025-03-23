@@ -71,6 +71,24 @@
         "board_type": "chalkboard",
         "has_projector": null
     },
+    "fayerweather 203": {
+        "capacity": 15,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 5,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "fayerweather 209": {
+        "capacity": 54,
+        "room_type": "classroom",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 18,
+        "board_type": "whiteboard",
+        "has_projector": null
+    },
     "fayerweather 301m": {
         "capacity": 39,
         "room_type": "seminar",
@@ -116,7 +134,7 @@
         "board_type": "chalkboard",
         "has_projector": null
     },
-    "IAB 417": {
+    "iab 417": {
         "capacity": 400,
         "room_type": "auditorium",
         "seating_style": "fixed chairs",
@@ -125,12 +143,192 @@
         "board_type": "chalkboard",
         "has_projector": null
     },
-    "IAB 1102": {
+    "iab 1102": {
         "capacity": 25,
         "room_type": "seminar",
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 1,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 253": {
+        "capacity": 30,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 4,
+        "board_type": "whiteboard",
+        "has_projector": null
+    },
+    "iab 254": {
+        "capacity": 19,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 8,
+        "board_type": "whiteboard",
+        "has_projector": null
+    },
+    "iab 255": {
+        "capacity": 25,
+        "room_type": "classroom",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tablets",
+        "shared_tables": 0,
+        "board_type": "whiteboard",
+        "has_projector": null
+    },
+    "iab 324": {
+        "capacity": 35,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 8,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 326": {
+        "capacity": 13,
+        "room_type": "classroom",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 1,
+        "board_type": "chalkboard",
+        "has_projector": false
+    },
+    "iab 402": {
+        "capacity": 25,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tablets",
+        "shared_tables": 2,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 402b": {
+        "capacity": 25,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 2,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 403": {
+        "capacity": 80,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tables",
+        "shared_tables": 16,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 404": {
+        "capacity": 61,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tables",
+        "shared_tables": 14,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 405": {
+        "capacity": 54,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tables",
+        "shared_tables": 12,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 405a": {
+        "capacity": 20,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 2,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 407": {
+        "capacity": 64,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tablets",
+        "shared_tables": 0,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 409": {
+        "capacity": 35,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 6,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 410": {
+        "capacity": 69,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tables",
+        "shared_tables": 7,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 411": {
+        "capacity": 67,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tables",
+        "shared_tables": 16,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 413": {
+        "capacity": 67,
+        "room_type": "lecture hall",
+        "seating_style": "fixed chairs",
+        "table_style": "fixed tables",
+        "shared_tables": 12,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 418": {
+        "capacity": 30,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 2,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 501": {
+        "capacity": 18,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 2,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 501a": {
+        "capacity": 26,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 2,
+        "board_type": "chalkboard",
+        "has_projector": null
+    },
+    "iab 501b": {
+        "capacity": 26,
+        "room_type": "seminar",
+        "seating_style": "moveable chairs",
+        "table_style": "moveable tables",
+        "shared_tables": 2,
         "board_type": "chalkboard",
         "has_projector": null
     },
@@ -276,7 +474,7 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": false
     },
     "hamilton 408": {
         "capacity": 11,
@@ -447,7 +645,7 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": false
+        "has_projector": null
     },
     "hamilton 717": {
         "capacity": 86,
@@ -590,7 +788,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tablets",
         "shared_tables": 0,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "knox 103": {
@@ -599,7 +797,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tablets",
         "shared_tables": 0,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "knox 104": {
@@ -608,7 +806,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tablets",
         "shared_tables": 0,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "knox 112": {
@@ -644,7 +842,7 @@
         "seating_style": "fixed chairs",
         "table_style": "fixed tables",
         "shared_tables": 12,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "mudd 233": {
@@ -761,7 +959,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tablets",
         "shared_tables": 0,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "philosophy 201b": {
@@ -770,7 +968,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 4,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "philosophy 201d": {
@@ -779,7 +977,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 4,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "philosophy 408a": {
@@ -815,7 +1013,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 4,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "schermerhorn 501": {
@@ -860,7 +1058,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 2,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "schermerhorn 963": {
@@ -869,7 +1067,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tablets",
         "shared_tables": 2,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "school_of_social_work 903": {
@@ -878,7 +1076,7 @@
         "seating_style": "fixed chairs",
         "table_style": "fixed tables",
         "shared_tables": 15,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "uris 140": {
@@ -887,7 +1085,7 @@
         "seating_style": "fixed chairs",
         "table_style": "fixed tables",
         "shared_tables": 10,
-        "board_type": "chalkboard",
+        "board_type": "whiteboard",
         "has_projector": null
     },
     "uris 141": {
@@ -1031,7 +1229,7 @@
         "seating_style": "moveable chairs",
         "table_style": "fixed tables",
         "shared_tables": 4,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "lewisohn 212a": {
@@ -1040,7 +1238,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 4,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "lewisohn 212d": {
@@ -1049,7 +1247,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 7,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "lewisohn 308a": {
@@ -1058,7 +1256,7 @@
         "seating_style": "moveable chairs",
         "table_style": "moveable tables",
         "shared_tables": 7,
-        "board_type": "whiteboard",
+        "board_type": "chalkboard",
         "has_projector": null
     },
     "lewisohn 505": {

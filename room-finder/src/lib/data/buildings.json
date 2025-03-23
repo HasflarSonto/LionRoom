@@ -1,18 +1,4 @@
 {
-  "Avery Hall": {
-    "2480": "100 - Avery Screen",
-    "723": "113- Wood",
-    "724": "114- Avery",
-    "725": "115 - Avery",
-    "726": "300 - Avery",
-    "2312": "400 - Avery",
-    "728": "408 - Avery",
-    "1303": "409 - Avery",
-    "729": "412 - Avery",
-    "874": "504 Avery ",
-    "794": "505  - Avery",
-    "730": "Ware Lounge"
-  },
   "Broadway": {
     "903": "Broadway 1st Floor Room 120",
     "419": "Broadway Hall Lounge 14th Floor West"
@@ -34,11 +20,8 @@
     "1381": "Engineering Terrace 253"
   },
   "Fayerweather Hall": {
-    "1414": "Fayerweather 202",
     "1784": "Fayerweather 203",
-    "787": "Fayerweather 204",
     "867": "Fayerweather 209",
-    "1647": "Fayerweather 323M",
     "613": "Fayerweather 301M",
     "614": "Fayerweather 302",
     "664": "Fayerweather 310",
@@ -175,7 +158,6 @@
     "1430": "Mathematics 407",
     "1260": "Mathematics 417",
     "618": "Mathematics 520",
-    "1267": "Math Lawn N or S",
     "178": "Math Lawn North ",
     "1252": "Math Lawn South"
   },
@@ -304,7 +286,6 @@
     "1572": "Uris 331",
     "1571": "Uris 332",
     "1570": "Uris 333",
-    "188": "Uris Plaza East"
   },
   "Outdoor Spaces": {
     "184": "Butler South Lawn East",
@@ -312,7 +293,6 @@
     "182": "Sundial",
     "162": "Ancell Plaza",
     "163": "Avery Plaza",
-    "164": "Butler Lawn",
     "165": "Butler Plaza",
     "168": "Dodge Plaza",
     "173": "Lions Court Lawn",
