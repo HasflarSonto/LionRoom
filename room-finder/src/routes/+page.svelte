@@ -12,9 +12,13 @@
   let updateInterval;
   let isLoading = true;
   
-  // Filter states
+  // Add a new state for search query
+  let searchQuery = '';
+  
+  // Update the filters object to include search
   let filters = {
-    showCurrentlyAvailable: false,
+    searchQuery: '',           // Add search query to filters
+    showCurrentlyAvailable: true,
     hasChalkboard: false,
     hasWhiteboard: false,
     minCapacity: '',
@@ -28,6 +32,14 @@
   const roomTypes = ['any', 'seminar', 'classroom', 'lecture hall', 'auditorium', 'computer lab'];
   const seatingStyles = ['any', 'fixed chairs', 'moveable chairs'];
   const tableStyles = ['any', 'moveable tables', 'fixed tables', 'moveable tablets', 'fixed tablets'];
+
+  // Add a state variable to track if filters are expanded
+  let isFiltersExpanded = false;
+  
+  // Function to toggle filters visibility
+  function toggleFilters() {
+    isFiltersExpanded = !isFiltersExpanded;
+  }
 
   // Function to fetch all data
   async function fetchData() {
@@ -157,7 +169,7 @@
     }
   }
 
-  // Improved filterRooms function with correct "Currently Available" filtering
+  // Update the filterRooms function to include search functionality
   function filterRooms(rooms) {
     console.log('Applying filters:', JSON.stringify(filters));
     
@@ -171,6 +183,15 @@
       const filteredRooms = rooms.filter(room => {
         // Skip rooms with no data
         if (!room) return false;
+        
+        // Search filter - case insensitive search in room name
+        if (filters.searchQuery && filters.searchQuery.trim() !== '') {
+          const query = filters.searchQuery.toLowerCase().trim();
+          // If room has no name or name doesn't include search query, filter it out
+          if (!room.name || !room.name.toLowerCase().includes(query)) {
+            return false;
+          }
+        }
         
         const info = room.info || {};
         
@@ -378,10 +399,11 @@
     applyFilters(); // Force refiltering
   }
   
-  // Explicitly make the reset function reapply filters
+  // Update the reset function to clear search as well
   function resetFilters() {
     filters = {
-      showCurrentlyAvailable: false,
+      searchQuery: '',         // Reset search query
+      showCurrentlyAvailable: true,
       hasChalkboard: false,
       hasWhiteboard: false,
       minCapacity: '',
@@ -397,8 +419,9 @@
   // Make filterRooms reactive to filter changes
   $: filteredRoomsData = filterRooms(roomsData);
   
-  // Add helper to check if any filters are active
+  // Update the hasActiveFilters check to include search
   $: hasActiveFilters = 
+    filters.searchQuery ||
     filters.showCurrentlyAvailable || 
     filters.hasChalkboard || 
     filters.hasWhiteboard || 
@@ -408,9 +431,20 @@
     filters.seatingStyle !== 'any' || 
     filters.tableStyle !== 'any';
 
+  // Add a search handler function
+  function handleSearch(event) {
+    filters.searchQuery = event.target.value;
+    filters = {...filters}; // Create a new object to ensure reactivity
+    console.log(`Updated search query to: "${filters.searchQuery}"`);
+    applyFilters(); // Force refiltering
+  }
+
   onMount(async () => {
     // Initial data fetch
     await fetchData();
+    
+    // Apply filters immediately after loading data (will use the defaults including "Currently Available")
+    applyFilters();
     
     // Debug availability
     setTimeout(() => {
@@ -433,8 +467,12 @@
     if (updateInterval) clearInterval(updateInterval);
   });
 
-  function setViewMode(mode) {
-    viewMode = mode;
+  function setViewMode(mode, isChecked) {
+    if (isChecked) {
+      viewMode = mode;
+    } else if (viewMode === mode) {
+      viewMode = 'all';
+    }
   }
 
   // Group rooms by building (modified to use filtered rooms)
@@ -497,143 +535,202 @@
     </div>
   {/if}
   
+  <!-- Add search bar above everything -->
+  <div class="search-container">
+    <div class="search-input-container">
+      <i class="fas fa-search search-icon"></i>
+      <input 
+        type="text" 
+        placeholder="Search for a room..." 
+        class="search-input" 
+        value={filters.searchQuery}
+        on:input={handleSearch}
+      />
+      {#if filters.searchQuery}
+        <button class="search-clear-button" on:click={() => {
+          filters.searchQuery = '';
+          filters = {...filters};
+          applyFilters();
+        }}>
+          <i class="fas fa-times"></i>
+        </button>
+      {/if}
+    </div>
+  </div>
+  
+  <!-- Make filters panel expandable/collapsible -->
   <div class="filters-panel">
-    <div class="filters-header">
+    <div class="filters-header" on:click={toggleFilters}>
       <h3>
-        <i class="fas fa-filter"></i> Filters
-        {#if Object.values(filters).some(v => v !== false && v !== '' && v !== 'any')}
-          <button class="reset-button" on:click={resetFilters}>
-            <i class="fas fa-times"></i> Reset
-          </button>
-        {/if}
+        <div class="filters-title">
+          <i class="fas fa-filter"></i> Filters
+          <span class="filter-count">{filteredRoomsData.length} room{filteredRoomsData.length !== 1 ? 's' : ''} found</span>
+        </div>
+        <div class="filters-actions">
+          {#if Object.values(filters).some(v => v !== false && v !== '' && v !== 'any')}
+            <button class="reset-button" on:click={(e) => {
+              e.stopPropagation(); // Prevent toggling when clicking reset
+              resetFilters();
+            }}>
+              <i class="fas fa-times"></i> Reset
+            </button>
+          {/if}
+          <i class={`fas ${isFiltersExpanded ? 'fa-chevron-up' : 'fa-chevron-down'} filter-toggle-icon`}></i>
+        </div>
       </h3>
     </div>
     
-    <div class="filters-content">
-      <div class="filter-section">
-        <div class="filter-group checkbox-group">
-          <label class="checkbox-label">
-            <input 
-              type="checkbox" 
-              checked={filters.showCurrentlyAvailable} 
-              on:change={(e) => updateCheckbox('showCurrentlyAvailable', e)}
-            >
-            <span>Currently Available</span>
-          </label>
+    {#if isFiltersExpanded}
+      <div class="filters-content">
+        <!-- Add the view mode buttons as the first section -->
+        <div class="filter-section view-mode-section">
+          <div class="filter-group">
+            <label>View Mode</label>
+            <div class="view-toggle-options">
+              <div class="view-toggle-row">
+                <label class="radio-label">
+                  <input 
+                    type="radio" 
+                    name="viewMode"
+                    checked={viewMode === 'all'} 
+                    on:change={(e) => {
+                      e.stopPropagation();
+                      if (e.target.checked) {
+                        setViewMode('all', true);
+                      }
+                    }}
+                  />
+                  <span class="radio-circle"></span>
+                  <span class="radio-text">All Rooms</span>
+                </label>
+                
+                <label class="radio-label">
+                  <input 
+                    type="radio" 
+                    name="viewMode"
+                    checked={viewMode === 'buildings'} 
+                    disabled={!buildingsData || Object.keys(buildingsData).length === 0}
+                    on:change={(e) => {
+                      e.stopPropagation();
+                      setViewMode('buildings', e.target.checked);
+                    }}
+                  />
+                  <span class="radio-circle"></span>
+                  <span class="radio-text">By Building</span>
+                </label>
+              </div>
+            </div>
+          </div>
         </div>
         
-        <div class="filter-group checkbox-group">
-          <label class="checkbox-label">
-            <input 
-              type="checkbox" 
-              checked={filters.hasChalkboard} 
-              on:change={(e) => updateCheckbox('hasChalkboard', e)}
-            >
-            <span>Has Chalkboard</span>
-          </label>
+        <!-- Existing filter sections -->
+        <div class="filter-section">
+          <div class="filter-group checkbox-group">
+            <label class="checkbox-label">
+              <input 
+                type="checkbox" 
+                checked={filters.showCurrentlyAvailable} 
+                on:change={(e) => updateCheckbox('showCurrentlyAvailable', e)}
+              >
+              <span>Currently Available</span>
+            </label>
+          </div>
+          
+          <div class="filter-group checkbox-group">
+            <label class="checkbox-label">
+              <input 
+                type="checkbox" 
+                checked={filters.hasChalkboard} 
+                on:change={(e) => updateCheckbox('hasChalkboard', e)}
+              >
+              <span>Has Chalkboard</span>
+            </label>
+          </div>
+          
+          <div class="filter-group checkbox-group">
+            <label class="checkbox-label">
+              <input 
+                type="checkbox" 
+                checked={filters.hasWhiteboard} 
+                on:change={(e) => updateCheckbox('hasWhiteboard', e)}
+              >
+              <span>Has Whiteboard</span>
+            </label>
+          </div>
         </div>
         
-        <div class="filter-group checkbox-group">
-          <label class="checkbox-label">
+        <!-- Rest of the existing filter sections -->
+        <div class="filter-section">
+          <div class="filter-group">
+            <label for="minCapacity">Minimum Capacity</label>
             <input 
-              type="checkbox" 
-              checked={filters.hasWhiteboard} 
-              on:change={(e) => updateCheckbox('hasWhiteboard', e)}
+              type="number" 
+              id="minCapacity" 
+              value={filters.minCapacity} 
+              on:input={(e) => updateInputValue('minCapacity', e)}
+              placeholder="Min seats"
+              min="0"
             >
-            <span>Has Whiteboard</span>
-          </label>
+          </div>
+          
+          <div class="filter-group">
+            <label for="minSharedTables">Minimum Shared Tables</label>
+            <input 
+              type="number" 
+              id="minSharedTables" 
+              value={filters.minSharedTables} 
+              on:input={(e) => updateInputValue('minSharedTables', e)}
+              placeholder="Min tables"
+              min="0"
+            >
+          </div>
+        </div>
+        
+        <div class="filter-section">
+          <div class="filter-group">
+            <label for="roomType">Room Type</label>
+            <select 
+              id="roomType" 
+              value={filters.roomType}
+              on:change={(e) => updateSelectValue('roomType', e)}
+            >
+              {#each roomTypes as type}
+                <option value={type}>{type === 'any' ? 'Any Type' : type.charAt(0).toUpperCase() + type.slice(1)}</option>
+              {/each}
+            </select>
+          </div>
+          
+          <div class="filter-group">
+            <label for="seatingStyle">Seating Style</label>
+            <select 
+              id="seatingStyle" 
+              value={filters.seatingStyle}
+              on:change={(e) => updateSelectValue('seatingStyle', e)}
+            >
+              {#each seatingStyles as style}
+                <option value={style}>{style === 'any' ? 'Any Style' : style.charAt(0).toUpperCase() + style.slice(1)}</option>
+              {/each}
+            </select>
+          </div>
+          
+          <div class="filter-group">
+            <label for="tableStyle">Table Style</label>
+            <select 
+              id="tableStyle" 
+              value={filters.tableStyle}
+              on:change={(e) => updateSelectValue('tableStyle', e)}
+            >
+              {#each tableStyles as style}
+                <option value={style}>{style === 'any' ? 'Any Style' : style.charAt(0).toUpperCase() + style.slice(1)}</option>
+              {/each}
+            </select>
+          </div>
         </div>
       </div>
-      
-      <div class="filter-section">
-        <div class="filter-group">
-          <label for="minCapacity">Minimum Capacity</label>
-          <input 
-            type="number" 
-            id="minCapacity" 
-            value={filters.minCapacity} 
-            on:input={(e) => updateInputValue('minCapacity', e)}
-            placeholder="Min seats"
-            min="0"
-          >
-        </div>
-        
-        <div class="filter-group">
-          <label for="minSharedTables">Minimum Shared Tables</label>
-          <input 
-            type="number" 
-            id="minSharedTables" 
-            value={filters.minSharedTables} 
-            on:input={(e) => updateInputValue('minSharedTables', e)}
-            placeholder="Min tables"
-            min="0"
-          >
-        </div>
-      </div>
-      
-      <div class="filter-section">
-        <div class="filter-group">
-          <label for="roomType">Room Type</label>
-          <select 
-            id="roomType" 
-            value={filters.roomType}
-            on:change={(e) => updateSelectValue('roomType', e)}
-          >
-            {#each roomTypes as type}
-              <option value={type}>{type === 'any' ? 'Any Type' : type.charAt(0).toUpperCase() + type.slice(1)}</option>
-            {/each}
-          </select>
-        </div>
-        
-        <div class="filter-group">
-          <label for="seatingStyle">Seating Style</label>
-          <select 
-            id="seatingStyle" 
-            value={filters.seatingStyle}
-            on:change={(e) => updateSelectValue('seatingStyle', e)}
-          >
-            {#each seatingStyles as style}
-              <option value={style}>{style === 'any' ? 'Any Style' : style.charAt(0).toUpperCase() + style.slice(1)}</option>
-            {/each}
-          </select>
-        </div>
-        
-        <div class="filter-group">
-          <label for="tableStyle">Table Style</label>
-          <select 
-            id="tableStyle" 
-            value={filters.tableStyle}
-            on:change={(e) => updateSelectValue('tableStyle', e)}
-          >
-            {#each tableStyles as style}
-              <option value={style}>{style === 'any' ? 'Any Style' : style.charAt(0).toUpperCase() + style.slice(1)}</option>
-            {/each}
-          </select>
-        </div>
-      </div>
-    </div>
-    
-    <div class="filters-results">
-      <span>{filteredRoomsData.length} room{filteredRoomsData.length !== 1 ? 's' : ''} found</span>
-    </div>
+    {/if}
   </div>
   
-  <div class="view-toggle">
-    <button 
-      class:active={viewMode === 'all'} 
-      on:click={() => setViewMode('all')}
-    >
-      All Rooms
-    </button>
-    <button 
-      class:active={viewMode === 'buildings'} 
-      on:click={() => setViewMode('buildings')}
-      disabled={!buildingsData || Object.keys(buildingsData).length === 0}
-    >
-      By Building
-    </button>
-  </div>
-  
+  <!-- Rest of the content remains the same -->
   {#if isLoading && roomsData.length === 0}
     <div class="loading">Loading room data...</div>
   {:else if filteredRoomsData.length === 0}
@@ -722,38 +819,82 @@
     font-weight: 600;
   }
 
-  .view-toggle {
+  .view-toggle-options {
+    margin-top: 0.5rem;
+  }
+  
+  .view-toggle-row {
     display: flex;
-    justify-content: center;
-    margin-bottom: 2rem;
-    gap: 1rem;
+    gap: 1.5rem;
+    flex-wrap: wrap;
   }
-
-  .view-toggle button {
-    padding: 0.5rem 1.5rem;
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+  
+  .radio-label {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding: 0.5rem 0;
     cursor: pointer;
-    font-size: 1rem;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    transition: all 0.2s ease-in-out;
+    user-select: none;
+    margin-right: 1rem;
   }
-
-  .view-toggle button:hover:not(:disabled) {
-    background-color: #e9ecef;
+  
+  .radio-label input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
   }
-
-  .view-toggle button:disabled {
-    opacity: 0.5;
+  
+  .radio-circle {
+    position: relative;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+    transition: all 0.2s ease;
+  }
+  
+  .radio-label:hover .radio-circle {
+    border-color: #c5c9cd;
+  }
+  
+  .radio-label input[type="radio"]:checked + .radio-circle {
+    background-color: #1e3a8a;
+    border-color: #1e3a8a;
+  }
+  
+  .radio-label input[type="radio"]:checked + .radio-circle:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+  }
+  
+  .radio-label input[type="radio"]:disabled + .radio-circle {
+    background-color: #f1f3f5;
+    border-color: #e1e4e8;
     cursor: not-allowed;
   }
-
-  .view-toggle button.active {
-    background-color: #1e3a8a;
-    color: white;
-    border-color: #1e3a8a;
+  
+  .radio-text {
+    font-weight: 500;
+    font-size: 0.95rem;
+    color: #333;
+  }
+  
+  .radio-label input[type="radio"]:disabled ~ .radio-text {
+    color: #999;
+    cursor: not-allowed;
   }
 
   .rooms-container {
@@ -797,9 +938,15 @@
   }
 
   .filters-header {
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     background: #f8f9fa;
     border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+
+  .filters-header:hover {
+    background: #f1f3f5;
   }
 
   .filters-header h3 {
@@ -809,6 +956,33 @@
     justify-content: space-between;
     color: #1e3a8a;
     font-size: 1.1rem;
+  }
+
+  .filters-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .filter-count {
+    font-size: 0.8rem;
+    color: #666;
+    background: #e9ecef;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    margin-left: 0.5rem;
+    font-weight: normal;
+  }
+
+  .filters-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+  }
+
+  .filter-toggle-icon {
+    color: #666;
+    font-size: 0.9rem;
   }
 
   .filters-content {
@@ -872,14 +1046,6 @@
     background: white;
   }
 
-  .filters-results {
-    padding: 0.75rem 1.5rem;
-    border-top: 1px solid #eee;
-    background: #f8f9fa;
-    color: #666;
-    font-size: 0.9rem;
-  }
-
   .reset-button {
     background: #edf2ff;
     color: #3b5bdb;
@@ -936,6 +1102,68 @@
     
     .filter-section {
       min-width: auto;
+    }
+  }
+
+  /* Add styles for the search bar */
+  .search-container {
+    margin-bottom: 1.5rem;
+  }
+  
+  .search-input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    position: absolute;
+    left: 1rem;
+    color: #999;
+  }
+  
+  .search-input {
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 2px 12px rgba(59,130,246,0.1);
+  }
+  
+  .search-clear-button {
+    position: absolute;
+    right: 1rem;
+    background: none;
+    border: none;
+    color: #999;
+    cursor: pointer;
+    padding: 0.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color 0.2s;
+  }
+  
+  .search-clear-button:hover {
+    background-color: #f0f0f0;
+    color: #666;
+  }
+  
+  /* Responsive search bar */
+  @media (max-width: 768px) {
+    .search-input {
+      font-size: 0.9rem;
+      padding: 0.7rem 1rem 0.7rem 2.3rem;
     }
   }
 </style>
