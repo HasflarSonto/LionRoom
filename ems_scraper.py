@@ -2,7 +2,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
+from selenium.webdriver.firefox.service import Service
 import re
 import json
 import traceback
@@ -33,15 +34,26 @@ def extract_pixels(style_string, property_name):
     return None
 
 def scrape_events():
-    # Set up Chrome options for headless mode
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--disable-gpu")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
+    # Set up Firefox options with additional settings
+    firefox_options = Options()
+    firefox_options.add_argument("--headless")
+    firefox_options.add_argument("--ignore-certificate-errors")
+    firefox_options.add_argument("--disable-web-security")
+    firefox_options.add_argument("--allow-running-insecure-content")
+    firefox_options.set_preference("security.ssl.enable_ocsp_stapling", False)
+    firefox_options.set_preference("network.http.use-cache", False)
     
-    # Initialize the webdriver with options
-    driver = webdriver.Chrome(options=chrome_options)
+    # Create a Service object
+    service = Service('geckodriver')  # Make sure geckodriver is in your PATH
+    
+    # Initialize the Firefox webdriver with options and service
+    driver = webdriver.Firefox(
+        options=firefox_options,
+        service=service
+    )
+    
+    # Set page load timeout
+    driver.set_page_load_timeout(30)
     
     # Create a dictionary to store all room data
     room_data_dict = {}
@@ -50,7 +62,31 @@ def scrape_events():
 
     
     try:
-        driver.get("https://ems.cuit.columbia.edu/EmsWebApp/BrowseForSpace.aspx")
+        # Try to load the page with retry logic
+        max_retries = 3
+        retry_count = 0
+        
+        while retry_count < max_retries:
+            try:
+                print(f"Attempting to load page (attempt {retry_count + 1}/{max_retries})")
+                driver.get("https://ems.cuit.columbia.edu/EmsWebApp/BrowseForSpace.aspx")
+                
+                # Wait for any element to verify page loaded
+                WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+                
+                # If we get here, page loaded successfully
+                print("Page loaded successfully")
+                break
+                
+            except Exception as e:
+                print(f"Error loading page: {str(e)}")
+                retry_count += 1
+                if retry_count >= max_retries:
+                    raise Exception("Failed to load page after maximum retries")
+                print("Retrying...")
+                driver.refresh()
 
         # Scan for all room columns first
         room_columns = WebDriverWait(driver, 60).until(
@@ -197,26 +233,27 @@ def scrape_events():
             
     except Exception as e:
         print(f"An error occurred: {str(e)}")
-        print(traceback.format_exc())  # Print full traceback
-        # print("\nPage source:")
-        # print(driver.page_source)  # Print page source on error
+        print(traceback.format_exc())
+        
+        # Print page source and URL for debugging
+        try:
+            print("\nCurrent URL:", driver.current_url)
+            print("\nPage source:")
+            print(driver.page_source)
+        except:
+            print("Could not get page information")
+            
     finally:
-        driver.quit()
+        try:
+            driver.quit()
+        except:
+            print("Error closing driver")
 
-
-
-
-    
     # Write the dictionary to a JSON file
     try:
         with open('room_aval.json', 'w') as f:
             json.dump(room_data_dict, f, indent=4)
         print("\nSuccessfully wrote data to room_aval.json")
-        
-
-        
-
-
     except Exception as e:
         print(f"Error writing to JSON file: {e}")
         
