@@ -49,7 +49,7 @@
       const [availabilityRes, namesRes, buildingsRes, classroomInfoRes] = await Promise.all([
         fetch('/api/room_availability'),
         fetch('/api/room_names'),
-        fetch('/src/lib/data/buildings.json'),
+        fetch('/data/buildings.json'),
         fetch('/api/classroom_info')
       ]);
 
@@ -125,7 +125,7 @@
       
       // Check for last update time
       try {
-        const updateRes = await fetch('/src/lib/data/last_update.json');
+        const updateRes = await fetch('/data/last_update.json');
         if (updateRes.ok) {
           const updateData = await updateRes.json();
           lastUpdateTime = new Date(updateData.timestamp);
@@ -146,7 +146,7 @@
   // Function to check for updates (missing in your code)
   async function checkForUpdates() {
     try {
-      const response = await fetch('/src/lib/data/last_update.json');
+      const response = await fetch('/data/last_update.json');
       if (response.ok) {
         const data = await response.json();
         const newUpdateTime = new Date(data.timestamp);
@@ -564,7 +564,9 @@
     let building = parts.slice(0, parts.length-1).join('_').toLowerCase();
     let roomNumber = parts[parts.length-1];
 
-    const photoPath = `/src/lib/data/photos/${building}_${roomNumber}_1`;
+
+
+    const photoPath = `/public/data/photos/${building}_${roomNumber}_1`;
     return `${photoPath}.jpg`;
   }
 </script>

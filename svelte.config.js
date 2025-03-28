@@ -9,6 +9,10 @@ const config = {
 		adapter: adapter(),
 		alias: {
 			$data: 'public/data'
+		},
+		// Add this section to configure static assets
+		files: {
+			assets: 'public'
 		}
 	}
 };

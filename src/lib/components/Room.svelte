@@ -96,7 +96,7 @@
   function getPhotoUrl(roomId, roomName) {
     if (!roomName) return null;
 
-    const parts = roomName.split(' ');
+    const parts = roomName.replace("-", "").split(' ');
     if (parts.length < 2) return null;
 
     // const buildingMap = {

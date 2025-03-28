@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from 'path';
 
 // Path to bookings JSON file
-const bookingsFilePath = path.resolve('src/lib/data/bookings.json');
+const bookingsFilePath = path.resolve('public/data/bookings.json');
 
 // Function to read the current bookings
 function readBookings() {
