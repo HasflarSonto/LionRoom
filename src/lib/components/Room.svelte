@@ -1,6 +1,5 @@
 <script>
   import { onMount } from 'svelte';
-  import { goto } from '$app/navigation';
   export let roomId;
   export let availability;
   export let roomName;
@@ -112,15 +111,8 @@
     //   building = buildingMap[building];
     // }
 
-    const photoPath = `/data/photos/${building}_${roomNumber}_1`;
+    const photoPath = `/src/lib/data/photos/${building}_${roomNumber}_1`;
     return `${photoPath}.jpg`;
-  }
-
-  // Add this function to handle navigation
-  function navigateToRoomView() {
-    // Create URL-safe room name by encoding the room name
-    const encodedRoomName = encodeURIComponent(roomName || roomId);
-    goto(`/room/${encodedRoomName}`);
   }
 </script>
 
@@ -136,9 +128,7 @@
       </div>
     {/if}
     <div class="room-details">
-      <h2 class="room-name" on:click={navigateToRoomView}>
-        {roomName || `Room ${roomId}`}
-      </h2>
+      <h2 class="room-name">{roomName || `Room ${roomId}`}</h2>
       <div class="badges">
         {#if roomInfo?.capacity}
           <span class="badge capacity">
@@ -242,13 +232,6 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: #1a1a1a;
-    cursor: pointer;
-    transition: color 0.2s ease;
-  }
-
-  .room-name:hover {
-    color: #2563eb; /* Blue color on hover */
-    text-decoration: underline;
   }
 
   .badges {
