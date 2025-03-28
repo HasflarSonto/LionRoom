@@ -47,10 +47,10 @@
     try {
       // Fetch all data in parallel
       const [availabilityRes, namesRes, buildingsRes, classroomInfoRes] = await Promise.all([
-        fetch('/api/room_availability'),
-        fetch('/api/room_names'),
+        fetch('/data/room_availability.json'),
+        fetch('/data/room_id.json'),
         fetch('/data/buildings.json'),
-        fetch('/api/classroom_info')
+        fetch('/data/classroom_info.json')
       ]);
 
       if (!availabilityRes.ok) throw new Error(`Failed to fetch room availability: ${availabilityRes.status}`);
