@@ -1,6 +1,12 @@
 {
 	"compilerOptions": {
 		"paths": {
+			"$data": [
+				"../public/data"
+			],
+			"$data/*": [
+				"../public/data/*"
+			],
 			"$lib": [
 				"../src/lib"
 			],

@@ -12,13 +12,21 @@
   let availability = [];
 
   onMount(async () => {
-    // Fetch room info from classroom_info.json
-    const response = await fetch('/api/room-info/' + roomId);
-    roomInfo = await response.json();
-    
-    // Fetch availability data
-    const availResponse = await fetch('/api/room-availability/' + roomId);
-    availability = await availResponse.json();
+    try {
+      // Fetch room info and availability in parallel
+      const [infoRes, availRes] = await Promise.all([
+        fetch(`/api/room-info/${roomId}`),
+        fetch(`/api/room-availability/${roomId}`)
+      ]);
+
+      if (!infoRes.ok) throw new Error('Failed to fetch room info');
+      if (!availRes.ok) throw new Error('Failed to fetch room availability');
+
+      roomInfo = await infoRes.json();
+      availability = await availRes.json();
+    } catch (error) {
+      console.error('Error loading room data:', error);
+    }
   });
 </script>
 
