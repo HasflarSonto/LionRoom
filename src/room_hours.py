@@ -100,7 +100,7 @@ def convert_to_time_format(ranges):
 
 def process_room_availability():
     # Read the JSON file
-    with open('src/lib/data/room_aval.json', 'r') as f:
+    with open('public/data/room_aval.json', 'r') as f:
         room_data = json.load(f)
     
     room_availability = {}
@@ -141,7 +141,7 @@ def process_room_availability():
         room_availability[room_id] = formatted_ranges
     
     # Write results to new JSON file
-    with open('src/lib/data/room_availability.json', 'w') as f:
+    with open('public/data/room_availability.json', 'w') as f:
         json.dump(room_availability, f, indent=4)
     
     return room_availability

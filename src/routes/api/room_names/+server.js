@@ -4,8 +4,8 @@ import path from 'path';
 
 export function GET() {
     try {
-        // Read the room names data file
-        const dataPath = path.resolve('src/lib/data/room_id.json');
+        // Update the path to use public/data
+        const dataPath = path.resolve('public/data/room_id.json');
         
         // Check if file exists
         if (!fs.existsSync(dataPath)) {

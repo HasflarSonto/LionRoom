@@ -111,7 +111,7 @@
     //   building = buildingMap[building];
     // }
 
-    const photoPath = `/src/lib/data/photos/${building}_${roomNumber}_1`;
+    const photoPath = `/data/photos/${building}_${roomNumber}_1`;
     return `${photoPath}.jpg`;
   }
 </script>

@@ -6,7 +6,7 @@ from datetime import datetime
 # Setup absolute paths based on the script's location
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 BASE_DIR = os.path.dirname(SCRIPT_DIR)  # Go up one level from src/ to the project root
-DATA_DIR = os.path.join(BASE_DIR, 'src', 'lib', 'data')
+DATA_DIR = os.path.join(BASE_DIR, 'public', 'data')
 
 def ensure_data_directories():
     """Make sure all required data directories exist"""

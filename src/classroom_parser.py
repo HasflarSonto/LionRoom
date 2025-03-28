@@ -37,7 +37,7 @@ def parse_classroom_info():
     classroom_data = {}
     building_coordinates = get_building_coordinates()
     
-    with open('lib/data/classroom_info.csv', 'r') as file:
+    with open('public/data/classroom_info.csv', 'r') as file:
         # Skip header row
         reader = csv.DictReader(file)
         
@@ -72,7 +72,7 @@ def parse_classroom_info():
             classroom_data[room_key] = room_info
 
     # Add photos information
-    photos_dir = Path('lib/data/photos')
+    photos_dir = Path('public/data/photos')
     
     # Create a mapping of normalized building names to original building names
     building_map = {
@@ -116,7 +116,7 @@ def parse_classroom_info():
         room_data['photos'].sort()
     
     # Write to JSON file
-    with open('lib/data/classroom_info.json', 'w') as outfile:
+    with open('public/data/classroom_info.json', 'w') as outfile:
         json.dump(classroom_data, outfile, indent=4)
         print("\nSuccessfully updated classroom_info.json with photos and coordinates")
 
