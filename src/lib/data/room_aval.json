@@ -394,17 +394,6 @@
     "1379": {
         "events": [
             {
-                "booking_id": "4150136",
-                "is_private": "false",
-                "event_title": "COCI_SAS-1102C-048 CONTEMP WESTRN CIVILIZATION II",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4240004",
                 "is_private": "false",
                 "event_title": "EAAS4565 HOLD",
@@ -436,6 +425,17 @@
                 "teardown_width": null,
                 "adjusted_left": 670,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4150136",
+                "is_private": "false",
+                "event_title": "COCI_SAS-1102C-048 CONTEMP WESTRN CIVILIZATION II",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
             }
         ],
         "closed_hours": {
@@ -446,17 +446,6 @@
     },
     "146": {
         "events": [
-            {
-                "booking_id": "4163104",
-                "is_private": "false",
-                "event_title": "COCI_SAS-1102C-041 CONTEMP WESTRN CIVILIZATION II",
-                "original_left": 610,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 110
-            },
             {
                 "booking_id": "4226271",
                 "is_private": "false",
@@ -489,6 +478,17 @@
                 "teardown_width": null,
                 "adjusted_left": 1200,
                 "adjusted_width": 120
+            },
+            {
+                "booking_id": "4163104",
+                "is_private": "false",
+                "event_title": "COCI_SAS-1102C-041 CONTEMP WESTRN CIVILIZATION II",
+                "original_left": 610,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4168963",
@@ -763,17 +763,6 @@
     "157": {
         "events": [
             {
-                "booking_id": "4105074",
-                "is_private": "false",
-                "event_title": "Philolexian Society- Weekly Debate",
-                "original_left": 1260,
-                "original_width": 120,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1260,
-                "adjusted_width": 120
-            },
-            {
                 "booking_id": "4195860",
                 "is_private": "false",
                 "event_title": "CHNS_SAS-6510G-001 CHINESE BIBLIOGRAPHY",
@@ -794,6 +783,17 @@
                 "teardown_width": 30,
                 "adjusted_left": 1050,
                 "adjusted_width": 180
+            },
+            {
+                "booking_id": "4105074",
+                "is_private": "false",
+                "event_title": "Philolexian Society- Weekly Debate",
+                "original_left": 1260,
+                "original_width": 120,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1260,
+                "adjusted_width": 120
             }
         ],
         "closed_hours": {
@@ -878,17 +878,6 @@
     "426": {
         "events": [
             {
-                "booking_id": "4158260",
-                "is_private": "false",
-                "event_title": "COCI_SAS-1102C-037 CONTEMP WESTRN CIVILIZATION II",
-                "original_left": 610,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4182606",
                 "is_private": "false",
                 "event_title": "HRTS_SAS-4850W-001 Beyond Human Rights Critique",
@@ -931,6 +920,17 @@
                 "teardown_width": 15,
                 "adjusted_left": 1005,
                 "adjusted_width": 150
+            },
+            {
+                "booking_id": "4158260",
+                "is_private": "false",
+                "event_title": "COCI_SAS-1102C-037 CONTEMP WESTRN CIVILIZATION II",
+                "original_left": 610,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 110
             }
         ],
         "closed_hours": {
@@ -941,17 +941,6 @@
     },
     "135": {
         "events": [
-            {
-                "booking_id": "4242933",
-                "is_private": "false",
-                "event_title": "PUBH_SAS-4100W-001 (Y)OUR LONGER LIFE",
-                "original_left": 970,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 970,
-                "adjusted_width": 75
-            },
             {
                 "booking_id": "4266317",
                 "is_private": "false",
@@ -995,6 +984,17 @@
                 "teardown_width": 15,
                 "adjusted_left": 1260,
                 "adjusted_width": 135
+            },
+            {
+                "booking_id": "4242933",
+                "is_private": "false",
+                "event_title": "PUBH_SAS-4100W-001 (Y)OUR LONGER LIFE",
+                "original_left": 970,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4116281",
@@ -1088,17 +1088,6 @@
     "133": {
         "events": [
             {
-                "booking_id": "4242933",
-                "is_private": "false",
-                "event_title": "PUBH_SAS-4100W-001 (Y)OUR LONGER LIFE",
-                "original_left": 970,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 970,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4266317",
                 "is_private": "false",
                 "event_title": "ADI x Design @CU Figma Event",
@@ -1130,6 +1119,17 @@
                 "teardown_width": 15,
                 "adjusted_left": 1260,
                 "adjusted_width": 135
+            },
+            {
+                "booking_id": "4242933",
+                "is_private": "false",
+                "event_title": "PUBH_SAS-4100W-001 (Y)OUR LONGER LIFE",
+                "original_left": 970,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4116281",
@@ -2131,6 +2131,17 @@
     "1381": {
         "events": [
             {
+                "booking_id": "4119205",
+                "is_private": "false",
+                "event_title": "ENME_SEAS-6333E-001 FINITE ELEM ANALYSIS II",
+                "original_left": 1140,
+                "original_width": 150,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1140,
+                "adjusted_width": 150
+            },
+            {
                 "booking_id": "4125666",
                 "is_private": "false",
                 "event_title": "COCI_SAS-1102C-051 CONTEMP WESTRN CIVILIZATION II",
@@ -2151,17 +2162,6 @@
                 "teardown_width": null,
                 "adjusted_left": 970,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4119205",
-                "is_private": "false",
-                "event_title": "ENME_SEAS-6333E-001 FINITE ELEM ANALYSIS II",
-                "original_left": 1140,
-                "original_width": 150,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1140,
-                "adjusted_width": 150
             },
             {
                 "booking_id": "4144959",
@@ -2404,7 +2404,7 @@
             {
                 "booking_id": "4264789",
                 "is_private": "false",
-                "event_title": "JP Morgan + Columbia PRE SET ",
+                "event_title": "JPMorganChase",
                 "original_left": 900,
                 "original_width": 240,
                 "setup_width": 120,
@@ -2861,7 +2861,7 @@
             {
                 "booking_id": "4260425",
                 "is_private": "false",
-                "event_title": "JP Morgan + Columbia",
+                "event_title": "JPMorganChase Reception ",
                 "original_left": 900,
                 "original_width": 90,
                 "setup_width": 210,
@@ -3062,17 +3062,6 @@
     "613": {
         "events": [
             {
-                "booking_id": "4250511",
-                "is_private": "false",
-                "event_title": "The Birch Weekly Meeting",
-                "original_left": 1100,
-                "original_width": 120,
-                "setup_width": 10,
-                "teardown_width": 10,
-                "adjusted_left": 1100,
-                "adjusted_width": 140
-            },
-            {
                 "booking_id": "4238226",
                 "is_private": "false",
                 "event_title": "ECON_4710_001_Recitation",
@@ -3082,6 +3071,17 @@
                 "teardown_width": 9,
                 "adjusted_left": 1010,
                 "adjusted_width": 79
+            },
+            {
+                "booking_id": "4250511",
+                "is_private": "false",
+                "event_title": "The Birch Weekly Meeting",
+                "original_left": 1100,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1100,
+                "adjusted_width": 140
             },
             {
                 "booking_id": "4143796",
@@ -3276,17 +3276,6 @@
     "659": {
         "events": [
             {
-                "booking_id": "4129536",
-                "is_private": "false",
-                "event_title": "CHEM_SAS-2446W-007 ORGANIC CHEMISTRY - REC",
-                "original_left": 790,
-                "original_width": 50,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 50
-            },
-            {
                 "booking_id": "4220430",
                 "is_private": "false",
                 "event_title": "HIST_SAS-2564W-003 American History at the Movies - DISC",
@@ -3318,6 +3307,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 1160,
                 "adjusted_width": 80
+            },
+            {
+                "booking_id": "4129536",
+                "is_private": "false",
+                "event_title": "CHEM_SAS-2446W-007 ORGANIC CHEMISTRY - REC",
+                "original_left": 790,
+                "original_width": 50,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 50
             },
             {
                 "booking_id": "4162306",
@@ -3598,6 +3598,17 @@
     "567": {
         "events": [
             {
+                "booking_id": "4241616",
+                "is_private": "false",
+                "event_title": "ECON_3213_003_Recitation(Tanal_G)",
+                "original_left": 530,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 530,
+                "adjusted_width": 79
+            },
+            {
                 "booking_id": "4124397",
                 "is_private": "false",
                 "event_title": "CHEM_SAS-2047W-003 Intensive Organic Chemistry I - RECITATION",
@@ -3618,17 +3629,6 @@
                 "teardown_width": null,
                 "adjusted_left": 790,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4241616",
-                "is_private": "false",
-                "event_title": "ECON_3213_003_Recitation(Tanal_G)",
-                "original_left": 530,
-                "original_width": 60,
-                "setup_width": 10,
-                "teardown_width": 9,
-                "adjusted_left": 530,
-                "adjusted_width": 79
             },
             {
                 "booking_id": "4195762",
@@ -3684,6 +3684,17 @@
     "568": {
         "events": [
             {
+                "booking_id": "4238212",
+                "is_private": "false",
+                "event_title": "ECON_3213_002_Recitation(Dasgupta_K)",
+                "original_left": 890,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 890,
+                "adjusted_width": 79
+            },
+            {
                 "booking_id": "4141892",
                 "is_private": "false",
                 "event_title": "ERMC_SPEC-5355K-001 CODING FOR RISK MANAGEMENT",
@@ -3704,17 +3715,6 @@
                 "teardown_width": null,
                 "adjusted_left": 1210,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4238212",
-                "is_private": "false",
-                "event_title": "ECON_3213_002_Recitation(Dasgupta_K)",
-                "original_left": 890,
-                "original_width": 60,
-                "setup_width": 10,
-                "teardown_width": 9,
-                "adjusted_left": 890,
-                "adjusted_width": 79
             },
             {
                 "booking_id": "4167743",
@@ -3792,17 +3792,6 @@
                 "adjusted_width": 110
             },
             {
-                "booking_id": "4264225",
-                "is_private": "false",
-                "event_title": "R-town rehearsal-music",
-                "original_left": 1250,
-                "original_width": 120,
-                "setup_width": 10,
-                "teardown_width": 10,
-                "adjusted_left": 1250,
-                "adjusted_width": 140
-            },
-            {
                 "booking_id": "4122617",
                 "is_private": "false",
                 "event_title": "HUMA_SAS-1002C-038 EURPN LIT-PHILOS MASTRPIECS II",
@@ -3845,6 +3834,17 @@
     "570": {
         "events": [
             {
+                "booking_id": "4263554",
+                "is_private": "false",
+                "event_title": "R-town rehearsal",
+                "original_left": 1250,
+                "original_width": 120,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1250,
+                "adjusted_width": 140
+            },
+            {
                 "booking_id": "4122295",
                 "is_private": "false",
                 "event_title": "COCI_SAS-1102C-059 CONTEMP WESTRN CIVILIZATION II",
@@ -3865,17 +3865,6 @@
                 "teardown_width": null,
                 "adjusted_left": 1090,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4263554",
-                "is_private": "false",
-                "event_title": "R-town rehearsal",
-                "original_left": 1250,
-                "original_width": 120,
-                "setup_width": 10,
-                "teardown_width": 10,
-                "adjusted_left": 1250,
-                "adjusted_width": 140
             },
             {
                 "booking_id": "4154459",
@@ -4092,17 +4081,6 @@
     "573": {
         "events": [
             {
-                "booking_id": "4193893",
-                "is_private": "false",
-                "event_title": "COCI_SAS-1102C-046 CONTEMP WESTRN CIVILIZATION II",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4267741",
                 "is_private": "false",
                 "event_title": "Duaa Kumayl",
@@ -4145,6 +4123,17 @@
                 "teardown_width": null,
                 "adjusted_left": 970,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4193893",
+                "is_private": "false",
+                "event_title": "COCI_SAS-1102C-046 CONTEMP WESTRN CIVILIZATION II",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4164670",
@@ -4231,17 +4220,6 @@
     "1262": {
         "events": [
             {
-                "booking_id": "4148193",
-                "is_private": "false",
-                "event_title": "CHNS_SAS-1112C-003 FIRST YEAR CHINESE W II",
-                "original_left": 790,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4250350",
                 "is_private": "false",
                 "event_title": "RTC Rehearsal/Meetings",
@@ -4272,6 +4250,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 880,
+                "adjusted_width": 75
+            },
+            {
+                "booking_id": "4148193",
+                "is_private": "false",
+                "event_title": "CHNS_SAS-1112C-003 FIRST YEAR CHINESE W II",
+                "original_left": 790,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
                 "adjusted_width": 75
             },
             {
@@ -4392,6 +4381,17 @@
     "576": {
         "events": [
             {
+                "booking_id": "4243878",
+                "is_private": "false",
+                "event_title": "POLS_SAS-1211W-009 INTRO-AMERICAN POLITICS-DISC",
+                "original_left": 790,
+                "original_width": 50,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 50
+            },
+            {
                 "booking_id": "4169011",
                 "is_private": "false",
                 "event_title": "COCI_SAS-1102C-047 CONTEMP WESTRN CIVILIZATION II",
@@ -4412,17 +4412,6 @@
                 "teardown_width": null,
                 "adjusted_left": 970,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4243878",
-                "is_private": "false",
-                "event_title": "POLS_SAS-1211W-009 INTRO-AMERICAN POLITICS-DISC",
-                "original_left": 790,
-                "original_width": 50,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 50
             },
             {
                 "booking_id": "4124741",
@@ -4467,17 +4456,6 @@
     "578": {
         "events": [
             {
-                "booking_id": "4170199",
-                "is_private": "false",
-                "event_title": "ITAL_SAS-1222W-001 INTERMEDIATE CONVERSTN ITAL II",
-                "original_left": 610,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4268069",
                 "is_private": "false",
                 "event_title": "PRIVATE",
@@ -4520,6 +4498,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 1160,
                 "adjusted_width": 80
+            },
+            {
+                "booking_id": "4170199",
+                "is_private": "false",
+                "event_title": "ITAL_SAS-1222W-001 INTERMEDIATE CONVERSTN ITAL II",
+                "original_left": 610,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 75
             }
         ],
         "closed_hours": {
@@ -4798,17 +4787,6 @@
     "583": {
         "events": [
             {
-                "booking_id": "4124480",
-                "is_private": "false",
-                "event_title": "SUMA_SPEC-4310K-001 PRAC-INNOVATV SUSTAIN LEADRSHP",
-                "original_left": 1090,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4247480",
                 "is_private": "false",
                 "event_title": "ARCH4310_001 - Barnard Course Move",
@@ -4829,6 +4807,17 @@
                 "teardown_width": 9,
                 "adjusted_left": 470,
                 "adjusted_width": 79
+            },
+            {
+                "booking_id": "4124480",
+                "is_private": "false",
+                "event_title": "SUMA_SPEC-4310K-001 PRAC-INNOVATV SUSTAIN LEADRSHP",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4149814",
@@ -5131,17 +5120,6 @@
     "586": {
         "events": [
             {
-                "booking_id": "4153045",
-                "is_private": "false",
-                "event_title": "APAN_SPEC-5400K-002 MANAGING DATA",
-                "original_left": 1090,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4253169",
                 "is_private": "false",
                 "event_title": "Community Impact",
@@ -5183,6 +5161,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4153045",
+                "is_private": "false",
+                "event_title": "APAN_SPEC-5400K-002 MANAGING DATA",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
                 "adjusted_width": 110
             },
             {
@@ -5409,17 +5398,6 @@
     "591": {
         "events": [
             {
-                "booking_id": "4166183",
-                "is_private": "false",
-                "event_title": "CHEM_SAS-2446W-008 ORGANIC CHEMISTRY - REC",
-                "original_left": 1090,
-                "original_width": 50,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 50
-            },
-            {
                 "booking_id": "4267191",
                 "is_private": "false",
                 "event_title": "CAM Trip 2025 Intro Meeting",
@@ -5429,6 +5407,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 530,
                 "adjusted_width": 80
+            },
+            {
+                "booking_id": "4166183",
+                "is_private": "false",
+                "event_title": "CHEM_SAS-2446W-008 ORGANIC CHEMISTRY - REC",
+                "original_left": 1090,
+                "original_width": 50,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 50
             },
             {
                 "booking_id": "4139403",
@@ -5495,6 +5484,17 @@
     "592": {
         "events": [
             {
+                "booking_id": "4255419",
+                "is_private": "false",
+                "event_title": "CU Diabetes Club Meeting",
+                "original_left": 1100,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1100,
+                "adjusted_width": 80
+            },
+            {
                 "booking_id": "4126706",
                 "is_private": "false",
                 "event_title": "CLCZ_SAS-4035W-001 THE WRITERS OF PRAGUE",
@@ -5515,17 +5515,6 @@
                 "teardown_width": null,
                 "adjusted_left": 790,
                 "adjusted_width": 75
-            },
-            {
-                "booking_id": "4255419",
-                "is_private": "false",
-                "event_title": "CU Diabetes Club Meeting",
-                "original_left": 1100,
-                "original_width": 60,
-                "setup_width": 10,
-                "teardown_width": 10,
-                "adjusted_left": 1100,
-                "adjusted_width": 80
             },
             {
                 "booking_id": "4238647",
@@ -5570,6 +5559,17 @@
     "593": {
         "events": [
             {
+                "booking_id": "4177158",
+                "is_private": "false",
+                "event_title": "ECPS_SAS-4921W-001 SEMINAR IN POLITICAL ECONOMICS",
+                "original_left": 610,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 110
+            },
+            {
                 "booking_id": "4126953",
                 "is_private": "false",
                 "event_title": "CHEM_SAS-1406W-008 GENERAL CHEMISTRY II-REC",
@@ -5589,17 +5589,6 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 970,
-                "adjusted_width": 110
-            },
-            {
-                "booking_id": "4177158",
-                "is_private": "false",
-                "event_title": "ECPS_SAS-4921W-001 SEMINAR IN POLITICAL ECONOMICS",
-                "original_left": 610,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
                 "adjusted_width": 110
             },
             {
@@ -5826,28 +5815,6 @@
     "597": {
         "events": [
             {
-                "booking_id": "4165091",
-                "is_private": "false",
-                "event_title": "QMSS_SAS-5015G-001 DATA ANALYSIS FOR THE SOCIAL SCIENCES",
-                "original_left": 1090,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 110
-            },
-            {
-                "booking_id": "4120670",
-                "is_private": "false",
-                "event_title": "LING_SAS-4120W-001 LANG DOCUMENTATION/FIELD MTHDS",
-                "original_left": 880,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 880,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4154626",
                 "is_private": "false",
                 "event_title": "CSER_SAS-4350W-001 CINEMA OF SUBVERSION",
@@ -5868,6 +5835,28 @@
                 "teardown_width": null,
                 "adjusted_left": 600,
                 "adjusted_width": 90
+            },
+            {
+                "booking_id": "4165091",
+                "is_private": "false",
+                "event_title": "QMSS_SAS-5015G-001 DATA ANALYSIS FOR THE SOCIAL SCIENCES",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4120670",
+                "is_private": "false",
+                "event_title": "LING_SAS-4120W-001 LANG DOCUMENTATION/FIELD MTHDS",
+                "original_left": 880,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 880,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4159075",
@@ -5996,17 +5985,6 @@
     "804": {
         "events": [
             {
-                "booking_id": "4124769",
-                "is_private": "false",
-                "event_title": "CHEM_SAS-2045W-001 INTENSVE ORGANIC CHEMISTRY",
-                "original_left": 790,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4177321",
                 "is_private": "false",
                 "event_title": "RELI_SAS-1620W-001 RELIGION & THE MOVIES",
@@ -6038,6 +6016,17 @@
                 "teardown_width": null,
                 "adjusted_left": 970,
                 "adjusted_width": 110
+            },
+            {
+                "booking_id": "4124769",
+                "is_private": "false",
+                "event_title": "CHEM_SAS-2045W-001 INTENSVE ORGANIC CHEMISTRY",
+                "original_left": 790,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4147201",
@@ -6168,17 +6157,6 @@
     "1390": {
         "events": [
             {
-                "booking_id": "4238029",
-                "is_private": "false",
-                "event_title": "INAF_SIPA-8358U-001 Foreign Policy - Thinking Outside the Box",
-                "original_left": 540,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 540,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4111631",
                 "is_private": "false",
                 "event_title": "INAF_SIPA-6089U-001 Enviro Justice & Climate Resil",
@@ -6209,6 +6187,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 850,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4238029",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-8358U-001 Foreign Policy - Thinking Outside the Box",
+                "original_left": 540,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 540,
                 "adjusted_width": 110
             }
         ],
@@ -6614,17 +6603,6 @@
     "1463": {
         "events": [
             {
-                "booking_id": "4225598",
-                "is_private": "false",
-                "event_title": "INAF_SIPA-8878U-001 Nuclear Theory, Politics, & Strategies",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4111189",
                 "is_private": "false",
                 "event_title": "INAF_SIPA-6692U-001 Sustainable Finance II",
@@ -6644,6 +6622,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225598",
+                "is_private": "false",
+                "event_title": "INAF_SIPA-8878U-001 Nuclear Theory, Politics, & Strategies",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
                 "adjusted_width": 110
             }
         ],
@@ -6945,17 +6934,6 @@
     "660": {
         "events": [
             {
-                "booking_id": "4225583",
-                "is_private": "false",
-                "event_title": "PUAF_SIPA-6216U-001 Policy Through Partnerships for the Livable City",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4216290",
                 "is_private": "false",
                 "event_title": "SIPA_SIPA-9000U-060 Capstone Workshop",
@@ -6986,6 +6964,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225583",
+                "is_private": "false",
+                "event_title": "PUAF_SIPA-6216U-001 Policy Through Partnerships for the Livable City",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
                 "adjusted_width": 110
             }
         ],
@@ -7051,17 +7040,6 @@
     "662": {
         "events": [
             {
-                "booking_id": "4180594",
-                "is_private": "false",
-                "event_title": "EAAS_SAS-4565W-001 TIBET IN THE WORLD: CULTURAL PRODUCTION AND SOCIAL CHANGE",
-                "original_left": 970,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 970,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4197894",
                 "is_private": "false",
                 "event_title": "SIPA_SIPA-9001U-013 Capstone Workshop-Dev Practice",
@@ -7070,6 +7048,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 660,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4180594",
+                "is_private": "false",
+                "event_title": "EAAS_SAS-4565W-001 TIBET IN THE WORLD: CULTURAL PRODUCTION AND SOCIAL CHANGE",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
                 "adjusted_width": 110
             },
             {
@@ -7092,17 +7081,6 @@
     },
     "826": {
         "events": [
-            {
-                "booking_id": "4225695",
-                "is_private": "true",
-                "event_title": "Private",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
             {
                 "booking_id": "4111796",
                 "is_private": "true",
@@ -7145,6 +7123,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 540,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4225695",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
                 "adjusted_width": 110
             }
         ],
@@ -7221,17 +7210,6 @@
     "599": {
         "events": [
             {
-                "booking_id": "4142966",
-                "is_private": "false",
-                "event_title": "EAAS_SAS-8035G-001 LU XUN AND MODERN CHINA",
-                "original_left": 970,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 970,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4222103",
                 "is_private": "false",
                 "event_title": "ECON_3625_001(Kim, H)",
@@ -7241,6 +7219,17 @@
                 "teardown_width": 9,
                 "adjusted_left": 770,
                 "adjusted_width": 79
+            },
+            {
+                "booking_id": "4142966",
+                "is_private": "false",
+                "event_title": "EAAS_SAS-8035G-001 LU XUN AND MODERN CHINA",
+                "original_left": 970,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4127639",
@@ -7296,28 +7285,6 @@
     "600": {
         "events": [
             {
-                "booking_id": "4139048",
-                "is_private": "false",
-                "event_title": "CHNS_SAS-1102F-004 FIRST YEAR CHINESE II",
-                "original_left": 880,
-                "original_width": 65,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 880,
-                "adjusted_width": 65
-            },
-            {
-                "booking_id": "4144348",
-                "is_private": "false",
-                "event_title": "CHNS_SAS-1102F-005 FIRST YEAR CHINESE II",
-                "original_left": 970,
-                "original_width": 65,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 970,
-                "adjusted_width": 65
-            },
-            {
                 "booking_id": "4178442",
                 "is_private": "false",
                 "event_title": "CHNS_SAS-2202C-005 SECOND YEAR CHINESE II",
@@ -7338,6 +7305,28 @@
                 "teardown_width": null,
                 "adjusted_left": 700,
                 "adjusted_width": 75
+            },
+            {
+                "booking_id": "4139048",
+                "is_private": "false",
+                "event_title": "CHNS_SAS-1102F-004 FIRST YEAR CHINESE II",
+                "original_left": 880,
+                "original_width": 65,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 880,
+                "adjusted_width": 65
+            },
+            {
+                "booking_id": "4144348",
+                "is_private": "false",
+                "event_title": "CHNS_SAS-1102F-005 FIRST YEAR CHINESE II",
+                "original_left": 970,
+                "original_width": 65,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 970,
+                "adjusted_width": 65
             },
             {
                 "booking_id": "4127854",
@@ -7424,39 +7413,6 @@
     "601": {
         "events": [
             {
-                "booking_id": "4129305",
-                "is_private": "false",
-                "event_title": "CHNS_SAS-1102F-001 FIRST YEAR CHINESE II",
-                "original_left": 530,
-                "original_width": 65,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 530,
-                "adjusted_width": 65
-            },
-            {
-                "booking_id": "4167318",
-                "is_private": "false",
-                "event_title": "CHNS_SAS-4013W-001 BUSINESS CHINESE II",
-                "original_left": 610,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 75
-            },
-            {
-                "booking_id": "4157365",
-                "is_private": "false",
-                "event_title": "CHNS_SAS-4113W-001 Advanced Business Chinese II",
-                "original_left": 700,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 700,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4240952",
                 "is_private": "false",
                 "event_title": "ECON_4211_001_Recitation(Luo_T)",
@@ -7488,6 +7444,39 @@
                 "teardown_width": null,
                 "adjusted_left": 790,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4129305",
+                "is_private": "false",
+                "event_title": "CHNS_SAS-1102F-001 FIRST YEAR CHINESE II",
+                "original_left": 530,
+                "original_width": 65,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 530,
+                "adjusted_width": 65
+            },
+            {
+                "booking_id": "4167318",
+                "is_private": "false",
+                "event_title": "CHNS_SAS-4013W-001 BUSINESS CHINESE II",
+                "original_left": 610,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 75
+            },
+            {
+                "booking_id": "4157365",
+                "is_private": "false",
+                "event_title": "CHNS_SAS-4113W-001 Advanced Business Chinese II",
+                "original_left": 700,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 700,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4162590",
@@ -7660,17 +7649,6 @@
     "604": {
         "events": [
             {
-                "booking_id": "4264375",
-                "is_private": "false",
-                "event_title": "CZCH_SAS-2102W-001 INTERMEDIATE CZECH II",
-                "original_left": 610,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4267142",
                 "is_private": "false",
                 "event_title": "CUSBR Website",
@@ -7680,6 +7658,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 845,
                 "adjusted_width": 260
+            },
+            {
+                "booking_id": "4264375",
+                "is_private": "false",
+                "event_title": "CZCH_SAS-2102W-001 INTERMEDIATE CZECH II",
+                "original_left": 610,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4149690",
@@ -8066,17 +8055,6 @@
     "1433": {
         "events": [
             {
-                "booking_id": "4146131",
-                "is_private": "false",
-                "event_title": "MDES_SAS-2602W-001 INTERMEDIATE HINDI-URDU II",
-                "original_left": 790,
-                "original_width": 65,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 65
-            },
-            {
                 "booking_id": "4249433",
                 "is_private": "false",
                 "event_title": "Community Impact",
@@ -8108,6 +8086,17 @@
                 "teardown_width": null,
                 "adjusted_left": 700,
                 "adjusted_width": 75
+            },
+            {
+                "booking_id": "4146131",
+                "is_private": "false",
+                "event_title": "MDES_SAS-2602W-001 INTERMEDIATE HINDI-URDU II",
+                "original_left": 790,
+                "original_width": 65,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 65
             },
             {
                 "booking_id": "4163526",
@@ -9024,17 +9013,6 @@
     "1628": {
         "events": [
             {
-                "booking_id": "4146977",
-                "is_private": "false",
-                "event_title": "AFAS_SAS-3001C-001 SING A BLACK GIRL'S SONG:  THE NON FICTION WRITING OF NTOZAKE SHANGE",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4217791",
                 "is_private": "false",
                 "event_title": "ENGL_SPEC-0012Z-002 AMER 12 PT PROG INTENSIVE",
@@ -9054,6 +9032,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4146977",
+                "is_private": "false",
+                "event_title": "AFAS_SAS-3001C-001 SING A BLACK GIRL'S SONG:  THE NON FICTION WRITING OF NTOZAKE SHANGE",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
                 "adjusted_width": 110
             }
         ],
@@ -9591,17 +9580,6 @@
     "2463": {
         "events": [
             {
-                "booking_id": "4159040",
-                "is_private": "false",
-                "event_title": "MDES_SAS-4625W-001 ADVANCED HINDI II",
-                "original_left": 610,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4182444",
                 "is_private": "false",
                 "event_title": "CHNS_SAS-2222C-001 SECOND YEAR CHINESE W II",
@@ -9633,6 +9611,17 @@
                 "teardown_width": 9,
                 "adjusted_left": 950,
                 "adjusted_width": 79
+            },
+            {
+                "booking_id": "4159040",
+                "is_private": "false",
+                "event_title": "MDES_SAS-4625W-001 ADVANCED HINDI II",
+                "original_left": 610,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4167705",
@@ -9895,17 +9884,6 @@
     "788": {
         "events": [
             {
-                "booking_id": "4127385",
-                "is_private": "false",
-                "event_title": "BIOL_SAS-3005W-001 NEUROBIO II: DEVPT & SYSTEMS",
-                "original_left": 610,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4254307",
                 "is_private": "false",
                 "event_title": "Illumina On-Campus",
@@ -9915,6 +9893,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 1045,
                 "adjusted_width": 230
+            },
+            {
+                "booking_id": "4127385",
+                "is_private": "false",
+                "event_title": "BIOL_SAS-3005W-001 NEUROBIO II: DEVPT & SYSTEMS",
+                "original_left": 610,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4119679",
@@ -10206,17 +10195,6 @@
     "1260": {
         "events": [
             {
-                "booking_id": "4163285",
-                "is_private": "false",
-                "event_title": "PSYC_SAS-2636W-001 Industrial-Organizational Psychology",
-                "original_left": 1090,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4265577",
                 "is_private": "false",
                 "event_title": "Math Prize Exam",
@@ -10226,6 +10204,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 1165,
                 "adjusted_width": 225
+            },
+            {
+                "booking_id": "4163285",
+                "is_private": "false",
+                "event_title": "PSYC_SAS-2636W-001 Industrial-Organizational Psychology",
+                "original_left": 1090,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4134638",
@@ -10431,17 +10420,6 @@
     "608": {
         "events": [
             {
-                "booking_id": "4118206",
-                "is_private": "false",
-                "event_title": "ECON_SAS-6412G-001 INTRODUCTN TO ECONOMETRICS II",
-                "original_left": 520,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 520,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4178681",
                 "is_private": "false",
                 "event_title": "ANTH_SAS-2972C-001 Unsettling Science: An Introduction to Science, Technology, and Society",
@@ -10484,6 +10462,17 @@
                 "teardown_width": 10,
                 "adjusted_left": 1160,
                 "adjusted_width": 80
+            },
+            {
+                "booking_id": "4118206",
+                "is_private": "false",
+                "event_title": "ECON_SAS-6412G-001 INTRODUCTN TO ECONOMETRICS II",
+                "original_left": 520,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 520,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4158021",
@@ -10592,17 +10581,6 @@
     "1439": {
         "events": [
             {
-                "booking_id": "4133250",
-                "is_private": "false",
-                "event_title": "COMS_SEAS-6998E-010 FOUND PROOF COMPLEX MDRN",
-                "original_left": 790,
-                "original_width": 150,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 150
-            },
-            {
                 "booking_id": "4232813",
                 "is_private": "false",
                 "event_title": "ANTH_SAS-1012V-004 INTERPRETATION OF CULTRE-DISC",
@@ -10612,6 +10590,17 @@
                 "teardown_width": null,
                 "adjusted_left": 730,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4133250",
+                "is_private": "false",
+                "event_title": "COMS_SEAS-6998E-010 FOUND PROOF COMPLEX MDRN",
+                "original_left": 790,
+                "original_width": 150,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 150
             },
             {
                 "booking_id": "4162978",
@@ -11181,17 +11170,6 @@
     "1403": {
         "events": [
             {
-                "booking_id": "4152719",
-                "is_private": "false",
-                "event_title": "ERMC_SPEC-5520K-001 RISK REGULATIONS IN FINANCE",
-                "original_left": 1090,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4184914",
                 "is_private": "false",
                 "event_title": "WRIT_SART-3232W-001 EDITING, REVISING, PITCHING, PUBLISHING",
@@ -11212,6 +11190,17 @@
                 "teardown_width": null,
                 "adjusted_left": 790,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4152719",
+                "is_private": "false",
+                "event_title": "ERMC_SPEC-5520K-001 RISK REGULATIONS IN FINANCE",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4156937",
@@ -11662,17 +11651,6 @@
     "620": {
         "events": [
             {
-                "booking_id": "4148828",
-                "is_private": "false",
-                "event_title": "BIOL_SAS-3015W-005 Neurobiology II Recitation",
-                "original_left": 1020,
-                "original_width": 70,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1020,
-                "adjusted_width": 70
-            },
-            {
                 "booking_id": "4196514",
                 "is_private": "false",
                 "event_title": "ENGL_SAS-1010F-304 UW: Readings-Performance Arts",
@@ -11682,6 +11660,17 @@
                 "teardown_width": null,
                 "adjusted_left": 880,
                 "adjusted_width": 75
+            },
+            {
+                "booking_id": "4148828",
+                "is_private": "false",
+                "event_title": "BIOL_SAS-3015W-005 Neurobiology II Recitation",
+                "original_left": 1020,
+                "original_width": 70,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1020,
+                "adjusted_width": 70
             },
             {
                 "booking_id": "4146641",
@@ -12026,17 +12015,6 @@
     "624": {
         "events": [
             {
-                "booking_id": "4146015",
-                "is_private": "false",
-                "event_title": "CLGR_SAS-4420G-001 BENJAMIN (ENG)",
-                "original_left": 850,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 850,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4216159",
                 "is_private": "false",
                 "event_title": "QMSS_SAS-5073G-002 MACHINE LEARNING SOC SCI",
@@ -12045,6 +12023,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 1090,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4146015",
+                "is_private": "false",
+                "event_title": "CLGR_SAS-4420G-001 BENJAMIN (ENG)",
+                "original_left": 850,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 850,
                 "adjusted_width": 110
             },
             {
@@ -12240,17 +12229,6 @@
     "626": {
         "events": [
             {
-                "booking_id": "4138043",
-                "is_private": "false",
-                "event_title": "SUMA_SPEC-4130K-001 SUSTAINABLE CITIES",
-                "original_left": 1090,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4249876",
                 "is_private": "false",
                 "event_title": "Community Impact",
@@ -12271,6 +12249,17 @@
                 "teardown_width": 9,
                 "adjusted_left": 1010,
                 "adjusted_width": 79
+            },
+            {
+                "booking_id": "4138043",
+                "is_private": "false",
+                "event_title": "SUMA_SPEC-4130K-001 SUSTAINABLE CITIES",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4154862",
@@ -12379,6 +12368,17 @@
     "628": {
         "events": [
             {
+                "booking_id": "4244231",
+                "is_private": "false",
+                "event_title": "PHYS6038 - Recitation - ASK0827612",
+                "original_left": 730,
+                "original_width": 60,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 730,
+                "adjusted_width": 60
+            },
+            {
                 "booking_id": "4150171",
                 "is_private": "false",
                 "event_title": "HUMA_SAS-1002F-063 EURPN LIT-PHILOS MASTRPIECS II",
@@ -12399,17 +12399,6 @@
                 "teardown_width": null,
                 "adjusted_left": 1090,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4244231",
-                "is_private": "false",
-                "event_title": "PHYS6038 - Recitation - ASK0827612",
-                "original_left": 730,
-                "original_width": 60,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 730,
-                "adjusted_width": 60
             },
             {
                 "booking_id": "4237849",
@@ -12720,6 +12709,17 @@
     "1280": {
         "events": [
             {
+                "booking_id": "4222557",
+                "is_private": "true",
+                "event_title": "Private",
+                "original_left": 1010,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 1010,
+                "adjusted_width": 79
+            },
+            {
                 "booking_id": "4162095",
                 "is_private": "false",
                 "event_title": "ANTH_SAS-6227G-001 Ethnographies at the End of the World",
@@ -12740,17 +12740,6 @@
                 "teardown_width": null,
                 "adjusted_left": 1090,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4222557",
-                "is_private": "true",
-                "event_title": "Private",
-                "original_left": 1010,
-                "original_width": 60,
-                "setup_width": 10,
-                "teardown_width": 9,
-                "adjusted_left": 1010,
-                "adjusted_width": 79
             },
             {
                 "booking_id": "4126704",
@@ -12784,6 +12773,17 @@
     "892": {
         "events": [
             {
+                "booking_id": "4208925",
+                "is_private": "false",
+                "event_title": "STAT_SAS-4204W-002 STATISTICAL INFERENCE",
+                "original_left": 1150,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1150,
+                "adjusted_width": 75
+            },
+            {
                 "booking_id": "4145353",
                 "is_private": "false",
                 "event_title": "PSYC_SAS-1001W-001 THE SCIENCE OF PSYCHOLOGY",
@@ -12814,17 +12814,6 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 700,
-                "adjusted_width": 75
-            },
-            {
-                "booking_id": "4208925",
-                "is_private": "false",
-                "event_title": "STAT_SAS-4204W-002 STATISTICAL INFERENCE",
-                "original_left": 1150,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1150,
                 "adjusted_width": 75
             },
             {
@@ -13148,6 +13137,17 @@
     "1281": {
         "events": [
             {
+                "booking_id": "4222829",
+                "is_private": "false",
+                "event_title": "ECON_3025_001_Recitation(Li_X)",
+                "original_left": 950,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 9,
+                "adjusted_left": 950,
+                "adjusted_width": 79
+            },
+            {
                 "booking_id": "4162800",
                 "is_private": "false",
                 "event_title": "ERMC_SPEC-5250K-008 EXTERNAL STAKEHOLDER REQUIREMENTS",
@@ -13179,17 +13179,6 @@
                 "teardown_width": null,
                 "adjusted_left": 850,
                 "adjusted_width": 50
-            },
-            {
-                "booking_id": "4222829",
-                "is_private": "false",
-                "event_title": "ECON_3025_001_Recitation(Li_X)",
-                "original_left": 950,
-                "original_width": 60,
-                "setup_width": 10,
-                "teardown_width": 9,
-                "adjusted_left": 950,
-                "adjusted_width": 79
             },
             {
                 "booking_id": "4145308",
@@ -13628,6 +13617,17 @@
     "694": {
         "events": [
             {
+                "booking_id": "4266504",
+                "is_private": "false",
+                "event_title": "Figma 101",
+                "original_left": 1040,
+                "original_width": 60,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 1040,
+                "adjusted_width": 80
+            },
+            {
                 "booking_id": "4131365",
                 "is_private": "false",
                 "event_title": "SDEV_SAS-2300W-001 CHALLENGES OF SUSTAINABLE DEV",
@@ -13659,17 +13659,6 @@
                 "teardown_width": 10,
                 "adjusted_left": 1190,
                 "adjusted_width": 70
-            },
-            {
-                "booking_id": "4266504",
-                "is_private": "false",
-                "event_title": "Figma 101",
-                "original_left": 1040,
-                "original_width": 60,
-                "setup_width": 10,
-                "teardown_width": 10,
-                "adjusted_left": 1040,
-                "adjusted_width": 80
             },
             {
                 "booking_id": "4156566",
@@ -13819,6 +13808,17 @@
     "1579": {
         "events": [
             {
+                "booking_id": "4183538",
+                "is_private": "false",
+                "event_title": "PHIL_SAS-3655V-001 TOPICS IN COGNITIVE SCIENCE AND PHILOSOPHY",
+                "original_left": 790,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 790,
+                "adjusted_width": 75
+            },
+            {
                 "booking_id": "4171139",
                 "is_private": "false",
                 "event_title": "ERMC_SPEC-5360K-003 FINANCIAL RISK MANAGEMENT",
@@ -13839,17 +13839,6 @@
                 "teardown_width": null,
                 "adjusted_left": 970,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4183538",
-                "is_private": "false",
-                "event_title": "PHIL_SAS-3655V-001 TOPICS IN COGNITIVE SCIENCE AND PHILOSOPHY",
-                "original_left": 790,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 790,
-                "adjusted_width": 75
             },
             {
                 "booking_id": "4126987",
@@ -13991,6 +13980,17 @@
     "1578": {
         "events": [
             {
+                "booking_id": "4266435",
+                "is_private": "false",
+                "event_title": "letter\u2019s to strangers ",
+                "original_left": 530,
+                "original_width": 50,
+                "setup_width": 10,
+                "teardown_width": 10,
+                "adjusted_left": 530,
+                "adjusted_width": 70
+            },
+            {
                 "booking_id": "4148502",
                 "is_private": "false",
                 "event_title": "COCI_SAS-1102C-049 CONTEMP WESTRN CIVILIZATION II",
@@ -14011,17 +14011,6 @@
                 "teardown_width": null,
                 "adjusted_left": 1090,
                 "adjusted_width": 110
-            },
-            {
-                "booking_id": "4266435",
-                "is_private": "false",
-                "event_title": "letter\u2019s to strangers ",
-                "original_left": 530,
-                "original_width": 50,
-                "setup_width": 10,
-                "teardown_width": 10,
-                "adjusted_left": 530,
-                "adjusted_width": 70
             },
             {
                 "booking_id": "4146492",
@@ -14066,17 +14055,6 @@
     "1577": {
         "events": [
             {
-                "booking_id": "4157264",
-                "is_private": "false",
-                "event_title": "ERMC_SPEC-5390K-001 CREDIT RISK MANAGEMENT",
-                "original_left": 1210,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1210,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4174727",
                 "is_private": "false",
                 "event_title": "HIST_SAS-2438W-001 POLITICAL HISTORY OF CONTEMPORARY AFRICA",
@@ -14096,6 +14074,17 @@
                 "setup_width": null,
                 "teardown_width": null,
                 "adjusted_left": 970,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4157264",
+                "is_private": "false",
+                "event_title": "ERMC_SPEC-5390K-001 CREDIT RISK MANAGEMENT",
+                "original_left": 1210,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1210,
                 "adjusted_width": 110
             },
             {
@@ -14152,28 +14141,6 @@
     "1576": {
         "events": [
             {
-                "booking_id": "4131260",
-                "is_private": "false",
-                "event_title": "APAN_SPEC-5200K-001 APP AN FRAMEWORKS & METHODS I",
-                "original_left": 1210,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1210,
-                "adjusted_width": 110
-            },
-            {
-                "booking_id": "4233396",
-                "is_private": "false",
-                "event_title": "APAN_SPEC-5300K-001 RESEARCH DESIGN",
-                "original_left": 1090,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1090,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4197669",
                 "is_private": "false",
                 "event_title": "ENGL_SAS-2400W-001 Romanticism",
@@ -14194,6 +14161,28 @@
                 "teardown_width": null,
                 "adjusted_left": 880,
                 "adjusted_width": 75
+            },
+            {
+                "booking_id": "4131260",
+                "is_private": "false",
+                "event_title": "APAN_SPEC-5200K-001 APP AN FRAMEWORKS & METHODS I",
+                "original_left": 1210,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1210,
+                "adjusted_width": 110
+            },
+            {
+                "booking_id": "4233396",
+                "is_private": "false",
+                "event_title": "APAN_SPEC-5300K-001 RESEARCH DESIGN",
+                "original_left": 1090,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1090,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4194417",
@@ -14560,17 +14549,6 @@
     "1572": {
         "events": [
             {
-                "booking_id": "4193740",
-                "is_private": "false",
-                "event_title": "ASCE_SAS-1361V-001 INTRO EAST ASIAN CIV: JPN",
-                "original_left": 610,
-                "original_width": 75,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 610,
-                "adjusted_width": 75
-            },
-            {
                 "booking_id": "4186210",
                 "is_private": "false",
                 "event_title": "APAN_SPEC-5205K-007 APP AN FRAMEWORKS & METHODS II",
@@ -14613,6 +14591,17 @@
                 "teardown_width": null,
                 "adjusted_left": 910,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4193740",
+                "is_private": "false",
+                "event_title": "ASCE_SAS-1361V-001 INTRO EAST ASIAN CIV: JPN",
+                "original_left": 610,
+                "original_width": 75,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 610,
+                "adjusted_width": 75
             },
             {
                 "booking_id": "4166682",
@@ -14721,17 +14710,6 @@
     "1570": {
         "events": [
             {
-                "booking_id": "4122533",
-                "is_private": "false",
-                "event_title": "ERMC_SPEC-5250K-011 EXTERNAL STAKEHOLDER REQUIREMENTS",
-                "original_left": 1210,
-                "original_width": 110,
-                "setup_width": null,
-                "teardown_width": null,
-                "adjusted_left": 1210,
-                "adjusted_width": 110
-            },
-            {
                 "booking_id": "4188702",
                 "is_private": "false",
                 "event_title": "AFAS_SAS-3005W-001 Introduction to Caribbean Art",
@@ -14752,6 +14730,17 @@
                 "teardown_width": null,
                 "adjusted_left": 1090,
                 "adjusted_width": 50
+            },
+            {
+                "booking_id": "4122533",
+                "is_private": "false",
+                "event_title": "ERMC_SPEC-5250K-011 EXTERNAL STAKEHOLDER REQUIREMENTS",
+                "original_left": 1210,
+                "original_width": 110,
+                "setup_width": null,
+                "teardown_width": null,
+                "adjusted_left": 1210,
+                "adjusted_width": 110
             },
             {
                 "booking_id": "4149056",

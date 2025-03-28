@@ -6,7 +6,13 @@
         "table_style": "movable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.809,
+            "lng": -73.9649,
+            "building": "Broadway"
+        }
     },
     "Carman 111": {
         "capacity": 24,
@@ -15,7 +21,13 @@
         "table_style": "movable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8075,
+            "lng": -73.9641,
+            "building": "Carman"
+        }
     },
     "chandler 401": {
         "capacity": 36,
@@ -24,7 +36,16 @@
         "table_style": "fixed tables",
         "shared_tables": 7,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/chandler_401_1.jpg",
+            "photos/chandler_401_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8096,
+            "lng": -73.9616,
+            "building": "chandler"
+        }
     },
     "chandler 402": {
         "capacity": 126,
@@ -33,7 +54,18 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/chandler_402_1.jpg",
+            "photos/chandler_402_2.jpg",
+            "photos/chandler_402_3.jpg",
+            "photos/chandler_402_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8096,
+            "lng": -73.9616,
+            "building": "chandler"
+        }
     },
     "claremont c01": {
         "capacity": 25,
@@ -42,7 +74,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/claremont_c01_1.jpg",
+            "photos/claremont_c01_2.jpg",
+            "photos/claremont_c01_3.jpg",
+            "photos/claremont_c01_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8111,
+            "lng": -73.9625,
+            "building": "claremont"
+        }
     },
     "claremont 201": {
         "capacity": 24,
@@ -51,7 +94,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/claremont_201_1.jpg",
+            "photos/claremont_201_2.jpg",
+            "photos/claremont_201_3.jpg",
+            "photos/claremont_201_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8111,
+            "lng": -73.9625,
+            "building": "claremont"
+        }
     },
     "engineering_terrace 252": {
         "capacity": 22,
@@ -60,7 +114,13 @@
         "table_style": "fixed tables",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.96,
+            "building": "engineering_terrace"
+        }
     },
     "engineering_terrace 253": {
         "capacity": 28,
@@ -69,7 +129,13 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.96,
+            "building": "engineering_terrace"
+        }
     },
     "fayerweather 203": {
         "capacity": 15,
@@ -78,7 +144,18 @@
         "table_style": "moveable tables",
         "shared_tables": 5,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/fayerweather_203_1.jpg",
+            "photos/fayerweather_203_2.jpg",
+            "photos/fayerweather_203_3.jpg",
+            "photos/fayerweather_203_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "fayerweather 209": {
         "capacity": 54,
@@ -87,7 +164,16 @@
         "table_style": "moveable tables",
         "shared_tables": 18,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/fayerweather_209_1.jpg",
+            "photos/fayerweather_209_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "fayerweather 301m": {
         "capacity": 39,
@@ -96,7 +182,18 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/fayerweather_301m_1.jpg",
+            "photos/fayerweather_301m_2.jpg",
+            "photos/fayerweather_301m_3.jpg",
+            "photos/fayerweather_301m_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "fayerweather 302": {
         "capacity": 30,
@@ -105,7 +202,18 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/fayerweather_302_1.jpg",
+            "photos/fayerweather_302_2.jpg",
+            "photos/fayerweather_302_3.jpg",
+            "photos/fayerweather_302_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "fayerweather 310": {
         "capacity": 96,
@@ -114,7 +222,13 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "fayerweather 311": {
         "capacity": 25,
@@ -123,7 +237,18 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/fayerweather_311_1.jpg",
+            "photos/fayerweather_311_2.jpg",
+            "photos/fayerweather_311_3.jpg",
+            "photos/fayerweather_311_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "fayerweather 313": {
         "capacity": 78,
@@ -132,7 +257,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/fayerweather_313_1.jpg",
+            "photos/fayerweather_313_2.jpg",
+            "photos/fayerweather_313_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8078,
+            "lng": -73.9604,
+            "building": "fayerweather"
+        }
     },
     "iab 417": {
         "capacity": 400,
@@ -141,7 +276,18 @@
         "table_style": "n/a",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_417_1.jpg",
+            "photos/iab_417_2.jpg",
+            "photos/iab_417_3.jpg",
+            "photos/iab_417_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 1102": {
         "capacity": 25,
@@ -150,7 +296,17 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_1102_1.jpg",
+            "photos/iab_1102_2.jpg",
+            "photos/iab_1102_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 253": {
         "capacity": 30,
@@ -159,7 +315,17 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_253_1.jpg",
+            "photos/iab_253_2.jpg",
+            "photos/iab_253_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 254": {
         "capacity": 19,
@@ -168,7 +334,17 @@
         "table_style": "moveable tables",
         "shared_tables": 8,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_254_1.jpg",
+            "photos/iab_254_2.jpg",
+            "photos/iab_254_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 255": {
         "capacity": 25,
@@ -177,7 +353,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_255_1.jpg",
+            "photos/iab_255_2.jpg",
+            "photos/iab_255_3.jpg",
+            "photos/iab_255_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 324": {
         "capacity": 35,
@@ -186,7 +373,15 @@
         "table_style": "moveable tables",
         "shared_tables": 8,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_324_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 326": {
         "capacity": 13,
@@ -195,7 +390,17 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": false
+        "has_projector": false,
+        "photos": [
+            "photos/iab_326_1.jpg",
+            "photos/iab_326_2.jpg",
+            "photos/iab_326_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 402": {
         "capacity": 25,
@@ -204,7 +409,16 @@
         "table_style": "moveable tablets",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_402_1.jpg",
+            "photos/iab_402_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 402b": {
         "capacity": 25,
@@ -213,7 +427,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_402b_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 403": {
         "capacity": 80,
@@ -222,7 +444,18 @@
         "table_style": "fixed tables",
         "shared_tables": 16,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_403_1.jpg",
+            "photos/iab_403_2.jpg",
+            "photos/iab_403_3.jpg",
+            "photos/iab_403_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 404": {
         "capacity": 61,
@@ -231,7 +464,16 @@
         "table_style": "fixed tables",
         "shared_tables": 14,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_404_1.jpg",
+            "photos/iab_404_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 405": {
         "capacity": 54,
@@ -240,7 +482,15 @@
         "table_style": "fixed tables",
         "shared_tables": 12,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_405_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 405a": {
         "capacity": 20,
@@ -249,7 +499,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_405a_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 407": {
         "capacity": 64,
@@ -258,7 +516,15 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_407_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 409": {
         "capacity": 35,
@@ -267,7 +533,15 @@
         "table_style": "moveable tables",
         "shared_tables": 6,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_409_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 410": {
         "capacity": 69,
@@ -276,7 +550,17 @@
         "table_style": "fixed tables",
         "shared_tables": 7,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_410_1.jpg",
+            "photos/iab_410_2.jpg",
+            "photos/iab_410_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 411": {
         "capacity": 67,
@@ -285,7 +569,15 @@
         "table_style": "fixed tables",
         "shared_tables": 16,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_411_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 413": {
         "capacity": 67,
@@ -294,7 +586,16 @@
         "table_style": "fixed tables",
         "shared_tables": 12,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_413_1.jpg",
+            "photos/iab_413_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 418": {
         "capacity": 30,
@@ -303,7 +604,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_418_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 501": {
         "capacity": 18,
@@ -312,7 +621,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_501_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 501a": {
         "capacity": 26,
@@ -321,7 +638,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_501a_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "iab 501b": {
         "capacity": 26,
@@ -330,7 +655,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/iab_501b_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8087,
+            "lng": -73.9596,
+            "building": "iab"
+        }
     },
     "hamilton 301": {
         "capacity": 23,
@@ -339,7 +672,18 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_301_1.jpg",
+            "photos/hamilton_301_2.jpg",
+            "photos/hamilton_301_3.jpg",
+            "photos/hamilton_301_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 302": {
         "capacity": 27,
@@ -348,7 +692,20 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_302_1.jpg",
+            "photos/hamilton_302_2.jpg",
+            "photos/hamilton_302_3.jpg",
+            "photos/hamilton_302_4.jpg",
+            "photos/hamilton_302_5.jpg",
+            "photos/hamilton_302_6.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 303": {
         "capacity": 42,
@@ -357,7 +714,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_303_1.jpg",
+            "photos/hamilton_303_2.jpg",
+            "photos/hamilton_303_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 304": {
         "capacity": 42,
@@ -366,7 +733,16 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_304_1.jpg",
+            "photos/hamilton_304_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 306": {
         "capacity": 23,
@@ -375,7 +751,18 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_306_1.jpg",
+            "photos/hamilton_306_2.jpg",
+            "photos/hamilton_306_3.jpg",
+            "photos/hamilton_306_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 309": {
         "capacity": 23,
@@ -384,7 +771,18 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_309_1.jpg",
+            "photos/hamilton_309_2.jpg",
+            "photos/hamilton_309_3.jpg",
+            "photos/hamilton_309_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 313": {
         "capacity": 22,
@@ -393,7 +791,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_313_1.jpg",
+            "photos/hamilton_313_2.jpg",
+            "photos/hamilton_313_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 315": {
         "capacity": 22,
@@ -402,7 +810,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_315_1.jpg",
+            "photos/hamilton_315_2.jpg",
+            "photos/hamilton_315_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 316": {
         "capacity": 23,
@@ -411,7 +829,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_316_1.jpg",
+            "photos/hamilton_316_2.jpg",
+            "photos/hamilton_316_3.jpg",
+            "photos/hamilton_316_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 317": {
         "capacity": 20,
@@ -420,7 +849,17 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_317_1.jpg",
+            "photos/hamilton_317_2.jpg",
+            "photos/hamilton_317_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 318": {
         "capacity": 25,
@@ -429,7 +868,16 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_318_1.jpg",
+            "photos/hamilton_318_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 401": {
         "capacity": 21,
@@ -438,7 +886,13 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 402": {
         "capacity": 23,
@@ -447,7 +901,18 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_402_2.jpg",
+            "photos/hamilton_402_3.jpg",
+            "photos/hamilton_402_4.jpg",
+            "photos/hamilton_402_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 404": {
         "capacity": 10,
@@ -456,7 +921,17 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_404_1.jpg",
+            "photos/hamilton_404_2.jpg",
+            "photos/hamilton_404_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 406": {
         "capacity": 11,
@@ -465,7 +940,18 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_406_1.jpg",
+            "photos/hamilton_406_2.jpg",
+            "photos/hamilton_406_3.jpg",
+            "photos/hamilton_406_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 407": {
         "capacity": 24,
@@ -474,7 +960,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": false
+        "has_projector": false,
+        "photos": [
+            "photos/hamilton_407_1.jpg",
+            "photos/hamilton_407_2.jpg",
+            "photos/hamilton_407_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 408": {
         "capacity": 11,
@@ -483,7 +979,17 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_408_1.jpg",
+            "photos/hamilton_408_2.jpg",
+            "photos/hamilton_408_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 411": {
         "capacity": 24,
@@ -492,7 +998,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_411_1.jpg",
+            "photos/hamilton_411_2.jpg",
+            "photos/hamilton_411_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 413": {
         "capacity": 22,
@@ -501,7 +1017,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_413_1.jpg",
+            "photos/hamilton_413_2.jpg",
+            "photos/hamilton_413_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 503": {
         "capacity": 54,
@@ -510,7 +1036,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_503_1.jpg",
+            "photos/hamilton_503_2.jpg",
+            "photos/hamilton_503_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 507": {
         "capacity": 25,
@@ -519,7 +1055,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_507_1.jpg",
+            "photos/hamilton_507_2.jpg",
+            "photos/hamilton_507_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 509": {
         "capacity": 24,
@@ -528,7 +1074,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_509_1.jpg",
+            "photos/hamilton_509_2.jpg",
+            "photos/hamilton_509_3.jpg",
+            "photos/hamilton_509_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 511": {
         "capacity": 28,
@@ -537,7 +1094,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_511_1.jpg",
+            "photos/hamilton_511_3.jpg",
+            "photos/hamilton_511_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 516": {
         "capacity": 54,
@@ -546,7 +1113,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_516_1.jpg",
+            "photos/hamilton_516_2.jpg",
+            "photos/hamilton_516_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 517": {
         "capacity": 86,
@@ -555,7 +1132,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_517_1.jpg",
+            "photos/hamilton_517_2.jpg",
+            "photos/hamilton_517_3.jpg",
+            "photos/hamilton_517_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 602": {
         "capacity": 86,
@@ -564,7 +1152,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_602_1.jpg",
+            "photos/hamilton_602_2.jpg",
+            "photos/hamilton_602_3.jpg",
+            "photos/hamilton_602_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 603": {
         "capacity": 54,
@@ -573,7 +1172,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_603_1.jpg",
+            "photos/hamilton_603_2.jpg",
+            "photos/hamilton_603_3.jpg",
+            "photos/hamilton_603_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 607": {
         "capacity": 24,
@@ -582,7 +1192,17 @@
         "table_style": "moveable tables",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_607_1.jpg",
+            "photos/hamilton_607_2.jpg",
+            "photos/hamilton_607_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 609": {
         "capacity": 24,
@@ -591,7 +1211,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_609_1.jpg",
+            "photos/hamilton_609_2.jpg",
+            "photos/hamilton_609_3.jpg",
+            "photos/hamilton_609_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 613": {
         "capacity": 23,
@@ -600,7 +1231,18 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_613_1.jpg",
+            "photos/hamilton_613_2.jpg",
+            "photos/hamilton_613_3.jpg",
+            "photos/hamilton_613_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 616": {
         "capacity": 23,
@@ -609,7 +1251,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_616_1.jpg",
+            "photos/hamilton_616_3.jpg",
+            "photos/hamilton_616_4.jpg",
+            "photos/hamilton_616_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 702": {
         "capacity": 86,
@@ -618,7 +1271,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_702_1.jpg",
+            "photos/hamilton_702_2.jpg",
+            "photos/hamilton_702_3.jpg",
+            "photos/hamilton_702_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 703": {
         "capacity": 54,
@@ -627,7 +1291,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_703_1.jpg",
+            "photos/hamilton_703_2.jpg",
+            "photos/hamilton_703_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 707": {
         "capacity": 25,
@@ -636,7 +1310,17 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_707_1.jpg",
+            "photos/hamilton_707_2.jpg",
+            "photos/hamilton_707_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 716a": {
         "capacity": 5,
@@ -645,7 +1329,16 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_716a_1.jpg",
+            "photos/hamilton_716a_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hamilton 717": {
         "capacity": 86,
@@ -654,7 +1347,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hamilton_717_1.jpg",
+            "photos/hamilton_717_2.jpg",
+            "photos/hamilton_717_3.jpg",
+            "photos/hamilton_717_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8064,
+            "lng": -73.9617,
+            "building": "hamilton"
+        }
     },
     "hartley 109": {
         "capacity": 22,
@@ -663,7 +1367,15 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/hartley_109.jpg"
+        ],
+        "location": {
+            "lat": 40.8067,
+            "lng": -73.9641,
+            "building": "hartley"
+        }
     },
     "havemeyer 209": {
         "capacity": 110,
@@ -672,7 +1384,18 @@
         "table_style": "fixed tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/havemeyer_209_1.jpg",
+            "photos/havemeyer_209_2.jpg",
+            "photos/havemeyer_209_3.jpg",
+            "photos/havemeyer_209_4.jpg"
+        ],
+        "location": {
+            "lat": 40.809,
+            "lng": -73.9622,
+            "building": "havemeyer"
+        }
     },
     "havemeyer 309": {
         "capacity": 320,
@@ -681,7 +1404,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/havemeyer_309_1.jpg",
+            "photos/havemeyer_309_2.jpg",
+            "photos/havemeyer_309_3.jpg",
+            "photos/havemeyer_309_4.jpg"
+        ],
+        "location": {
+            "lat": 40.809,
+            "lng": -73.9622,
+            "building": "havemeyer"
+        }
     },
     "kent 405": {
         "capacity": 21,
@@ -690,7 +1424,17 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_405_1.jpg",
+            "photos/kent_405_2.jpg",
+            "photos/kent_405_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 411": {
         "capacity": 25,
@@ -699,7 +1443,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_411_1.jpg",
+            "photos/kent_411_2.jpg",
+            "photos/kent_411_3.jpg",
+            "photos/kent_411_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 413": {
         "capacity": 71,
@@ -708,7 +1463,16 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_413_1.jpg",
+            "photos/kent_413_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 423": {
         "capacity": 15,
@@ -717,7 +1481,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_423_1.jpg",
+            "photos/kent_423_2.jpg",
+            "photos/kent_423_3.jpg",
+            "photos/kent_423_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 424": {
         "capacity": 25,
@@ -726,7 +1501,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_424_1.jpg",
+            "photos/kent_424_2.jpg",
+            "photos/kent_424_3.jpg",
+            "photos/kent_424_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 511": {
         "capacity": 17,
@@ -735,7 +1521,17 @@
         "table_style": "fixed tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_511_1.jpg",
+            "photos/kent_511_2.jpg",
+            "photos/kent_511_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 522a": {
         "capacity": 10,
@@ -744,7 +1540,18 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_522a_1.jpg",
+            "photos/kent_522a_2.jpg",
+            "photos/kent_522a_3.jpg",
+            "photos/kent_522a_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 522b": {
         "capacity": 18,
@@ -753,7 +1560,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_522b_1.jpg",
+            "photos/kent_522b_2.jpg",
+            "photos/kent_522b_3.jpg",
+            "photos/kent_522b_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 522c": {
         "capacity": 21,
@@ -762,7 +1580,18 @@
         "table_style": "fixed tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_522c_1.jpg",
+            "photos/kent_522c_2.jpg",
+            "photos/kent_522c_3.jpg",
+            "photos/kent_522c_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "kent 522d": {
         "capacity": 13,
@@ -771,7 +1600,17 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/kent_522d_1.jpg",
+            "photos/kent_522d_2.jpg",
+            "photos/kent_522d_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8069,
+            "lng": -73.9622,
+            "building": "kent"
+        }
     },
     "knox c01": {
         "capacity": 30,
@@ -780,7 +1619,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_c01_1.jpg",
+            "photos/knox_c01_3.jpg",
+            "photos/knox_c01_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "knox 101": {
         "capacity": 25,
@@ -789,7 +1638,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_101_1.jpg",
+            "photos/knox_101_2.jpg",
+            "photos/knox_101_3.jpg",
+            "photos/knox_101_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "knox 103": {
         "capacity": 28,
@@ -798,7 +1658,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_103_1.jpg",
+            "photos/knox_103_2.jpg",
+            "photos/knox_103_3.jpg",
+            "photos/knox_103_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "knox 104": {
         "capacity": 19,
@@ -807,7 +1678,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_104_1.jpg",
+            "photos/knox_104_2.jpg",
+            "photos/knox_104_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "knox 112": {
         "capacity": 10,
@@ -816,7 +1697,17 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_112_1.jpg",
+            "photos/knox_112_2.jpg",
+            "photos/knox_112_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "knox 114": {
         "capacity": 17,
@@ -825,7 +1716,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_114_1.jpg",
+            "photos/knox_114_2.jpg",
+            "photos/knox_114_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "knox 116": {
         "capacity": 15,
@@ -834,7 +1735,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/knox_116_1.jpg",
+            "photos/knox_116_2.jpg",
+            "photos/knox_116_3.jpg",
+            "photos/knox_116_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8116,
+            "lng": -73.9625,
+            "building": "knox"
+        }
     },
     "mudd 227": {
         "capacity": 48,
@@ -843,7 +1755,17 @@
         "table_style": "fixed tables",
         "shared_tables": 12,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_227_1.jpg",
+            "photos/mudd_227_2.jpg",
+            "photos/mudd_227_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 233": {
         "capacity": 48,
@@ -852,7 +1774,17 @@
         "table_style": "fixed tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_233_1.jpg",
+            "photos/mudd_233_2.jpg",
+            "photos/mudd_233_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 327": {
         "capacity": 39,
@@ -861,7 +1793,16 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_327_1.jpg",
+            "photos/mudd_327_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 337": {
         "capacity": 34,
@@ -870,7 +1811,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_337_1.jpg",
+            "photos/mudd_337_2.jpg",
+            "photos/mudd_337_3.jpg",
+            "photos/mudd_337_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 627": {
         "capacity": 52,
@@ -879,7 +1831,18 @@
         "table_style": "fixed tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_627_1.jpg",
+            "photos/mudd_627_2.jpg",
+            "photos/mudd_627_3.jpg",
+            "photos/mudd_627_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 633": {
         "capacity": 70,
@@ -888,7 +1851,19 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_633_1.jpg",
+            "photos/mudd_633_2.jpg",
+            "photos/mudd_633_3.jpg",
+            "photos/mudd_633_4.jpg",
+            "photos/mudd_633_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 644": {
         "capacity": 44,
@@ -897,7 +1872,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_644_1.jpg",
+            "photos/mudd_644_2.jpg",
+            "photos/mudd_644_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 825": {
         "capacity": 44,
@@ -906,7 +1891,18 @@
         "table_style": "fixed tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_825_1.jpg",
+            "photos/mudd_825_2.jpg",
+            "photos/mudd_825_3.jpg",
+            "photos/mudd_825_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 833": {
         "capacity": 120,
@@ -915,7 +1911,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_833_1.jpg",
+            "photos/mudd_833_2.jpg",
+            "photos/mudd_833_3.jpg",
+            "photos/mudd_833_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "mudd 829": {
         "capacity": 43,
@@ -924,7 +1931,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mudd_829_1.jpg",
+            "photos/mudd_829_2.jpg",
+            "photos/mudd_829_3.jpg",
+            "photos/mudd_829_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8095,
+            "lng": -73.9597,
+            "building": "mudd"
+        }
     },
     "northwest corner 501": {
         "capacity": 164,
@@ -933,7 +1951,13 @@
         "table_style": "n/a",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8097,
+            "lng": -73.9617,
+            "building": "northwest corner"
+        }
     },
     "northwest corner 502": {
         "capacity": 16,
@@ -942,7 +1966,13 @@
         "table_style": "fixed tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8097,
+            "lng": -73.9617,
+            "building": "northwest corner"
+        }
     },
     "northwest corner 602": {
         "capacity": 32,
@@ -951,7 +1981,13 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8097,
+            "lng": -73.9617,
+            "building": "northwest corner"
+        }
     },
     "philosophy 201a": {
         "capacity": 29,
@@ -960,7 +1996,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/philosophy_201a_1.jpg",
+            "photos/philosophy_201a_2.jpg",
+            "photos/philosophy_201a_3.jpg",
+            "photos/philosophy_201a_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8071,
+            "lng": -73.9609,
+            "building": "philosophy"
+        }
     },
     "philosophy 201b": {
         "capacity": 18,
@@ -969,7 +2016,17 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/philosophy_201b_1.jpg",
+            "photos/philosophy_201b_2.jpg",
+            "photos/philosophy_201b_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8071,
+            "lng": -73.9609,
+            "building": "philosophy"
+        }
     },
     "philosophy 201d": {
         "capacity": 18,
@@ -978,7 +2035,17 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/philosophy_201d_1.jpg",
+            "photos/philosophy_201d_2.jpg",
+            "photos/philosophy_201d_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8071,
+            "lng": -73.9609,
+            "building": "philosophy"
+        }
     },
     "philosophy 408a": {
         "capacity": 18,
@@ -987,7 +2054,16 @@
         "table_style": "moveable tables",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/philosophy_408a_3.jpg",
+            "photos/philosophy_408a_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8071,
+            "lng": -73.9609,
+            "building": "philosophy"
+        }
     },
     "philosophy 507": {
         "capacity": 24,
@@ -996,7 +2072,17 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/philosophy_507_1.jpg",
+            "photos/philosophy_507_2.jpg",
+            "photos/philosophy_507_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8071,
+            "lng": -73.9609,
+            "building": "philosophy"
+        }
     },
     "schapiro 415": {
         "capacity": 42,
@@ -1005,7 +2091,13 @@
         "table_style": "fixed tables",
         "shared_tables": 8,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "schapiro"
+        }
     },
     "schermerhorn 467": {
         "capacity": 40,
@@ -1014,7 +2106,18 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_467_1.jpg",
+            "photos/schermerhorn_467_2.jpg",
+            "photos/schermerhorn_467_3.jpg",
+            "photos/schermerhorn_467_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "schermerhorn 501": {
         "capacity": 189,
@@ -1023,7 +2126,18 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_501_1.jpg",
+            "photos/schermerhorn_501_2.jpg",
+            "photos/schermerhorn_501_3.jpg",
+            "photos/schermerhorn_501_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "schermerhorn 558": {
         "capacity": 32,
@@ -1032,7 +2146,17 @@
         "table_style": "fixed tables",
         "shared_tables": 3,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_558_1.jpg",
+            "photos/schermerhorn_558_2.jpg",
+            "photos/schermerhorn_558_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "schermerhorn 608": {
         "capacity": 35,
@@ -1041,7 +2165,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_608_1.jpg",
+            "photos/schermerhorn_608_2.jpg",
+            "photos/schermerhorn_608_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "schermerhorn 614": {
         "capacity": 123,
@@ -1050,7 +2184,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_614_1.jpg",
+            "photos/schermerhorn_614_2.jpg",
+            "photos/schermerhorn_614_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "schermerhorn 652": {
         "capacity": 15,
@@ -1059,7 +2203,17 @@
         "table_style": "moveable tables",
         "shared_tables": 2,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_652_1.jpg",
+            "photos/schermerhorn_652_2.jpg",
+            "photos/schermerhorn_652_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "schermerhorn 963": {
         "capacity": 40,
@@ -1068,7 +2222,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 2,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/schermerhorn_963_1.jpg",
+            "photos/schermerhorn_963_2.jpg",
+            "photos/schermerhorn_963_3.jpg",
+            "photos/schermerhorn_963_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8085,
+            "lng": -73.9597,
+            "building": "schermerhorn"
+        }
     },
     "school_of_social_work 903": {
         "capacity": 50,
@@ -1077,7 +2242,13 @@
         "table_style": "fixed tables",
         "shared_tables": 15,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8068,
+            "lng": -73.9592,
+            "building": "school_of_social_work"
+        }
     },
     "uris 140": {
         "capacity": 52,
@@ -1086,7 +2257,18 @@
         "table_style": "fixed tables",
         "shared_tables": 10,
         "board_type": "whiteboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_140_1.jpg",
+            "photos/uris_140_2.jpg",
+            "photos/uris_140_3.jpg",
+            "photos/uris_140_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 141": {
         "capacity": 66,
@@ -1095,7 +2277,19 @@
         "table_style": "fixed tables",
         "shared_tables": 12,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_141_1.jpg",
+            "photos/uris_141_2.jpg",
+            "photos/uris_141_3.jpg",
+            "photos/uris_141_4.jpg",
+            "photos/uris_141_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 142": {
         "capacity": 108,
@@ -1104,7 +2298,17 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_142_1.jpg",
+            "photos/uris_142_2.jpg",
+            "photos/uris_142_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 301": {
         "capacity": 266,
@@ -1113,7 +2317,17 @@
         "table_style": "n/a",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_301_1.jpg",
+            "photos/uris_301_2.jpg",
+            "photos/uris_301_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 303": {
         "capacity": 67,
@@ -1122,7 +2336,18 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_303_1.jpg",
+            "photos/uris_303_2.jpg",
+            "photos/uris_303_3.jpg",
+            "photos/uris_303_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 305": {
         "capacity": 14,
@@ -1131,7 +2356,17 @@
         "table_style": "moveable tables",
         "shared_tables": 6,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_305_1.jpg",
+            "photos/uris_305_2.jpg",
+            "photos/uris_305_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 306": {
         "capacity": 23,
@@ -1140,7 +2375,18 @@
         "table_style": "moveable tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_306_1.jpg",
+            "photos/uris_306_2.jpg",
+            "photos/uris_306_3.jpg",
+            "photos/uris_306_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 307": {
         "capacity": 44,
@@ -1149,7 +2395,18 @@
         "table_style": "fixed tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_307_1.jpg",
+            "photos/uris_307_2.jpg",
+            "photos/uris_307_3.jpg",
+            "photos/uris_307_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 326": {
         "capacity": 69,
@@ -1158,7 +2415,18 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_326_1.jpg",
+            "photos/uris_326_2.jpg",
+            "photos/uris_326_3.jpg",
+            "photos/uris_326_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 327": {
         "capacity": 18,
@@ -1167,7 +2435,17 @@
         "table_style": "moveable tables",
         "shared_tables": 10,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_327_1.jpg",
+            "photos/uris_327_2.jpg",
+            "photos/uris_327_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 328": {
         "capacity": 20,
@@ -1176,7 +2454,17 @@
         "table_style": "moveable tables",
         "shared_tables": 8,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_328_1.jpg",
+            "photos/uris_328_2.jpg",
+            "photos/uris_328_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 329": {
         "capacity": 28,
@@ -1185,7 +2473,17 @@
         "table_style": "moveable tables",
         "shared_tables": 12,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_329_1.jpg",
+            "photos/uris_329_2.jpg",
+            "photos/uris_329_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 330": {
         "capacity": 61,
@@ -1194,7 +2492,18 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_330_1.jpg",
+            "photos/uris_330_2.jpg",
+            "photos/uris_330_3.jpg",
+            "photos/uris_330_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 331": {
         "capacity": 53,
@@ -1203,7 +2512,17 @@
         "table_style": "fixed tables",
         "shared_tables": 15,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_331_1.jpg",
+            "photos/uris_331_2.jpg",
+            "photos/uris_331_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 332": {
         "capacity": 54,
@@ -1212,7 +2531,18 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_332_1.jpg",
+            "photos/uris_332_2.jpg",
+            "photos/uris_332_3.jpg",
+            "photos/uris_332_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "uris 333": {
         "capacity": 52,
@@ -1221,7 +2551,18 @@
         "table_style": "fixed tables",
         "shared_tables": 20,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/uris_333_1.jpg",
+            "photos/uris_333_2.jpg",
+            "photos/uris_333_3.jpg",
+            "photos/uris_333_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9613,
+            "building": "uris"
+        }
     },
     "lewisohn 106b": {
         "capacity": 20,
@@ -1230,7 +2571,16 @@
         "table_style": "fixed tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_106b_1.jpg",
+            "photos/lewisohn_106b_2.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 212a": {
         "capacity": 20,
@@ -1239,7 +2589,13 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 212d": {
         "capacity": 25,
@@ -1248,7 +2604,13 @@
         "table_style": "moveable tables",
         "shared_tables": 7,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 308a": {
         "capacity": 25,
@@ -1257,7 +2619,13 @@
         "table_style": "moveable tables",
         "shared_tables": 7,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 505": {
         "capacity": 14,
@@ -1266,7 +2634,15 @@
         "table_style": "moveable tables",
         "shared_tables": 3,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_505_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 506": {
         "capacity": 14,
@@ -1275,7 +2651,15 @@
         "table_style": "moveable tables",
         "shared_tables": 3,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_506_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 507": {
         "capacity": 14,
@@ -1284,7 +2668,15 @@
         "table_style": "moveable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_507_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 508": {
         "capacity": 14,
@@ -1293,7 +2685,15 @@
         "table_style": "moveable tables",
         "shared_tables": 6,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_508_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 602": {
         "capacity": 25,
@@ -1302,7 +2702,15 @@
         "table_style": "moveable tables",
         "shared_tables": 7,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_602_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 606": {
         "capacity": 15,
@@ -1311,7 +2719,15 @@
         "table_style": "moveablet tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_606_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 607": {
         "capacity": 15,
@@ -1320,7 +2736,15 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_607_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 608": {
         "capacity": 15,
@@ -1329,7 +2753,15 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_608_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 609": {
         "capacity": 15,
@@ -1338,7 +2770,15 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_609_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "lewisohn 610": {
         "capacity": 15,
@@ -1347,7 +2787,15 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/lewisohn_610_1.jpg"
+        ],
+        "location": {
+            "lat": 40.8089,
+            "lng": -73.9628,
+            "building": "lewisohn"
+        }
     },
     "pupin 214": {
         "capacity": 56,
@@ -1356,7 +2804,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_214_1.jpg",
+            "photos/pupin_214_2.jpg",
+            "photos/pupin_214_3.jpg",
+            "photos/pupin_214_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 222": {
         "capacity": 28,
@@ -1365,7 +2824,19 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_222_1.jpg",
+            "photos/pupin_222_2.jpg",
+            "photos/pupin_222_3.jpg",
+            "photos/pupin_222_4.jpg",
+            "photos/pupin_222_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 224": {
         "capacity": 28,
@@ -1374,7 +2845,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_224_1.jpg",
+            "photos/pupin_224_3.jpg",
+            "photos/pupin_224_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 301": {
         "capacity": 272,
@@ -1383,7 +2864,19 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_301_1.jpg",
+            "photos/pupin_301_2.jpg",
+            "photos/pupin_301_3.jpg",
+            "photos/pupin_301_4.jpg",
+            "photos/pupin_301_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 307": {
         "capacity": 30,
@@ -1392,7 +2885,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_307_1.jpg",
+            "photos/pupin_307_2.jpg",
+            "photos/pupin_307_3.jpg",
+            "photos/pupin_307_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 313": {
         "capacity": 27,
@@ -1401,7 +2905,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_313_1.jpg",
+            "photos/pupin_313_2.jpg",
+            "photos/pupin_313_3.jpg",
+            "photos/pupin_313_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 325": {
         "capacity": 25,
@@ -1410,7 +2925,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_325_1.jpg",
+            "photos/pupin_325_2.jpg",
+            "photos/pupin_325_3.jpg",
+            "photos/pupin_325_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 329": {
         "capacity": 100,
@@ -1419,7 +2945,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_329_1.jpg",
+            "photos/pupin_329_2.jpg",
+            "photos/pupin_329_3.jpg",
+            "photos/pupin_329_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 412": {
         "capacity": 24,
@@ -1428,7 +2965,17 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_412_1.jpg",
+            "photos/pupin_412_2.jpg",
+            "photos/pupin_412_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 414": {
         "capacity": 36,
@@ -1437,7 +2984,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_414_1.jpg",
+            "photos/pupin_414_2.jpg",
+            "photos/pupin_414_3.jpg",
+            "photos/pupin_414_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 420": {
         "capacity": 50,
@@ -1446,7 +3004,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_420_1.jpg",
+            "photos/pupin_420_2.jpg",
+            "photos/pupin_420_3.jpg",
+            "photos/pupin_420_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 424": {
         "capacity": 28,
@@ -1455,7 +3024,19 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_424_1.jpg",
+            "photos/pupin_424_2.jpg",
+            "photos/pupin_424_3.jpg",
+            "photos/pupin_424_4.jpg",
+            "photos/pupin_424_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 425": {
         "capacity": 25,
@@ -1464,7 +3045,18 @@
         "table_style": "moveable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_425_1.jpg",
+            "photos/pupin_425_2.jpg",
+            "photos/pupin_425_3.jpg",
+            "photos/pupin_425_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "pupin 428": {
         "capacity": 147,
@@ -1473,7 +3065,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/pupin_428_1.jpg",
+            "photos/pupin_428_2.jpg",
+            "photos/pupin_428_3.jpg"
+        ],
+        "location": {
+            "lat": 40.8101,
+            "lng": -73.9614,
+            "building": "pupin"
+        }
     },
     "MLK 604": {
         "capacity": 7,
@@ -1482,7 +3084,18 @@
         "table_style": "movable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_604_1.jpg",
+            "photos/mlk_604_2.jpg",
+            "photos/mlk_604_3.jpg",
+            "photos/mlk_604_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 606": {
         "capacity": 44,
@@ -1491,7 +3104,20 @@
         "table_style": "movable tables",
         "shared_tables": 12,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_606_1.jpg",
+            "photos/mlk_606_2.jpg",
+            "photos/mlk_606_3.jpg",
+            "photos/mlk_606_4.jpg",
+            "photos/mlk_606_5.jpg",
+            "photos/mlk_606_6.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 607": {
         "capacity": 22,
@@ -1500,7 +3126,19 @@
         "table_style": "movable tables",
         "shared_tables": 3,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_607_1.jpg",
+            "photos/mlk_607_2.jpg",
+            "photos/mlk_607_3.jpg",
+            "photos/mlk_607_4.jpg",
+            "photos/mlk_607_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 608": {
         "capacity": 41,
@@ -1509,7 +3147,18 @@
         "table_style": "movable tables",
         "shared_tables": 8,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_608_1.jpg",
+            "photos/mlk_608_2.jpg",
+            "photos/mlk_608_3.jpg",
+            "photos/mlk_608_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 609": {
         "capacity": 23,
@@ -1518,7 +3167,18 @@
         "table_style": "movable tables",
         "shared_tables": 3,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_609_1.jpg",
+            "photos/mlk_609_2.jpg",
+            "photos/mlk_609_3.jpg",
+            "photos/mlk_609_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 610": {
         "capacity": 21,
@@ -1527,7 +3187,18 @@
         "table_style": "movable tables",
         "shared_tables": 4,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_610_1.jpg",
+            "photos/mlk_610_2.jpg",
+            "photos/mlk_610_3.jpg",
+            "photos/mlk_610_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 612": {
         "capacity": 9,
@@ -1536,7 +3207,18 @@
         "table_style": "movable tables",
         "shared_tables": 2,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_612_1.jpg",
+            "photos/mlk_612_2.jpg",
+            "photos/mlk_612_3.jpg",
+            "photos/mlk_612_4.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 614": {
         "capacity": 11,
@@ -1545,7 +3227,19 @@
         "table_style": "movable tables",
         "shared_tables": 3,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_614_1.jpg",
+            "photos/mlk_614_2.jpg",
+            "photos/mlk_614_3.jpg",
+            "photos/mlk_614_4.jpg",
+            "photos/mlk_614_5.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "MLK 616": {
         "capacity": 51,
@@ -1554,7 +3248,23 @@
         "table_style": "movable tables",
         "shared_tables": 12,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mlk_616_1.jpg",
+            "photos/mlk_616_2.jpg",
+            "photos/mlk_616_3.jpg",
+            "photos/mlk_616_4.jpg",
+            "photos/mlk_616_5.jpg",
+            "photos/mlk_616_6.jpg",
+            "photos/mlk_616_7.jpg",
+            "photos/mlk_616_8.jpg",
+            "photos/mlk_616_9.jpg"
+        ],
+        "location": {
+            "lat": 40.8107,
+            "lng": -73.9604,
+            "building": "MLK"
+        }
     },
     "Mathematics 203": {
         "capacity": 110,
@@ -1563,7 +3273,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 1,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_203_1.jpg",
+            "photos/mathematics_203_2.jpg",
+            "photos/mathematics_203_3.jpg",
+            "photos/mathematics_203_4.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     },
     "Mathematics 207": {
         "capacity": 152,
@@ -1572,7 +3293,19 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_207_1.jpg",
+            "photos/mathematics_207_2.jpg",
+            "photos/mathematics_207_3.jpg",
+            "photos/mathematics_207_4.jpg",
+            "photos/mathematics_207_5.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     },
     "Mathematics 307": {
         "capacity": 19,
@@ -1581,7 +3314,17 @@
         "table_style": "movable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_307_1.jpg",
+            "photos/mathematics_307_2.jpg",
+            "photos/mathematics_307_3.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     },
     "Mathematics 312": {
         "capacity": 116,
@@ -1590,7 +3333,18 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_312_1.jpg",
+            "photos/mathematics_312_2.jpg",
+            "photos/mathematics_312_3.jpg",
+            "photos/mathematics_312_4.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     },
     "Mathematics 407": {
         "capacity": 30,
@@ -1599,7 +3353,17 @@
         "table_style": "movable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_407_1.jpg",
+            "photos/mathematics_407_2.jpg",
+            "photos/mathematics_407_3.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     },
     "Mathematics 417": {
         "capacity": 64,
@@ -1608,7 +3372,17 @@
         "table_style": "fixed tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_417_1.jpg",
+            "photos/mathematics_417_3.jpg",
+            "photos/mathematics_417_4.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     },
     "Mathematics 520": {
         "capacity": 49,
@@ -1617,6 +3391,17 @@
         "table_style": "movable tablets",
         "shared_tables": 0,
         "board_type": "chalkboard",
-        "has_projector": null
+        "has_projector": null,
+        "photos": [
+            "photos/mathematics_520_1.jpg",
+            "photos/mathematics_520_2.jpg",
+            "photos/mathematics_520_3.jpg",
+            "photos/mathematics_520_4.jpg"
+        ],
+        "location": {
+            "lat": null,
+            "lng": null,
+            "building": "Mathematics"
+        }
     }
 }

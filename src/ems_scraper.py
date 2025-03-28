@@ -209,7 +209,7 @@ def scrape_events():
     
     # Write the dictionary to a JSON file
     try:
-        with open('src/lib/data/room_aval.json', 'w') as f:
+        with open('lib/data/room_aval.json', 'w') as f:
             json.dump(room_data_dict, f, indent=4)
         print("\nSuccessfully wrote data to room_aval.json")
         
