@@ -53,8 +53,14 @@
         fetch('/api/classroom_info')
       ]);
 
+      if (!availabilityRes.ok) throw new Error(`Failed to fetch room availability: ${availabilityRes.status}`);
+      if (!namesRes.ok) throw new Error(`Failed to fetch room names: ${namesRes.status}`);
+      if (!buildingsRes.ok) throw new Error(`Failed to fetch buildings data: ${buildingsRes.status}`);
+      if (!classroomInfoRes.ok) throw new Error(`Failed to fetch classroom info: ${classroomInfoRes.status}`);
+
       const availability = await availabilityRes.json();
       roomNames = await namesRes.json();
+      buildingsData = await buildingsRes.json();
       classroomInfo = await classroomInfoRes.json();
 
       // // Debug logging
